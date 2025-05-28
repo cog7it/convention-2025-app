@@ -42,7 +42,7 @@ This app is also available in other frameworks:
 ### Installation
 1. Clone the repository:
     ```bash
-    git clone https://github.com/ionic-team/ionic-vue-conference-app.git
+    git clone git@github.com:cog7it/convention-2025-app.git
     ```
 2. Navigate into the project:
     ```bash
