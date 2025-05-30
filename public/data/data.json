@@ -81,8 +81,8 @@
               "id": "7"
             },
             {
-              "name": "Late-Night Options",
-              "location": "Youth - Convention Center Room 355A/B/C (3rd floor)",
+              "name": "Late-Night Options - Youth",
+              "location": "Convention Center Room 355A/B/C (3rd floor)",
               "description": "",
               "speakerNames": [""],
               "timeStart": "8:30 pm",
@@ -91,8 +91,8 @@
               "id": "8"
             },
             {
-              "name": "Late-Night Options",
-              "location": "Young Adult - Convention Center Room 355D/E/F (3rd floor)",
+              "name": "Late-Night Options - Young Adult",
+              "location": "Convention Center Room 355D/E/F (3rd floor)",
               "description": "",
               "speakerNames": [""],
               "timeStart": "1:00 pm",
@@ -320,7 +320,7 @@
               "name": "Evening Worship Service",
               "location": "Convention Center Ballroom E/F/G/H/I/J (1st Floor)",
               "description": "Jesus, the Creator and King of the universe, wants to be the Lord of your heart. He invites us into a relationship, that we might be the recipients, yet also the conduits, of His Power and Presence. Are you grounded in Him?",
-              "speakerNames": ["Speaker: Kurt Lang (in English) - “Grounded in Jesus”"],
+              "speakerNames": ["Kurt Lang (in English) - “Grounded in Jesus”"],
               "timeStart": "7:00 pm",
               "timeEnd": "9:00 pm",
               "tracks": ["Services"],
@@ -337,8 +337,8 @@
               "id": "32"
             },
             {
-              "name": "Late-Night Options",
-              "location": "Youth - Convention Center Room 355A/B/C (3rd floor) or Hall C (1st floor) or Young Adult - Convention Center Room 355D/E/F (3rd floor)",
+              "name": "Late-Night Options - Youth",
+              "location": "Convention Center Room 355A/B/C (3rd floor) or Hall C (1st floor) or Young Adult - Convention Center Room 355D/E/F (3rd floor)",
               "description": "",
               "speakerNames": [""],
               "timeStart": "10:45 am",
@@ -404,7 +404,8 @@
             {
               "name": "Special Meal: Women’s Lunch",
               "location": "Convention Center Room 254A/B (2nd Floor)",
-              "description": "Hosted by: Maria Rousseau",
+              "description": "",
+              "hostedBy": "Maria Rousseau",
               "speakerNames": [""],
               "timeStart": "12:00 pm",
               "timeEnd": "1:30 pm",
@@ -658,7 +659,8 @@
             {
               "name": "Special Meal: Spring Vale Reunion Lunch",
               "location": "Convention Center Room 254A/B (2nd Floor)",
-              "description": "Hosted by: John Camero",
+              "description": "",
+              "hostedBy": "John Camero", 
               "speakerNames": [""],
               "timeStart": "12:00 pm",
               "timeEnd": "1:30 pm",
@@ -945,7 +947,8 @@
               "name": "Special Meal: Young Adult Gala",
               "location": "Convention Center Room 254A/B (2nd Floor)",
               "description": "",
-              "speakerNames": ["Hosted by Chris and Yared Banda"],
+              "speakerNames": [""],
+              "hostedBy": "Chris and Yared Banda",
               "timeStart": "5:00 pm",
               "timeEnd": "6:30 pm",
               "tracks": ["Services"],
