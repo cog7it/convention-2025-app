@@ -9,6 +9,7 @@ export interface Session {
   location: string;
   description: string;
   speakerIds: number[];
+  speakerNames: string[]; // Adds speaker names
   tracks: string[];
   selectedTrackFilters: string[];
   groupTime: string;
@@ -112,6 +113,7 @@ const sessionStore: Module<SessionState, {}> = {
               name: session.name,
               location: session.location,
               description: session.description || '',
+              speakerNames: session.speakerNames || [], // ✅ Add this line
               speakerIds: (session.speakerNames || []).map((name: string) => speakerNameToId.get(name)),
               tracks: session.tracks,
               selectedTrackFilters: [],

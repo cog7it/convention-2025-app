@@ -962,8 +962,8 @@
               "id": "93"
             },
             {
-              "name": "Late-Night Options",
-              "location": "Youth - Convention Center Room 355A/B/C (3rd floor) or Hall C (1st floor), Young Adult - Convention Center Room 355D/E/F (3rd floor)",
+              "name": "Late-Night Options - Youth",
+              "location": "Convention Center Room 355A/B/C (3rd floor) or Hall C (1st floor), Young Adult - Convention Center Room 355D/E/F (3rd floor)",
               "description": "",
               "speakerNames": [""],
               "timeStart": "9:30 pm",
@@ -1159,20 +1159,24 @@
 
   "map": [
     {
-      "name": "Monona Terrace Convention Center",
-      "lat": 43.071584,
-      "lng": -89.38012,
+      "name": "Salt Lake Marriott Downtown at City Creek",
+      "lat": 40.767576,
+      "lng": -111.8933291,
       "center": true
     },
     {
-      "name": "Ionic HQ",
-      "lat": 43.074395,
-      "lng": -89.381056
+      "name": "Holiday Inn Express Salt Lake City",
+      "lat": 40.7645862,
+      "lng": -111.8974112,
+      "center": true
+      
     },
     {
-      "name": "Afterparty - Brocach Irish Pub",
-      "lat": 43.07336,
-      "lng": -89.38335
+      "name": "Salt Palace Convention Center",
+      "lat": 42.1350931,
+      "lng": -112.2216578,
+      "center": true
+      
     }
   ],
 

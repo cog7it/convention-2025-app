@@ -71,14 +71,19 @@
             ref="slidingItem"
           >
             <ion-item :router-link="'/tabs/schedule/session/' + session.id">
-              <ion-label>
-                <h3>{{ session.name }}</h3>
-                <p>
-                  {{ session.timeStart }} &mdash; {{ session.timeEnd }}:
-                  {{ session.location }}
-                </p>
-              </ion-label>
-            </ion-item>
+            <ion-label>
+              <h3>{{ session.name }}</h3>
+              <p v-if="Array.isArray(session.speakerNames) && session.speakerNames.filter(s => s.trim() !== '').length">
+                <strong>Speaker:</strong>
+                {{ session.speakerNames.filter(s => s.trim() !== '').join(', ') }}
+              </p>
+
+              <p>
+                {{ session.timeStart }} &mdash; {{ session.timeEnd }}: {{ session.location }}
+              </p>
+
+            </ion-label>
+          </ion-item>
             <ion-item-options>
               <ion-item-option
                 v-if="segment === 'all'"
