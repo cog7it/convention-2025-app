@@ -34,15 +34,21 @@
       </div>
 
       <ion-list>
+        <!--
         <ion-item button>
           <ion-label color="primary">Watch</ion-label>
         </ion-item>
-        <ion-item button>
+        -->
+        <ion-item button @click="addToCalendar">
           <ion-label color="primary">Add to Calendar</ion-label>
         </ion-item>
+
+       <!--
         <ion-item button>
           <ion-label color="primary">Mark as Unwatched</ion-label>
         </ion-item>
+        
+
         <ion-item button>
           <ion-label color="primary">Download Video</ion-label>
           <ion-icon
@@ -52,6 +58,7 @@
             :icon="cloudDownload"
           ></ion-icon>
         </ion-item>
+        -->
         <ion-item button>
           <ion-label color="primary">Leave Feedback</ion-label>
         </ion-item>
@@ -195,7 +202,57 @@ const toggleFavorite = () => {
     store.dispatch("addFavorite", session.value.id);
   }
 };
+// allows users to add to calendar
+const addToCalendar = () => {
+  if (!session.value) return;
 
+  const title = encodeURIComponent(session.value.name);
+  const location = encodeURIComponent(session.value.location || '');
+  const description = encodeURIComponent(session.value.description || '');
+  const start = new Date(); // You can replace this with session start time
+  const end = new Date();
+  end.setHours(end.getHours() + 1); // 1-hour event duration
+
+  const startTime = start.toISOString().replace(/-|:|\.\d\d\d/g, '');
+  const endTime = end.toISOString().replace(/-|:|\.\d\d\d/g, '');
+
+  const url = `https://www.google.com/calendar/render?action=TEMPLATE&text=${title}&dates=${startTime}/${endTime}&details=${description}&location=${location}`;
+
+  window.open(url, '_blank');
+};
+/* Possibly allows you to use all calendars. Test later
+const addToCalendar = () => {
+  if (!session.value) return;
+
+  const title = session.value.name;
+  const location = session.value.location || '';
+  const description = session.value.description || '';
+  const start = new Date(); // Replace with parsed session.start if needed
+  const end = new Date();
+  end.setHours(end.getHours() + 1);
+
+  const formatDate = (date: Date) =>
+    date.toISOString().replace(/[-:]/g, '').split('.')[0] + 'Z';
+
+  const icsContent = `BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+SUMMARY:${title}
+DESCRIPTION:${description}
+LOCATION:${location}
+DTSTART:${formatDate(start)}
+DTEND:${formatDate(end)}
+END:VEVENT
+END:VCALENDAR`;
+
+  const blob = new Blob([icsContent], { type: 'text/calendar;charset=utf-8' });
+  const link = document.createElement('a');
+  link.href = URL.createObjectURL(blob);
+  link.download = `${title.replace(/\s+/g, '-')}.ics`;
+  link.click();
+};
+
+*/
 onMounted(async () => {
   // Check if sessions are loaded, if not load them
   if (store.state.sessions.sessions.length === 0) {
