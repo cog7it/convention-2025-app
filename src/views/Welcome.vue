@@ -9,13 +9,13 @@
         </ion-toolbar>
       </ion-header>
 
+      <!-- Hero Image Section -->
       <div class="about-header">
-        <div class="about-image engage" style="opacity: 1;"></div>
+        <div class="about-image welcome"></div>
       </div>
 
 
-
-
+      <!-- Content Section -->
       <div class="about-info">
         <h1 class="ion-padding-top ion-padding-start">Welcome</h1>
 
@@ -84,9 +84,8 @@ ion-toolbar ion-menu-button {
   opacity: 0;
 }
 
-/* 👇 This is the missing class from your working About.vue */
-.about-header .utah {
-  background-image: url("/assets/img/about/engage.jpg"); /* Make sure the file exists here */
+.about-header .welcome {
+  background-image: url("/assets/img/about/welcome.png");
   opacity: 1;
 }
 
