@@ -578,7 +578,7 @@
               "name": "Evening Worship Service",
               "location": "Convention Center Ballroom E/F/G/H/I/J (1st Floor)",
               "description": "We are a church on mission. Our passion: the call to service, fellowship, and worship. Our power: Jesus Christ, the foundation of the church and the authority that guarantees victory. Our purpose: to build God’s kingdom. Our promise: Success! The gates of hell shall not prevail against Christ’s church.",
-              "speakerNames": ["Speaker: Nigel Lewis (in English) - “Engaging our Generation for Christ”"],
+              "speakerNames": ["Nigel Lewis (in English) - “Engaging our Generation for Christ”"],
               "timeStart": "7:00 pm",
               "timeEnd": "9:00 pm",
               "tracks": ["Services"],
@@ -1129,7 +1129,7 @@
 
   "speakers": [
     {
-      "name": "Kurt Lang test",
+      "name": "Kurt Lang (Tuesday Evening)",
       "profilePic": "/assets/img/speakers/KurtThumbnail.jpg",
       "instagram": "ionicframework",
       "twitter": "ionicframework",
@@ -1141,7 +1141,7 @@
       "id": "1"
     },
     {
-      "name": "Nigel Lewis",
+      "name": "Nigel Lewis (Wednesday Evening)",
       "profilePic": "/assets/img/speakers/NigelThumbnail.jpg",
       "instagram": "ionicframework",
       "twitter": "ionicframework",
@@ -1153,7 +1153,7 @@
       "id": "2"
     },
     {
-      "name": "Samuel Holland",
+      "name": "Samuel Holland (Thursday Evening)",
       "profilePic": "/assets/img/speakers/SamuelThumbnail.jpg",
       "instagram": "ionicframework",
       "twitter": "ionicframework",
@@ -1165,7 +1165,7 @@
       "id": "3"
     },
     {
-      "name": "Ronald Rousseau",
+      "name": "Ronald Rousseau (Friday Evening)",
       "profilePic": "/assets/img/speakers/RonaldThumbnail.jpg",
       "instagram": "ionicframework",
       "twitter": "ionicframework",
@@ -1177,7 +1177,7 @@
       "id": "4"
     },
     {
-      "name": "Loren Stacy",
+      "name": "Loren Stacy (Sabbath Morning)",
       "profilePic": "/assets/img/speakers/StacyThumbnail.jpg",
       "instagram": "ionicframework",
       "twitter": "ionicframework",
@@ -1189,7 +1189,7 @@
       "id": "5"
     },
     {
-      "name": "Greg Lincoln",
+      "name": "Greg Lincoln (Saturday Evening)",
       "profilePic": "/assets/img/speakers/GregThumbnail.jpg",
       "instagram": "ionicframework",
       "twitter": "ionicframework",
