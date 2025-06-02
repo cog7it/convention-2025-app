@@ -108,7 +108,7 @@ const routes: Array<RouteRecordRaw> = [
       }
     ]
   },
-  { path: '/', redirect: '/Welcome' }
+  { path: '/', redirect: '/tabs/welcome' }
 ];
 
 const router = createRouter({
