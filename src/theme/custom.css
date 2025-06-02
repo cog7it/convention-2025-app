@@ -1,0 +1,17 @@
+.welcome-banner {
+    width: 100%;
+    height: 460px; /* You can increase this to 250px or 280px as needed */
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .welcome-banner img {
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+    display: block;
+  }
+  

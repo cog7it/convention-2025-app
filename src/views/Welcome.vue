@@ -10,9 +10,10 @@
       </ion-header>
 
       <!-- Hero Image Section -->
-      <div class="about-header">
-        <div class="about-image welcome"></div>
+      <div class="welcome-banner">
+        <img src="/assets/img/about/welcome4.png" alt="Engage Utah 2025" />
       </div>
+
 
 
       <!-- Content Section -->
@@ -85,7 +86,7 @@ ion-toolbar ion-menu-button {
 }
 
 .about-header .welcome {
-  background-image: url("/assets/img/about/welcome.png");
+  background-image: url("/assets/img/about/welcome4.png");
   opacity: 1;
 }
 
