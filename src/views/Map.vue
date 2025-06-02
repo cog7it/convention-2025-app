@@ -18,15 +18,10 @@
 <style scoped>
 .map-canvas {
   position: absolute;
-
   width: 100%;
-
   height: 100%;
-
   transition: opacity 150ms ease-in;
-
   background-color: transparent;
-
   opacity: 0;
 }
 
@@ -85,41 +80,51 @@ export default defineComponent({
     });
 
     const initializeMap = () => {
+      if (!mapCanvas.value || !mapCenter.value) return;
 
-      if (!mapCanvas.value || !mapCenter.value) {
-        return;
-      }
-
-      // Remove existing map if it exists
+      // Remove existing map
       if (map.value) {
         map.value.remove();
         markers.value.forEach(marker => marker.remove());
         markers.value = [];
       }
 
-      // Initialize map
-      const mapInstance = L.map(mapCanvas.value);
-      mapInstance.setView([mapCenter.value.lat, mapCenter.value.lng], 16);
+      // Initialize new map
+      const mapInstance = L.map(mapCanvas.value).setView(
+        [mapCenter.value.lat, mapCenter.value.lng],
+        16
+      );
       map.value = mapInstance;
 
-      // Add tile layer
-      const tileLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      // Tile layer
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '© OpenStreetMap contributors'
-      });
-      tileLayer.addTo(mapInstance);
+      }).addTo(mapInstance);
 
-      // Add markers for all locations
+      // Add markers with popups
       locations.value.forEach((location: Location) => {
+        const address = location.address || `${location.lat}, ${location.lng}`;
+        const googleMapsLink = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`;
+        const appleMapsLink = `https://maps.apple.com/?q=${encodeURIComponent(address)}`;
+
+        const popupContent = `
+          <div>
+            <strong>${location.name}</strong><br/>
+            <small>${address}</small><br/><br/>
+            <a href="${googleMapsLink}" target="_blank" rel="noopener noreferrer">Open in Google Maps</a><br/>
+            <a href="${appleMapsLink}" target="_blank" rel="noopener noreferrer">Open in Apple Maps</a>
+          </div>
+        `;
+
         const marker = L.marker([location.lat, location.lng])
           .addTo(mapInstance)
-          .bindPopup(`${location.name}`);
+          .bindPopup(popupContent);
+
         markers.value.push(marker);
       });
 
-      // Show map
       mapCanvas.value.classList.add("show-map");
 
-      // Force a resize after a short delay to ensure proper rendering
       setTimeout(() => {
         mapInstance.invalidateSize();
       }, 100);
@@ -140,7 +145,7 @@ export default defineComponent({
       }
     });
 
-    watch(() => locations.value, (newLocations) => {
+    watch(() => locations.value, () => {
       if (map.value) {
         initializeMap();
       }

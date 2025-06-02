@@ -1206,22 +1206,26 @@
     {
       "name": "Salt Lake Marriott Downtown at City Creek",
       "lat": 40.767576,
-      "lng": -111.8933291
+      "lng": -111.8933291,
+      "address": "75 S W Temple St, Salt Lake City, UT 84101"
     },
     {
       "name": "Holiday Inn Express Salt Lake City",
       "lat": 40.7645956,
-      "lng": -111.8947927
+      "lng": -111.8947927,
+      "address": "206 S W Temple StSalt Lake City, UT 84101"
       
     },
     {
       "name": "Salt Palace Convention Center",
       "lat": 40.76694,
       "lng": -111.89500,
-      "center": true
+      "center": true,
+      "address": "100 S W Temple St, Salt Lake City, UT 84101"
       
     }
   ],
+  
 
   "tracks": [
     {
