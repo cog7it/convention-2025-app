@@ -63,6 +63,12 @@ const routes: Array<RouteRecordRaw> = [
     component: () => import('@/views/Tabs.vue'),
     children: [
       {
+        path: 'welcome',
+        name: 'welcome',
+        component: () => import('@/views/Welcome.vue')
+      },      
+
+      {
         path: 'schedule',
         name: 'schedule',
         component: () => import('@/views/SessionList.vue')
@@ -102,7 +108,7 @@ const routes: Array<RouteRecordRaw> = [
       }
     ]
   },
-  { path: '/', redirect: 'tutorial' }
+  { path: '/', redirect: '/Welcome' }
 ];
 
 const router = createRouter({

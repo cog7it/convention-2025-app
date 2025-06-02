@@ -158,7 +158,8 @@ import {
   calendarOutline,
   peopleOutline,
   mapOutline,
-  informationCircleOutline
+  informationCircleOutline,
+  handLeftOutline // adds a welcome hand
 } from "ionicons/icons";
 
 export default defineComponent({
@@ -242,6 +243,11 @@ export default defineComponent({
       mapOutline,
       informationCircleOutline,
       appPages: [
+        {
+          title: 'Welcome',
+          url: '/tabs/Welcome',
+          icon: handLeftOutline // adds a hand icon
+        },
         {
           title: 'Schedule',
           url: '/tabs/schedule',

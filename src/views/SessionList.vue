@@ -77,6 +77,8 @@
                 <strong>Speaker:</strong>
                 {{ session.speakerNames.filter(s => s.trim() !== '').join(', ') }}
               </p>
+              <p v-if="session.hostedBy"><strong>Hosted By:</strong> {{ session.hostedBy }}
+              </p>
 
               <p>
                 {{ session.timeStart }} &mdash; {{ session.timeEnd }}: {{ session.location }}

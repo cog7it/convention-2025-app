@@ -18,6 +18,7 @@
           ]
         },
         {
+          
           "time": "Monday, June 30",
           "sessions": [
             {
@@ -103,6 +104,7 @@
 
           ]
         },
+        
         {
           "time": "Tuesday, July 1",
           "sessions": [
@@ -338,13 +340,23 @@
             },
             {
               "name": "Late-Night Options - Youth",
-              "location": "Convention Center Room 355A/B/C (3rd floor) or Hall C (1st floor) or Young Adult - Convention Center Room 355D/E/F (3rd floor)",
+              "location": "Convention Center Room 355A/B/C (3rd floor) or Hall C (1st floor)",
               "description": "",
               "speakerNames": [""],
               "timeStart": "10:45 am",
               "timeEnd": "11:00 am",
               "tracks": ["Services"],
               "id": "33"
+            },
+            {
+              "name": "Late-Night Options - Young Adult",
+              "location": "Convention Center Room 355D/E/F (3rd floor)",
+              "description": "",
+              "speakerNames": [""],
+              "timeStart": "10:45 am",
+              "timeEnd": "11:00 am",
+              "tracks": ["Services"],
+              "id": "34"
             }
           ]
         },
@@ -359,7 +371,7 @@
               "timeStart": "8:00 am",
               "timeEnd": "9:00 am",
               "tracks": ["Workshop"],
-              "id": "34"
+              "id": "35"
             },
             {
               "name": "Sign in for Children’s Program",
@@ -369,7 +381,7 @@
               "timeStart": "8:45 am",
               "timeEnd": "9:00 am",
               "tracks": ["Communication"],
-              "id": "35"
+              "id": "36"
             },
             {
               "name": "Business Session",
@@ -379,7 +391,7 @@
               "timeStart": "9:00 am",
               "timeEnd": "12:00 pm",
               "tracks": ["Navigation"],
-              "id": "36"
+              "id": "37"
             },
             {
               "name": "Children’s Program",
@@ -389,7 +401,7 @@
               "timeStart": "9:00 am",
               "timeEnd": "12:00 pm",
               "tracks": ["Services"],
-              "id": "37"
+              "id": "38"
             },
             {
               "name": "Youth Program",
@@ -399,7 +411,7 @@
               "timeStart": "9:00 am",
               "timeEnd": "12:00 pm",
               "tracks": ["Services"],
-              "id": "38"
+              "id": "39"
             },
             {
               "name": "Special Meal: Women’s Lunch",
@@ -410,7 +422,7 @@
               "timeStart": "12:00 pm",
               "timeEnd": "1:30 pm",
               "tracks": ["Services"],
-              "id": "39"
+              "id": "40"
             },
             {
               "name": "Registration Desk Open",
@@ -420,7 +432,7 @@
               "timeStart": "2:00 pm",
               "timeEnd": "5:00 pm",
               "tracks": ["Services"],
-              "id": "40"
+              "id": "41"
             },
             {
               "name": "Children’s Program",
@@ -430,7 +442,7 @@
               "timeStart": "2:00 pm",
               "timeEnd": "4:45 pm",
               "tracks": ["Services"],
-              "id": "41"
+              "id": "42"
             },
             {
               "name": "Youth Program",
@@ -440,7 +452,7 @@
               "timeStart": "2:00 pm",
               "timeEnd": "4:45 pm",
               "tracks": ["Services"],
-              "id": "42"
+              "id": "43"
             },
             {
               "name": "Young Adult Program",
@@ -450,7 +462,7 @@
               "timeStart": "2:00 pm",
               "timeEnd": "4:45 pm",
               "tracks": ["Services"],
-              "id": "43"
+              "id": "44"
             },
             {
               "name": "Workshop Session 1: Unlock the Power of Great Church Sound! Part 1",
@@ -460,7 +472,7 @@
               "timeStart": "2:00 pm",
               "timeEnd": "3:15 pm",
               "tracks": ["Services"],
-              "id": "44"
+              "id": "45"
             },
             {
               "name": "Workshop Session 1: Balloon, Bubbles, Crafts, Food, Music, Recreation, Worship, Message. Now what? What does it take to be a youth camp director?",
@@ -470,7 +482,7 @@
               "timeStart": "2:00 pm",
               "timeEnd": "3:15 pm",
               "tracks": ["Services"],
-              "id": "45"
+              "id": "46"
             },
             {
               "name": "Workshop Session 1: Introducing the International Federation",
@@ -480,7 +492,7 @@
               "timeStart": "2:00 pm",
               "timeEnd": "3:15 pm",
               "tracks": ["Services"],
-              "id": "46"
+              "id": "47"
             },
             {
               "name": "Workshop Session 1: Put Me In, Coach: Experience the Fulfillment of Your Role on God’s Team",
@@ -490,7 +502,7 @@
               "timeStart": "2:00 pm",
               "timeEnd": "3:15 pm",
               "tracks": ["Services"],
-              "id": "47"
+              "id": "48"
             },
             {
               "name": "Workshop Session 1: Is Church Integration A Problem?",
@@ -500,7 +512,7 @@
               "timeStart": "2:00 pm",
               "timeEnd": "3:15 pm",
               "tracks": ["Services"],
-              "id": "48"
+              "id": "49"
             },
             {
               "name": "Workshop Session 2: Unlock the Power of Great Church Sound! Part 2",
@@ -510,7 +522,7 @@
               "timeStart": "3:30 pm",
               "timeEnd": "4:45 pm",
               "tracks": ["Services"],
-              "id": "49"
+              "id": "50"
             },
             {
               "name": "Workshop Session 2: Strengthening Biblical Foundations Through Pre-Teen Youth Camps",
@@ -520,7 +532,7 @@
               "timeStart": "3:30 pm",
               "timeEnd": "4:45 pm",
               "tracks": ["Services"],
-              "id": "50"
+              "id": "51"
             },
             {
               "name": "Workshop Session 2: Next Step: Following the Call to Pastoral Ministry in CoG7",
@@ -530,7 +542,7 @@
               "timeStart": "3:30 pm",
               "timeEnd": "4:45 pm",
               "tracks": ["Services"],
-              "id": "51"
+              "id": "52"
             },
             {
               "name": "Workshop Session 2: How to Lead Someone to Christ",
@@ -540,7 +552,7 @@
               "timeStart": "3:30 pm",
               "timeEnd": "4:45 pm",
               "tracks": ["Services"],
-              "id": "52"
+              "id": "53"
             },
             {
               "name": "Workshop Session 2: A Seat at the Table: Cultivating Christ-like Hospitality",
@@ -550,7 +562,7 @@
               "timeStart": "3:30 pm",
               "timeEnd": "4:45 pm",
               "tracks": ["Services"],
-              "id": "53"
+              "id": "54"
             },
             {
               "name": "Dinner",
@@ -560,7 +572,7 @@
               "timeStart": "5:00 pm",
               "timeEnd": "6:30 pm",
               "tracks": ["Services"],
-              "id": "54"
+              "id": "55"
             },
             {
               "name": "Evening Worship Service",
@@ -570,7 +582,7 @@
               "timeStart": "7:00 pm",
               "timeEnd": "9:00 pm",
               "tracks": ["Services"],
-              "id": "55"
+              "id": "56"
             },
             {
               "name": "Registration Desk Open",
@@ -580,17 +592,27 @@
               "timeStart": "9:00 pm",
               "timeEnd": "9:30 pm",
               "tracks": ["Services"],
-              "id": "56"
+              "id": "57"
             },
             {
-              "name": "Late-Night Options",
-              "location": "Youth - Convention Center Room 355A/B/C (3rd floor) or Hall C (1st floor) or Young Adult - Convention Center Room 355D/E/F (3rd floor)",
+              "name": "Late-Night Options - Youth",
+              "location": "Convention Center Room 355A/B/C (3rd floor) or Hall C (1st floor)",
               "description": "",
               "speakerNames": [""],
               "timeStart": "9:30 pm",
               "timeEnd": "11:00 pm",
               "tracks": ["Services"],
-              "id": "57"
+              "id": "58"
+            },
+            {
+              "name": "Late-Night Options - Youth Adult",
+              "location": "Convention Center Room 355D/E/F (3rd floor)",
+              "description": "",
+              "speakerNames": [""],
+              "timeStart": "9:30 pm",
+              "timeEnd": "11:00 pm",
+              "tracks": ["Services"],
+              "id": "59"
             }
           ]
         },
@@ -604,7 +626,7 @@
               "timeStart": "8:00 am",
               "timeEnd": "9:00 am",
               "tracks": ["Food"],
-              "id": "58"
+              "id": "60"
             },
             {
               "name": "Sign in for Children’s Program",
@@ -614,7 +636,7 @@
               "timeStart": "8:45 am",
               "timeEnd": "9:00 am",
               "tracks": ["Services"],
-              "id": "59"
+              "id": "61"
             },
             {
               "name": "Business Session",
@@ -624,7 +646,7 @@
               "timeStart": "9:00 am",
               "timeEnd": "12:00 pm",
               "tracks": ["Services"],
-              "id": "60"
+              "id": "62"
             },
             {
               "name": "Children’s Program",
@@ -634,7 +656,7 @@
               "timeStart": "9:00 am",
               "timeEnd": "12:00 pm",
               "tracks": ["Services"],
-              "id": "61"
+              "id": "63"
             },
             {
               "name": "Youth Program",
@@ -644,7 +666,7 @@
               "timeStart": "9:00 am",
               "timeEnd": "12:00 pm",
               "tracks": ["Services"],
-              "id": "62"
+              "id": "64"
             },
             {
               "name": "Resolutions Due to Resolutions Committee",
@@ -654,7 +676,7 @@
               "timeStart": "12:00 pm",
               "timeEnd": "",
               "tracks": ["Services"],
-              "id": "63"
+              "id": "65"
             },
             {
               "name": "Special Meal: Spring Vale Reunion Lunch",
@@ -665,7 +687,7 @@
               "timeStart": "12:00 pm",
               "timeEnd": "1:30 pm",
               "tracks": ["Services"],
-              "id": "64"
+              "id": "66"
             },
             {
               "name": "Registration Desk Open",
@@ -675,7 +697,7 @@
               "timeStart": "2:00 pm",
               "timeEnd": "5:00 pm",
               "tracks": ["Services"],
-              "id": "65"
+              "id": "67"
             },
             {
               "name": "Children’s Program",
@@ -685,7 +707,7 @@
               "timeStart": "2:00 pm",
               "timeEnd": "4:45 pm",
               "tracks": ["Services"],
-              "id": "66"
+              "id": "68"
             },
             {
               "name": "Youth Program",
@@ -695,7 +717,7 @@
               "timeStart": "2:00 pm",
               "timeEnd": "4:45 pm",
               "tracks": ["Services"],
-              "id": "67"
+              "id": "69"
             },
             {
               "name": "Young Adult Program",
@@ -705,7 +727,7 @@
               "timeStart": "2:00 pm",
               "timeEnd": "4:45 pm",
               "tracks": ["Services"],
-              "id": "68"
+              "id": "70"
             },
             {
               "name": "Workshop Session 1: Engage: So you’ve joined a worship band…",
@@ -715,7 +737,7 @@
               "timeStart": "2:00 pm",
               "timeEnd": "3:15 pm",
               "tracks": ["Services"],
-              "id": "69"
+              "id": "71"
             },
             {
               "name": "Workshop Session 1: Getting Engaged with Ministry",
@@ -725,7 +747,7 @@
               "timeStart": "2:00 pm",
               "timeEnd": "3:15 pm",
               "tracks": ["Services"],
-              "id": "70"
+              "id": "72"
             },
             {
               "name": "Workshop Session 1: Getting Church Eldership Right",
@@ -735,7 +757,7 @@
               "timeStart": "2:00 pm",
               "timeEnd": "3:15 pm",
               "tracks": ["Services"],
-              "id": "71"
+              "id": "73"
             },
             {
               "name": "Workshop Session 1: A Seat at the Table: Cultivating Christ-like Hospitality",
@@ -745,7 +767,7 @@
               "timeStart": "2:00 pm",
               "timeEnd": "3:15 pm",
               "tracks": ["Services"],
-              "id": "72"
+              "id": "74"
             },
             {
               "name": "Workshop Session 1: How to Lead Someone to Christ",
@@ -755,7 +777,7 @@
               "timeStart": "2:00 pm",
               "timeEnd": "3:15 pm",
               "tracks": ["Services"],
-              "id": "73"
+              "id": "75"
             },
             {
               "name": "Workshop Session 2: Homeschooling with Purpose: Tools, Tips, and Testimonies",
@@ -765,7 +787,7 @@
               "timeStart": "3:30 pm",
               "timeEnd": "4:45 pm",
               "tracks": ["Services"],
-              "id": "74"
+              "id": "76"
             },
             {
               "name": "Workshop Session 2: Restructuring GC Missions",
@@ -775,7 +797,7 @@
               "timeStart": "3:30 pm",
               "timeEnd": "4:45 pm",
               "tracks": ["Services"],
-              "id": "75"
+              "id": "77"
             },
             {
               "name": "Workshop Session 2: Self-Care: Care for Yourself to Care for Others",
@@ -785,7 +807,7 @@
               "timeStart": "3:30 pm",
               "timeEnd": "4:45 pm",
               "tracks": ["Services"],
-              "id": "76"
+              "id": "78"
             },
             {
               "name": "Workshop Session 2: Is Church Integration A Problem?",
@@ -795,7 +817,7 @@
               "timeStart": "3:30 pm",
               "timeEnd": "4:45 pm",
               "tracks": ["Services"],
-              "id": "77"
+              "id": "79"
             },
             {
               "name": "Workshop Session 2: Put Me In, Coach: Experience the Fulfillment of Your Role on God’s Team",
@@ -805,7 +827,7 @@
               "timeStart": "3:30 pm",
               "timeEnd": "4:45 pm",
               "tracks": ["Services"],
-              "id": "78"
+              "id": "80"
             },
             {
               "name": "Reception",
@@ -815,7 +837,7 @@
               "timeStart": "5:00 pm",
               "timeEnd": "6:30 pm",
               "tracks": ["Services"],
-              "id": "79"
+              "id": "81"
             },
             {
               "name": "Evening Worship Service",
@@ -825,7 +847,7 @@
               "timeStart": "7:00 pm",
               "timeEnd": "9:00 pm",
               "tracks": ["Services"],
-              "id": "80"
+              "id": "82"
             },
             {
               "name": "Registration Desk Open",
@@ -835,7 +857,7 @@
               "timeStart": "9:00 pm",
               "timeEnd": "9:30 pm",
               "tracks": ["Services"],
-              "id": "81"
+              "id": "83"
             },
             {
               "name": "Artios Meet & Greet",
@@ -845,17 +867,27 @@
               "timeStart": "9:30 pm",
               "timeEnd": "11:00 pm",
               "tracks": ["Services"],
-              "id": "82"
+              "id": "84"
             },
             {
-              "name": "Late-Night Options",
-              "location": "Youth - Convention Center Room 355A/B/C (3rd floor) or Hall C (1st floor), Young Adult - Convention Center Room 355D/E/F (3rd floor)",
-              "description": "Join us for a reception to honor the impact that our outgoing President, Loren Stacy, and Executive Director, Jody McCoy, have had on our denomination. Hors d'oeuvres will be served.",
+              "name": "Late-Night Options - Youth",
+              "location": "Convention Center Room 355A/B/C (3rd floor) or Hall C (1st floor)",
+              "description": "",
               "speakerNames": [""],
               "timeStart": "9:30 pm",
               "timeEnd": "11:00 pm",
               "tracks": ["Communication"],
-              "id": "83"
+              "id": "85"
+            },
+            {
+              "name": "Late-Night Options - Young Adult",
+              "location": "Convention Center Room 355D/E/F (3rd floor)",
+              "description": "",
+              "speakerNames": [""],
+              "timeStart": "9:30 pm",
+              "timeEnd": "11:00 pm",
+              "tracks": ["Communication"],
+              "id": "86"
             }
 
           ]
@@ -871,7 +903,7 @@
               "timeStart": "8:00 am",
               "timeEnd": "9:00 am",
               "tracks": ["Communication"],
-              "id": "84"
+              "id": "87"
             },
             {
               "name": "Sign in for Children’s Program",
@@ -881,7 +913,7 @@
               "timeStart": "8:45 am",
               "timeEnd": "9:00 am",
               "tracks": ["Communication"],
-              "id": "85"
+              "id": "88"
             },
             {
               "name": "Business Session",
@@ -891,7 +923,7 @@
               "timeStart": "9:00 am",
               "timeEnd": "12:00 pm",
               "tracks": ["Services"],
-              "id": "86"
+              "id": "89"
             },
             {
               "name": "Children’s Program",
@@ -901,7 +933,7 @@
               "timeStart": "9:00 am",
               "timeEnd": "12:00 pm",
               "tracks": ["Services"],
-              "id": "87"
+              "id": "90"
             },
             {
               "name": "Youth Program",
@@ -911,7 +943,7 @@
               "timeStart": "9:00 am",
               "timeEnd": "12:00 pm",
               "tracks": ["Services"],
-              "id": "88"
+              "id": "91"
             },
             {
               "name": "Lunch",
@@ -921,7 +953,7 @@
               "timeStart": "12:00 pm",
               "timeEnd": "1:30 pm",
               "tracks": ["Services"],
-              "id": "89"
+              "id": "92"
             },
             {
               "name": "Free Afternoon",
@@ -931,7 +963,7 @@
               "timeStart": "2:00 pm",
               "timeEnd": "5:00 pm",
               "tracks": ["Services"],
-              "id": "90"
+              "id": "93"
             },
             {
               "name": "Registration Desk Open",
@@ -941,7 +973,7 @@
               "timeStart": "4:00 pm",
               "timeEnd": "5:00 pm",
               "tracks": ["Services"],
-              "id": "91"
+              "id": "94"
             },
             {
               "name": "Special Meal: Young Adult Gala",
@@ -952,7 +984,7 @@
               "timeStart": "5:00 pm",
               "timeEnd": "6:30 pm",
               "tracks": ["Services"],
-              "id": "92"
+              "id": "95"
             },
             {
               "name": "Evening Worship Service",
@@ -962,17 +994,27 @@
               "timeStart": "7:00 pm",
               "timeEnd": "9:00 pm",
               "tracks": ["Services"],
-              "id": "93"
+              "id": "96"
             },
             {
               "name": "Late-Night Options - Youth",
-              "location": "Convention Center Room 355A/B/C (3rd floor) or Hall C (1st floor), Young Adult - Convention Center Room 355D/E/F (3rd floor)",
+              "location": "Convention Center Room 355A/B/C (3rd floor) or Hall C (1st floor)",
               "description": "",
               "speakerNames": [""],
               "timeStart": "9:30 pm",
               "timeEnd": "11:00 pm",
               "tracks": ["Services"],
-              "id": "94"
+              "id": "97"
+            },
+            {
+              "name": "Late-Night Options - Young Adult",
+              "location": "Convention Center Room 355D/E/F (3rd floor)",
+              "description": "",
+              "speakerNames": [""],
+              "timeStart": "9:30 pm",
+              "timeEnd": "11:00 pm",
+              "tracks": ["Services"],
+              "id": "98"
             }
           ]
         },
@@ -987,7 +1029,7 @@
               "timeStart": "7:30 pm",
               "timeEnd": "8:30 pm",
               "tracks": ["Services"],
-              "id": "95"
+              "id": "99"
             },
             {
               "name": "Children meet for Children’s Program",
@@ -997,7 +1039,7 @@
               "timeStart": "9:15 am",
               "timeEnd": "",
               "tracks": ["Documentation"],
-              "id": "96"
+              "id": "100"
             },
             {
               "name": "Children’s Program and Worship Service",
@@ -1007,7 +1049,7 @@
               "timeStart": "9:30 am",
               "timeEnd": "12:00 pm",
               "tracks": ["Design"],
-              "id": "97"
+              "id": "101"
             },
             {
               "name": "Ticketed Lunch",
@@ -1017,7 +1059,7 @@
               "timeStart": "12:00 pm",
               "timeEnd": "1:30 pm",
               "tracks": ["Services"],
-              "id": "98"
+              "id": "102"
             },
             {
               "name": "Artios Christian College Graduation",
@@ -1027,7 +1069,7 @@
               "timeStart": "2:30 pm",
               "timeEnd": "4:00 pm",
               "tracks": ["Services"],
-              "id": "99"
+              "id": "103"
             },
             {
               "name": "Ticketed Dinner",
@@ -1037,7 +1079,7 @@
               "timeStart": "5:00 pm",
               "timeEnd": "6:30 pm",
               "tracks": ["Services"],
-              "id": "100"
+              "id": "104"
             },
             {
               "name": "Evening Worship Service",
@@ -1047,7 +1089,7 @@
               "timeStart": "7:00 pm",
               "timeEnd": "9:00 pm",
               "tracks": ["Services"],
-              "id": "101"
+              "id": "105"
             },
             {
               "name": "Pack Up Equipment",
@@ -1057,7 +1099,7 @@
               "timeStart": "9:00 pm",
               "timeEnd": "11:30 pm",
               "tracks": ["Services"],
-              "id": "102"
+              "id": "106"
             },
             {
               "name": "Late-Night Options",
@@ -1067,7 +1109,7 @@
               "timeStart": "9:30 pm",
               "timeEnd": "11:00 pm",
               "tracks": ["Services"],
-              "id": "103"
+              "id": "107"
             },
             {
               "name": "Late-Night Options",
@@ -1077,7 +1119,7 @@
               "timeStart": "9:30 pm",
               "timeEnd": "11:30 pm",
               "tracks": ["Services"],
-              "id": "104"
+              "id": "108"
             }
           ]
         }
@@ -1164,20 +1206,18 @@
     {
       "name": "Salt Lake Marriott Downtown at City Creek",
       "lat": 40.767576,
-      "lng": -111.8933291,
-      "center": true
+      "lng": -111.8933291
     },
     {
       "name": "Holiday Inn Express Salt Lake City",
-      "lat": 40.7645862,
-      "lng": -111.8974112,
-      "center": true
+      "lat": 40.7645956,
+      "lng": -111.8947927
       
     },
     {
       "name": "Salt Palace Convention Center",
-      "lat": 42.1350931,
-      "lng": -112.2216578,
+      "lat": 40.76694,
+      "lng": -111.89500,
       "center": true
       
     }

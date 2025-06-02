@@ -19,7 +19,7 @@
             Welcome to <b>ICA</b>
           </h2>
           <p>
-            The <b>ionic conference app</b> is a practical preview of the ionic
+            The <b>ionic cog7 conference app</b> is a practical preview of the ionic
             framework in action, and a demonstration of proper code use.
           </p>
         </section>
