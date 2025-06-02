@@ -42,6 +42,7 @@
                   <ion-label>
                     <h2>{{ speaker.name }}</h2>
                     <p>{{ speaker.title }}</p>
+                    <p v-if="speaker.dateSpoken" class="speaker-date">{{ speaker.dateSpoken }}</p>
                   </ion-label>
                 </ion-item>
               </ion-card-header>

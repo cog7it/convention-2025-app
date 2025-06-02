@@ -26,6 +26,13 @@
       </div>
 
       <div class="ion-padding speaker-detail">
+
+        <!-- Sermon title -->
+        <p v-if="speaker?.title"><strong>{{ speaker.title }}</strong></p>
+
+        <!-- New: Date spoken -->
+        <p v-if="speaker?.dateSpoken" class="speaker-date">{{ speaker.dateSpoken }}</p>
+
         <p>{{ speaker?.about || 'Loading biography...' }} Say hello on social media!</p>
 
         <hr />

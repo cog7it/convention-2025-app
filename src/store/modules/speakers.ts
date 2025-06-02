@@ -14,6 +14,8 @@ export interface Speaker {
   email: string;
   phone: string;
   sessions: Session[];
+  dateSpoken?: string; // Adds speaker date
+
 }
 
 export interface SpeakerState {
@@ -69,7 +71,9 @@ const speakerStore: Module<SpeakerState, {}> = {
             location: speaker.location || '',
             email: speaker.email || '',
             phone: speaker.phone || '',
-            sessions: speaker.sessions || []
+            sessions: speaker.sessions || [],
+            dateSpoken: speaker.dateSpoken || '', // adds the date spoken field on the speaker page           
+
           }));
           commit('updateSpeakers', speakers);
           return speakers;
