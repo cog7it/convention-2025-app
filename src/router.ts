@@ -105,7 +105,12 @@ const routes: Array<RouteRecordRaw> = [
         path: 'about',
         name: 'about',
         component: () => import('@/views/About.vue')
-      }
+      },
+      {
+        path: 'feedback',
+        name: 'feedback',
+        component: () => import('@/views/Feedback.vue')
+      }      
     ]
   },
   { path: '/', redirect: '/tabs/welcome' }

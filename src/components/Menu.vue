@@ -136,6 +136,8 @@ import { useRoute } from 'vue-router';
 import router from '@/router';
 import { Storage } from '@ionic/storage';
 import { menuController } from '@ionic/vue';
+import { mailOutline } from "ionicons/icons";
+
 
 import {
   IonContent,
@@ -268,7 +270,13 @@ export default defineComponent({
           title: 'About',
           url: '/tabs/about',
           icon: informationCircleOutline
+        },
+        {
+          title: 'Feedback',
+          url: '/tabs/feedback',
+          icon: mailOutline
         }
+
       ]
     };
   }
