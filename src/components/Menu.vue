@@ -63,8 +63,9 @@
       </ion-list>
       <ion-list v-if="!loggedIn" lines="none">
         <ion-list-header>
-          Account
+          App
         </ion-list-header>
+        <!-- Hides the Login Page on Menu
         <ion-menu-toggle :auto-hide="false">
           <ion-item
             button
@@ -79,6 +80,25 @@
             </ion-label>
           </ion-item>
         </ion-menu-toggle>
+        -->
+
+        <!--Move Feedback below the app section-->
+        <ion-menu-toggle :auto-hide="false">
+          <ion-item
+            button
+            :detail="false"
+            router-direction="root"
+            router-link="/tabs/feedback"
+            :class="{ 'selected': isSelected('/tabs/feedback') }"
+          >
+            <ion-icon slot="start" :icon="ionIcons.mailOutline"></ion-icon>
+            <ion-label>
+              Feedback
+            </ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+
+
         <ion-menu-toggle :auto-hide="false">
           <ion-item
             button
@@ -87,12 +107,15 @@
             router-link="/support"
             :class="{ 'selected': isSelected('/support') }"
           >
-            <ion-icon slot="start" :icon="ionIcons.help"></ion-icon>
+            <ion-icon slot="start" :icon="ionIcons.bugOutline"></ion-icon>
             <ion-label>
-              Support
+              Report a Bug <!-- Previously Support page-->
             </ion-label>
           </ion-item>
         </ion-menu-toggle>
+
+
+        <!--
         <ion-menu-toggle :auto-hide="false">
           <ion-item
             button
@@ -107,6 +130,7 @@
             </ion-label>
           </ion-item>
         </ion-menu-toggle>
+        -->
         <ion-item>
           <ion-icon slot="start" :icon="ionIcons.moonOutline"></ion-icon>
             <ion-toggle v-model="localDark" label-placement="start">
@@ -137,6 +161,9 @@ import router from '@/router';
 import { Storage } from '@ionic/storage';
 import { menuController } from '@ionic/vue';
 import { mailOutline } from "ionicons/icons";
+import { bugOutline } from "ionicons/icons";
+
+
 
 
 import {
@@ -266,16 +293,20 @@ export default defineComponent({
           url: '/tabs/map',
           icon: mapOutline
         },
+        /*
         {
           title: 'About',
           url: '/tabs/about',
           icon: informationCircleOutline
-        },
+        }, 
+        */
+       /*
         {
           title: 'Feedback',
           url: '/tabs/feedback',
           icon: mailOutline
         }
+      */
 
       ]
     };
