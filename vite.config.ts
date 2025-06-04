@@ -13,9 +13,9 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.svg', 'robots.txt', 'apple-touch-icon.png'],
       manifest: {
-        name: 'Your App Name',
-        short_name: 'App',
-        description: 'A conference PWA',
+        name: 'GC Convention 2025 App',
+        short_name: 'GC25App',
+        description: 'A PWA for the GC Convention 2025',
         theme_color: '#ffffff',
         background_color: '#ffffff',
         display: 'standalone',
