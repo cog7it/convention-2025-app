@@ -11,7 +11,9 @@ export default defineConfig({
     vue(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['favicon.svg', 'robots.txt', 'apple-touch-icon.png'],
+      devOptions: {
+        enabled: true,}
+      includeAssets: ['favicon.png', 'robots.txt', 'apple-touch-icon.png'],
       manifest: {
         name: 'GC Convention 2025 App',
         short_name: 'GC25App',
