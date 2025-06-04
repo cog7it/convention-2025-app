@@ -1,6 +1,11 @@
 <template>
   <ion-menu content-id="main-content">
     <ion-content>
+      <!-- Logo at the top of the menu -->
+      <div class="menu-logo-wrapper">
+        <img src="/assets/img/Conference Logo_Icon.png" alt="Conference Logo" />
+      </div>
+
       <ion-list lines="none">
         <ion-list-header>
           Conference
@@ -162,6 +167,8 @@ import { Storage } from '@ionic/storage';
 import { menuController } from '@ionic/vue';
 import { mailOutline } from "ionicons/icons";
 import { bugOutline } from "ionicons/icons";
+import { briefcaseOutline } from 'ionicons/icons';
+import {locationOutline} from 'ionicons/icons'
 
 
 
@@ -291,8 +298,18 @@ export default defineComponent({
         {
           title: 'Map',
           url: '/tabs/map',
-          icon: mapOutline
+          icon: locationOutline
         },
+        {
+          title: 'Local Attractions',
+          url: '/tabs/local-attractions',
+          icon: mapOutline// or choose a different Ionicon
+        },
+        {
+          title: 'Business',
+          url: '/tabs/business',
+          icon: briefcaseOutline // You can change this to any icon you like
+        }
         /*
         {
           title: 'About',

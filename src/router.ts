@@ -105,6 +105,16 @@ const routes: Array<RouteRecordRaw> = [
         component: () => import('@/views/Map.vue')
       },
       {
+        path: 'local-attractions',
+        name: 'local-attractions',
+        component: () => import('@/views/Local-Attractions.vue')
+      },      
+      {
+        path: 'business',
+        name: 'business',
+        component: () => import('@/views/Business.vue')
+      },
+      {
         path: 'about',
         name: 'about',
         component: () => import('@/views/About.vue')

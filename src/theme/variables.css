@@ -17,9 +17,18 @@
  * To generate the code for a new color, check out our new color creator:
  * https://ionicframework.com/docs/theming/colors#new-color-creator
  */
+ @font-face {
+  font-family: 'Proxima Nova Condensed';
+  src: url('/assets/fonts/ProximaNovaCondensed-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
 
 :root {
-  --ion-color-primary: #3880ff;
+  --ion-font-family: 'Proxima Nova Condensed', sans-serif;
+  --ion-color-primary: #000 ;
   --ion-color-primary-rgb: 56, 128, 255;
   --ion-color-primary-contrast: #ffffff;
   --ion-color-primary-contrast-rgb: 255, 255, 255;

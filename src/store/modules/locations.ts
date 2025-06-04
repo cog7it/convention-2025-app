@@ -6,6 +6,8 @@ export interface Location {
   lat: number;
   lng: number;
   center?: boolean;
+  address?: string; 
+
 }
 
 export interface LocationState {

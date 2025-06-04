@@ -1,20 +1,19 @@
 <template>
   <ion-page>
-    <ion-content>
-      <ion-header class="ion-no-border">
-        <ion-toolbar>
-          <ion-buttons slot="start">
-            <ion-menu-button></ion-menu-button>
-          </ion-buttons>
-        </ion-toolbar>
-      </ion-header>
+    <ion-header>
+      <ion-toolbar>
+        <ion-buttons slot="start">
+          <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+        <ion-title>Welcome</ion-title>
+      </ion-toolbar>
+    </ion-header>
 
+    <ion-content>
       <!-- Hero Image Section -->
       <div class="welcome-banner">
         <img src="/assets/img/about/welcome4.png" alt="Engage Utah 2025" />
       </div>
-
-
 
       <!-- Content Section -->
       <div class="about-info">
@@ -51,62 +50,49 @@ import {
   IonHeader,
   IonToolbar,
   IonMenuButton,
-  IonButtons
+  IonButtons,
+  IonTitle
 } from '@ionic/vue';
 </script>
 
 <style scoped>
-ion-toolbar {
-  --background: transparent;
-  --color: white;
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-}
-
-ion-toolbar ion-menu-button {
-  --color: white;
-}
-
-.about-header {
-  position: relative;
+.welcome-banner {
   width: 100%;
-  height: 30%;
+  height: auto;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 
-.about-header .about-image {
-  position: absolute;
-  inset: 0;
-  transition: opacity 500ms ease-in-out;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  opacity: 0;
-}
-
-.about-header .welcome {
-  background-image: url("/assets/img/about/welcome4.png");
-  opacity: 1;
+.welcome-banner img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  display: block;
 }
 
 .about-info {
-  position: absolute;
-  margin-top: -10px;
   border-radius: 10px;
-  background: var(--ion-background-color, #ffffff);
+  background: var(--ion-background-color);
+  color: var(--ion-text-color);
   width: 100%;
 }
 
-.about-info h1 {
-  color: var(--ion-color-primary);
-  font-size: 1.8rem;
-  font-weight: bold;
-}
-
+.about-info h1,
 .about-info p {
-  color: var(--ion-color-dark);
+  color: var(--ion-text-color);
   line-height: 1.5;
   font-size: 1rem;
+}
+
+ion-toolbar {
+  --background: var(--ion-background-color);
+  --color: var(--ion-text-color);
+}
+
+ion-toolbar ion-menu-button {
+  --color: var(--ion-text-color);
 }
 </style>
