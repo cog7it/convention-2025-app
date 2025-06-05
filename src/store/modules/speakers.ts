@@ -9,6 +9,8 @@ export interface Speaker {
   github: string;
   instagram: string;
   about: string;
+  aboutSermon?: string; // Adds about sermon field
+
   title: string;
   location: string;
   email: string;
@@ -67,6 +69,7 @@ const speakerStore: Module<SpeakerState, {}> = {
             github: speaker.github || '',
             instagram: speaker.instagram || '',
             about: speaker.about || '',
+            aboutSermon: speaker.aboutSermon || '', //adds the About Spoken field on the speaker card page
             title: speaker.title || '',
             location: speaker.location || '',
             email: speaker.email || '',

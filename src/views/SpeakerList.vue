@@ -25,13 +25,14 @@
             size-md="6"
           >
             <ion-card class="speaker-card">
+              <!-- Top of card: go to sermon mode -->
               <ion-card-header>
                 <ion-item
                   :detail="false"
                   lines="none"
                   class="speaker-item"
                   button
-                  @click="navigateToSpeaker(speaker.id)"
+                  @click="navigateToSpeaker(speaker.id, 'sermon')"
                 >
                   <ion-avatar slot="start">
                     <img
@@ -47,6 +48,7 @@
                 </ion-item>
               </ion-card-header>
 
+              <!-- Card content with session list and About button -->
               <ion-card-content>
                 <ion-list lines="none">
                   <ion-item
@@ -61,10 +63,11 @@
                     </ion-label>
                   </ion-item>
 
+                  <!-- Bottom: go to bio mode -->
                   <ion-item
                     :detail="false"
                     button
-                    @click="navigateToSpeaker(speaker.id)"
+                    @click="navigateToSpeaker(speaker.id, 'bio')"
                   >
                     <ion-label>
                       <h3>About {{ speaker.name }}</h3>
@@ -108,6 +111,7 @@ import {
 
 const router = useRouter();
 const store = useStore();
+
 const speakers = computed(() =>
   store.state.speakers.speakers.concat().sort((a, b) => a.name.localeCompare(b.name))
 );
@@ -118,16 +122,12 @@ const sessionsBySpeaker = (speakerId: number) => {
   );
 };
 
-const navigateToSpeaker = (id: number) => {
-  router.push(`/tabs/speakers/speaker/${id}`);
+const navigateToSpeaker = (id: number, mode: 'sermon' | 'bio' = 'sermon') => {
+  router.push(`/tabs/speakers/speaker/${id}?mode=${mode}`);
 };
 
-const navigateToSession = (id: number) => {
-  router.push(`/tabs/speakers/session/${id}`);
-};
 
 onMounted(async () => {
-  // Only load data if it's not already loaded
   if (store.state.speakers.speakers.length === 0) {
     await store.dispatch("loadSpeakerData");
   }
@@ -143,9 +143,6 @@ onMounted(async () => {
   flex-direction: column;
 }
 
-/* Due to the fact the cards are inside of columns the margins don't overlap
- * properly so we want to remove the extra margin between cards
- */
 ion-col:not(:last-of-type) .speaker-card {
   margin-bottom: 0;
 }

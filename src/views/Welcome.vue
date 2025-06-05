@@ -59,11 +59,11 @@ import {
 .welcome-banner {
   width: 100%;
   height: auto;
-  background-color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  padding: 0;
 }
 
 .welcome-banner img {
@@ -72,6 +72,8 @@ import {
   object-fit: contain;
   display: block;
 }
+
+
 
 .about-info {
   border-radius: 10px;

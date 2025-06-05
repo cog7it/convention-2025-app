@@ -215,7 +215,7 @@
               "speakerNames": ["Ronald Rousseau - English/Bilingual"],
               "timeStart": "2:00 pm",
               "timeEnd": "3:15 pm",
-              "tracks": ["Services"],
+              "tracks": ["Workshop"],
               "id": "20"
             },
             {
@@ -225,7 +225,7 @@
               "speakerNames": ["Jenny Stephens & Wayne Hrenyk - English (with translation equipment)"],
               "timeStart": "2:00 pm",
               "timeEnd": "3:15 pm",
-              "tracks": ["Services"],
+              "tracks": ["Workshop"],
               "id": "21"
             },
             {
@@ -235,7 +235,7 @@
               "speakerNames": ["Abel Zaragoza - English (with translation equipment)"],
               "timeStart": "2:00 pm",
               "timeEnd": "3:15 pm",
-              "tracks": ["Services"],
+              "tracks": ["Workshop"],
               "id": "22"
             },
             {
@@ -245,7 +245,7 @@
               "speakerNames": ["Loren Gjesdal - English"],
               "timeStart": "2:00 pm",
               "timeEnd": "3:15 pm",
-              "tracks": ["Services"],
+              "tracks": ["Workshop"],
               "id": "23"
             },
             {
@@ -255,7 +255,7 @@
               "speakerNames": ["Jamin Teran - Spanish"],
               "timeStart": "2:00 pm",
               "timeEnd": "3:15 pm",
-              "tracks": ["Services"],
+              "tracks": ["Workshop"],
               "id": "24"
             },
             {
@@ -265,7 +265,7 @@
               "speakerNames": ["Jenavi Castillo - English/Bilingual"],
               "timeStart": "3:30 pm",
               "timeEnd": "4:45 pm",
-              "tracks": ["Services"],
+              "tracks": ["Workshop"],
               "id": "25"
             },
             {
@@ -275,7 +275,7 @@
               "speakerNames": ["Tony Ling, Kurt & Kristi Lang, Carla McKibben - English (with translation equipment)"],
               "timeStart": "3:30 pm",
               "timeEnd": "4:45 pm",
-              "tracks": ["Services"],
+              "tracks": ["Workshop"],
               "id": "26"
             },
             {
@@ -285,7 +285,7 @@
               "speakerNames": ["Jason Overman - English (with translation equipment)"],
               "timeStart": "3:30 pm",
               "timeEnd": "4:45 pm",
-              "tracks": ["Services"],
+              "tracks": ["Workshop"],
               "id": "27"
             },
             {
@@ -295,7 +295,7 @@
               "speakerNames": ["Jamin Teran - English"],
               "timeStart": "3:30 pm",
               "timeEnd": "4:45 pm",
-              "tracks": ["Services"],
+              "tracks": ["Workshop"],
               "id": "28"
             },
             {
@@ -305,7 +305,7 @@
               "speakerNames": ["Ramon Ruiz - Spanish"],
               "timeStart": "3:30 pm",
               "timeEnd": "4:45 pm",
-              "tracks": ["Services"],
+              "tracks": ["Workshop"],
               "id": "29"
             },
             {
@@ -471,7 +471,7 @@
               "speakerNames": ["Ronald Rousseau & Robert Stephens - English/Bilingual"],
               "timeStart": "2:00 pm",
               "timeEnd": "3:15 pm",
-              "tracks": ["Services"],
+              "tracks": ["Workshop"],
               "id": "45"
             },
             {
@@ -1134,6 +1134,7 @@
       "instagram": "ionicframework",
       "twitter": "ionicframework",
       "about": "Kurt Lang and his wife Kristen live in Harrisburg, Oregon. Their three adult children, Nicole, Jordan and Korban, are all in college and beyond, and reside in Oregon as well. Kurt currently serves as pastor of the Eugene, Oregon Church of God (Seventh Day), as well as English Asst. Dean of Academic Affairs for Artios Christian College. Past ministry roles include Youth Pastor (Harrisburg) and National Youth Ministry Director for the General Conference. His life motto is, 'He must become greater; I must become less” (John 3:30).",
+      "aboutSermon": "Jesus, the Creator and King of the universe, wants to be the Lord of your heart. He invites us into a relationship, that we might be the recipients, yet also the conduits, of His Power and Presence. Are you grounded in Him?",
       "title": "Sermon Title: Grounded In Jesus.",
       "dateSpoken": "Date: Tuesday Evening",
       "location": "",
@@ -1147,6 +1148,7 @@
       "instagram": "ionicframework",
       "twitter": "ionicframework",
       "about": "Nigel Lewis is the son of Sis. Phyllis Lewis and the late Pastor Stanford Lewis, one of seven sons in a family rooted in faith and service. He is privileged to serve as the local pastor at Brooklyn Community Church of God (Seventh Day) in New York. He also works in Information Technology as an Infrastructure Systems Engineer. Nigel is a devoted husband to his wife of 18 years, Stacy-Ann Lewis, and together they are blessed with two wonderful daughters, Emeylee who is 16 and Kylee who is 12. Nigel is a servant at heart and is deeply committed to being an effective minister of the gospel of Jesus Christ equipped by studies at Artios.",
+      "aboutSermon": "We are a church on mission. Our passion: the call to service, fellowship, and worship. Our power: Jesus Christ, the foundation of the church and the authority that guarantees victory. Our purpose: to build God’s kingdom. Our promise: Success! The gates of hell shall not prevail against Christ’s church.",
       "title": "Sermon Title: The Passion, the Power, the Purpose, the Promise. Engaging our Generation for Christ.",
       "dateSpoken": "Date: Wednesday Evening",
       "location": "",
@@ -1160,6 +1162,7 @@
       "instagram": "ionicframework",
       "twitter": "ionicframework",
       "about": "Samuel Holland, a native of Jamaica, made a commitment to Christ at age 14. He is married to Lisa Howard Holland who is a high school teacher and track & field coach. Samuel pastored Access Community Church in Hamilton, Ontario for 30 years. He has served in various roles in our Northeast and Eastern Canada districts and also served on the Conference Board of Directors. He is employed as a vendor manager for a property casualty insurance company in Canada. Samuel continues to serve his local church on its board of directors and by leading its men’s ministry.",
+      "aboutSermon": "In 2 Timothy 1:6, the Apostle Paul reminds young Timothy not to ignore the gift(s) the Holy Spirit had apportioned to him. Every Christian is given a gift in order to demonstrate God's love in an evil world. None of us has any excuse to sit on the sidelines.",
       "title": "Sermon Title: Do Something. Enagage Your Gift.",
       "dateSpoken": "Date: Thursday Evening",
       "location": "",
@@ -1173,6 +1176,7 @@
       "instagram": "ionicframework",
       "twitter": "ionicframework",
       "about": "Minister Ronald Rousseau is a native of Haiti and has been a member of the Church of God for about 30 years. He and his wife Maria have served mostly in the Chicago area as a pastor. They have two children, Emanuel and Anastasia. His current ministries include serving as Senior Pastor at the Church of God (Seventh Day) Calumet City, as the director of SHINE ministries, and also as Superintendent of the Central District. His academic achievements include a BS Science in Electronics Engineering, an MS in Computer Science and Telecommunications, and he is a graduate of Life Springs Ministries. Ronald enjoys cooking (especially smoking meats), baking, photography, music, and hunting.",
+      "aboutSermon": "What is it to be engaged in the service of the Lord? It is a process of connecting with the Bible to have meaningful encounters with Jesus Christ by the anointing of the Holy Spirit.",
       "title": "Sermon Title: Anointed. Engaged in the Service of the Lord.",
       "dateSpoken": "Date: Friday Evening",
       "location": "",
@@ -1186,6 +1190,7 @@
       "instagram": "ionicframework",
       "twitter": "ionicframework",
       "about": "Loren Stacy has served the General Conference of the Church of God (Seventh Day) since 1979 in a number of roles: Editor of Harvest Field Messenger Magazine (1979 – 1981), Youth Agency Director (1981 – 1985), West Coast District Superintendent (1986 – 1992), Board of Directors Member (1985 – 1991 and 1992 – 2015), Pastor of our Lodi, California congregation (December 1981 – June 2015), and Conference President (since July 2015). Loren and Karen Stacy have been married almost 47 years. They have been blessed with three happily married children and their spouses, and seven grandsons.",
+      "aboutSermon": "The Bible is the Word of God. All of it. God’s Word is valuable for learning and teaching, for reproving and correcting, and for training us in the ways that are pleasing to God. When we engage God’s Word, we engage God, Himself. Do you want to hear from God? Engage His Word.",
       "title": "Sermon Title: Engage the Word of God.",
       "dateSpoken": "Date: Sabbath Morning",
       "location": "",
@@ -1199,6 +1204,7 @@
       "instagram": "ionicframework",
       "twitter": "ionicframework",
       "about": "Greg and his wife Vaneice reside in Harrisburg, Oregon, where Greg pastored the Harrisburg Church of God (Seventh Day) for twelve years (June 2012 to July 2024). They are blessed with four children and five grandchildren. Greg has been active in ministry his entire life and has served in various roles within the General Conference. He has served as Pastor, Board of Directors member, General Conference Treasurer, Endowment Committee member, and NAMC Study Committee member. He is now our incoming President. Greg desires to continue our GC theme of “Focus on Jesus and Follow His Plan” and is trusting God for His strength, wisdom, and blessing.",
+      "aboutSermon": "Despite the chaos of our age, within every believer abides the living and potent reality of the Kingdom of God. This present reality is an intimate relationship with a loving God through the indwelling of the Holy Spirit, a relationship that forms the foundation and power for every Christian discipline and ministry. Begin daily to engage the kingdom of God within.",
       "title": "Sermon Title: Engaging the Kingdom of God Within.",
       "dateSpoken": "Date: Sabbath Evening",
       "location": "",

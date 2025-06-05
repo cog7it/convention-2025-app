@@ -27,13 +27,27 @@
 
       <div class="ion-padding speaker-detail">
 
-        <!-- Sermon title -->
+        <!-- Show sermon info -->
+      <div v-if="mode === 'sermon'">
         <p v-if="speaker?.title"><strong>{{ speaker.title }}</strong></p>
-
-        <!-- New: Date spoken -->
         <p v-if="speaker?.dateSpoken" class="speaker-date">{{ speaker.dateSpoken }}</p>
+        <p v-if="speaker?.aboutSermon">
+          <strong>About the Sermon:</strong> {{ speaker.aboutSermon }}
+        </p>
+        <p v-else>
+          <em>Sermon description coming soon.</em>
+        </p>
+      </div>
 
-        <p>{{ speaker?.about || 'Loading biography...' }} Say hello on social media!</p>
+      <!-- Show bio info only -->
+      <div v-else>
+        <p>{{ speaker?.about || 'Loading biography...' }}</p>
+      </div>
+
+
+
+
+
 
         <hr />
 
@@ -106,7 +120,9 @@ ion-toolbar ion-menu-button {
 
   padding-top: var(--ion-safe-area-top);
 
-  background: center / cover url('/assets/img/speaker-background.png') no-repeat;
+  /*background: center / cover url('/assets/img/speakerBackground2.avif') no-repeat; */
+  background-color: #3a3a3a; /* changes background color on the card pages on the Speaker page */
+
 }
 
 .speaker-background img {
@@ -206,6 +222,8 @@ declare global {
 
 const store = useStore();
 const route = useRoute();
+const mode = computed(() => route.query.mode || 'bio');
+
 
 const currentSpeaker = ref<Speaker | null>(null);
 

@@ -1,38 +1,24 @@
-.welcome-banner {
-    width: 100%;
-    height: 300px; 
-    background-color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-  }
-  
-  .welcome-banner img {
-    height: 100%;
-    width: auto;
-    object-fit: contain;
-    display: block;
-  }
   
   /* Base font for desktop and tablets */
 html, body, ion-app, ion-content, .about-info, .about-info p {
   font-family: 'Proxima Nova Condensed', sans-serif;
-  font-size: 18px;
-  line-height: 1.6;
+  line-height: 1.5;
+  font-size: 1rem;
+  margin-left: auto;
+  
 }
 
 /* Adjust for smaller mobile devices */
 @media (max-width: 480px) {
   html, body, ion-app, ion-content, .about-info, .about-info p {
-    font-size: 16px;
+    line-height: 1.5;
+    font-size: 1rem;
   }
 }
 /*Change dark mode color to black*/
-/* Refined ChatGPT-Inspired Dark Mode Colors */
 .ion-palette-dark {
-  --ion-menu-background-color: #202123 !important; /* Sidebar/Menu */
-  --ion-background-color: #2a2b2f !important; /* Main Content Area */
+  --ion-menu-background-color: #202123 !important; /* Sidebar/Menu: #202123 */
+  --ion-background-color: #2a2b2f !important; /* Main Content Area *: 2a2b2f  /
   --ion-text-color: #ececf1 !important; /* Soft white text */
 }
 
