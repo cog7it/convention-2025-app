@@ -50,7 +50,7 @@
 
 
         <hr />
-
+        <!-- Hide social icons for now
         <ion-chip
           color="twitter"
           button
@@ -80,6 +80,7 @@
           <ion-icon :icon="logoInstagram"></ion-icon>
           <ion-label>Instagram</ion-label>
         </ion-chip>
+        -->
       </div>
     </ion-content>
   </ion-page>
