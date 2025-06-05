@@ -3,7 +3,7 @@
     <ion-content>
       <!-- Logo at the top of the menu -->
       <div class="menu-logo-wrapper">
-        <img src="/assets/img/Conference Logo_Icon.png" alt="Conference Logo" />
+        <img src="/assets/img/logo512.png" alt="Conference Logo" />
       </div>
 
       <ion-list lines="none">
