@@ -108,7 +108,13 @@ const routes: Array<RouteRecordRaw> = [
         path: 'local-attractions',
         name: 'local-attractions',
         component: () => import('@/views/Local-Attractions.vue')
+      },   
+      {
+        path: '/attractions/:attractionId',
+        name: 'attraction-detail',
+        component: () => import('@/views/AttractionDetail.vue')
       },      
+         
       {
         path: 'business',
         name: 'business',

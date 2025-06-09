@@ -1238,63 +1238,132 @@
     }
   ],
 
-    "attractions": [
-      {
-        "name": "FamilySearch Library",
-        "description": "Explore your family history at the FamilySearch Library, offering free genealogy resources and assistance.",
-        "image": "/assets/img/local-attractions/matterport-resized.png"
-      },
-      {
-        "name": "Great Salt Lake",
-        "description": "Visit the largest saltwater lake in the Western Hemisphere, known for its unique ecosystem and scenic views.",
-        "image": "/assets/img/local-attractions/Great_Salt_Lake_Beach_resized.jpg"
-      },
-      {
-        "name": "Park City",
-        "description": "A charming mountain town offering shopping, dining, and outdoor activities, including the Utah Olympic Park.",
-        "image": "/assets/img/local-attractions/ParkCity.png"
-      },
-      {
-        "name": "Antelope Island State Park",
-        "description": "Home to free-ranging bison, pronghorn antelope, and other wildlife, with opportunities for hiking and photography.",
-        "image": "/assets/img/local-attractions/Arches.jpg"
-      },
-      {
-        "name": "Thanksgiving Point",
-        "description": "A multi-venue complex featuring gardens, museums, and family-friendly activities in Lehi, Utah.",
-        "image": "/assets/img/local-attractions/TP.jpg"
-      },
-      {
-        "name": "Ashton Gardens",
-        "description": "Fifty acres of themed gardens, including the Light of the World Garden with life-size sculptures.",
-        "image": "/assets/img/local-attractions/Ashton.jpg"
-      },
-      {
-        "name": "Butterfly Biosphere",
-        "description": "Experience thousands of butterflies and other insects in a tropical conservatory setting.",
-        "image": "/assets/img/local-attractions/butterfly.jpg"
-      },
-      {
-        "name": "Curiosity Farms",
-        "description": "An interactive farm exhibit showcasing modern agriculture and animal encounters.",
-        "image": "/assets/img/local-attractions/Curiosity.jpg"
-      },
-      {
-        "name": "Museum of Ancient Life",
-        "description": "One of the world’s largest dinosaur museums, featuring numerous fossil specimens and exhibits.",
-        "image": "/assets/img/local-attractions/Ancient.jpg"
-      },
-      {
-        "name": "Museum of Natural Curiosity",
-        "description": "A hands-on children’s museum with interactive exhibits promoting exploration and learning.",
-        "image": "/assets/img/local-attractions/MNC.jpg"
-      },
-      {
-        "name": "The Carousel",
-        "description": "Enjoy a nostalgic ride on a beautifully crafted, hand-painted carousel.",
-        "image": "/assets/img/local-attractions/Carousel.jpg"
-      }
-    ],
+  
+  "attractions": [
+    {
+      "id": 1,
+      "name": "FamilySearch Library",
+      "description": "Explore your family history at the FamilySearch Library, offering free genealogy resources and assistance.",
+      "image": "/assets/img/local-attractions/matterport-resized.png",
+      "address": "35 N West Temple St, Salt Lake City, UT 84150",
+      "hours": "Mon-Sat: 9am–5pm",
+      "link": "https://www.familysearch.org/en/library/",
+      "specialNote": "",
+      "distance": "2 min drive"
+    },
+    {
+      "id": 2,
+      "name": "Great Salt Lake",
+      "description": "Visit the largest saltwater lake in the Western Hemisphere, known for its unique ecosystem and scenic views.",
+      "image": "/assets/img/local-attractions/Great_Salt_Lake_Beach_resized.jpg",
+      "address": "Antelope Island Rd, Syracuse, UT 84075",
+      "hours": "Open daily",
+      "link": "https://stateparks.utah.gov/parks/antelope-island/",
+      "specialNote": "Mosquitoes present in summer",
+      "distance": "50 min drive"
+    },
+    {
+      "id": 3,
+      "name": "Park City",
+      "description": "A charming mountain town offering shopping, dining, and outdoor activities, including the Utah Olympic Park.",
+      "image": "/assets/img/local-attractions/ParkCity.png",
+      "address": "Park City, UT 84060",
+      "hours": "Open daily",
+      "link": "https://www.parkcity.org/",
+      "specialNote": "",
+      "distance": "40 min drive"
+    },
+    {
+      "id": 4,
+      "name": "Antelope Island State Park",
+      "description": "Home to free-ranging bison, pronghorn antelope, and other wildlife, with opportunities for hiking and photography.",
+      "image": "/assets/img/local-attractions/Arches.jpg",
+      "address": "4528 W 1700 S, Syracuse, UT 84075",
+      "hours": "6am–10pm daily",
+      "link": "https://stateparks.utah.gov/parks/antelope-island/",
+      "specialNote": "Entrance fee required",
+      "distance": "55 min drive"
+    },
+    {
+      "id": 5,
+      "name": "Thanksgiving Point",
+      "description": "A multi-venue complex featuring gardens, museums, and family-friendly activities in Lehi, Utah.",
+      "image": "/assets/img/local-attractions/TP.jpg",
+      "address": "3003 N Thanksgiving Way, Lehi, UT 84043",
+      "hours": "Mon–Sat: 10am–8pm",
+      "link": "https://www.thanksgivingpoint.org/",
+      "specialNote": "",
+      "distance": "30 min drive"
+    },
+    {
+      "id": 6,
+      "name": "Ashton Gardens",
+      "description": "Fifty acres of themed gardens, including the Light of the World Garden with life-size sculptures.",
+      "image": "/assets/img/local-attractions/Ashton.jpg",
+      "address": "3900 N Garden Dr, Lehi, UT 84043",
+      "hours": "Mon–Sat: 9am–8pm",
+      "link": "https://www.thanksgivingpoint.org/venues/ashton-gardens/",
+      "specialNote": "Part of Thanksgiving Point",
+      "distance": "30 min drive"
+    },
+    {
+      "id": 7,
+      "name": "Butterfly Biosphere",
+      "description": "Experience thousands of butterflies and other insects in a tropical conservatory setting.",
+      "image": "/assets/img/local-attractions/butterfly.jpg",
+      "address": "3003 N Thanksgiving Way, Lehi, UT 84043",
+      "hours": "Mon–Sat: 10am–8pm",
+      "link": "https://www.thanksgivingpoint.org/venues/butterfly-biosphere/",
+      "specialNote": "Part of Thanksgiving Point",
+      "distance": "30 min drive"
+    },
+    {
+      "id": 8,
+      "name": "Curiosity Farms",
+      "description": "An interactive farm exhibit showcasing modern agriculture and animal encounters.",
+      "image": "/assets/img/local-attractions/Curiosity.jpg",
+      "address": "3003 N Thanksgiving Way, Lehi, UT 84043",
+      "hours": "Mon–Sat: 10am–8pm",
+      "link": "https://www.thanksgivingpoint.org/venues/curiosity-farms/",
+      "specialNote": "Part of Thanksgiving Point",
+      "distance": "30 min drive"
+    },
+    {
+      "id": 9,
+      "name": "Museum of Ancient Life",
+      "description": "One of the world’s largest dinosaur museums, featuring numerous fossil specimens and exhibits.",
+      "image": "/assets/img/local-attractions/Ancient.jpg",
+      "address": "2929 W Grand Ave, Lehi, UT 84043",
+      "hours": "Mon–Sat: 10am–8pm",
+      "link": "https://www.thanksgivingpoint.org/venues/museum-of-ancient-life/",
+      "specialNote": "Part of Thanksgiving Point",
+      "distance": "30 min drive"
+    },
+    {
+      "id": 10,
+      "name": "Museum of Natural Curiosity",
+      "description": "A hands-on children’s museum with interactive exhibits promoting exploration and learning.",
+      "image": "/assets/img/local-attractions/MNC.jpg",
+      "address": "3605 Garden Dr, Lehi, UT 84043",
+      "hours": "Mon–Sat: 10am–8pm",
+      "link": "https://www.thanksgivingpoint.org/venues/museum-of-natural-curiosity/",
+      "specialNote": "Part of Thanksgiving Point",
+      "distance": "30 min drive"
+    },
+    {
+      "id": 11,
+      "name": "The Carousel",
+      "description": "Enjoy a nostalgic ride on a beautifully crafted, hand-painted carousel.",
+      "image": "/assets/img/local-attractions/Carousel.jpg",
+      "address": "3003 N Thanksgiving Way, Lehi, UT 84043",
+      "hours": "Varies by season",
+      "link": "https://www.thanksgivingpoint.org/",
+      "specialNote": "Part of Thanksgiving Point",
+      "distance": "30 min drive"
+    }
+  ],
+  
+  
     
   
 

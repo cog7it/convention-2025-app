@@ -61,3 +61,43 @@ ion-content,
   }
 }
 
+.read-more-btn {
+  --color: var(--ion-text-color, #2f2f2f);
+  --border-color: var(--ion-text-color, #2f2f2f);
+  margin-top: 12px;
+  text-transform: none;
+}
+
+/*Attaction Page*/
+
+.attraction-card {
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+.attraction-card:hover {
+  transform: scale(1.02);
+}
+
+/*Attraction Detail page*/
+
+.attraction-background {
+  background-color: #2f2f2f;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.attraction-image {
+  width: 300px; /* was 180px */
+  height: 200px; /* was 120px */
+  object-fit: cover;
+  border-radius: 16px; /* keeps it rectangular with slightly rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 12px;
+}
+
+.attraction-name {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+

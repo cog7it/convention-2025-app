@@ -8,17 +8,23 @@
     <ion-content class="ion-padding">
       <ion-grid>
         <ion-row>
-          <ion-col size="12" size-md="6" v-for="attraction in attractions" :key="attraction.name">
-            <ion-card>
+          <ion-col
+            size="12"
+            size-md="6"
+            v-for="(attraction, index) in attractions"
+            :key="index"
+          >
+            <ion-card button @click="goToAttraction(attraction.id)" class="attraction-card">
               <img :src="attraction.image" alt="Attraction Image" />
               <ion-card-header>
                 <ion-card-title>{{ attraction.name }}</ion-card-title>
               </ion-card-header>
               <ion-card-content>
-                {{ attraction.description }}
+                <p>{{ attraction.description }}</p>
               </ion-card-content>
             </ion-card>
           </ion-col>
+
         </ion-row>
       </ion-grid>
     </ion-content>
@@ -75,7 +81,14 @@ export default {
       .catch(error => {
         console.error('Failed to fetch attractions:', error);
       });
+  },
+  methods: {
+    goToAttraction(id) {
+      console.log('Navigating to attraction with ID:', id);
+      this.$router.push({ name: 'attraction-detail', params: { attractionId: id } });
+    }
   }
+
 };
 </script>
 
@@ -83,5 +96,15 @@ export default {
 ion-card img {
   width: 100%;
   height: auto;
+}
+
+.clickable-card {
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.clickable-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 </style>
