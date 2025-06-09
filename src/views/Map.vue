@@ -103,7 +103,7 @@ export default defineComponent({
 
       // Add markers with popups
       locations.value.forEach((location: Location) => {
-        const address = location.address || `${location.lat}, ${location.lng}`;
+        const address = `${location.lat}, ${location.lng}`;
         const googleMapsLink = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`;
         const appleMapsLink = `https://maps.apple.com/?q=${encodeURIComponent(address)}`;
 

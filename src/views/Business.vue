@@ -50,41 +50,41 @@ import {
   IonNote
 } from '@ionic/vue';
 
-import { Filesystem, Directory } from '@capacitor/filesystem';
-import { FileOpener } from '@capacitor-community/file-opener';
+// import { Filesystem, Directory } from '@capacitor/filesystem';
+// import { FileOpener } from '@capacitor-community/file-opener';
 
-const openPdf = async (filename: string) => {
-  const path = `assets/pdf/${filename}`;
+// const openPdf = async (filename: string) => {
+//   const path = `assets/pdf/${filename}`;
 
-  try {
-    const response = await fetch(path);
-    const blob = await response.blob();
+//   try {
+//     const response = await fetch(path);
+//     const blob = await response.blob();
 
-    const base64Data = await convertBlobToBase64(blob) as string;
+//     const base64Data = await convertBlobToBase64(blob) as string;
 
-    await Filesystem.writeFile({
-      path: filename,
-      data: base64Data,
-      directory: Directory.Documents,
-      recursive: true
-    });
+//     await Filesystem.writeFile({
+//       path: filename,
+//       data: base64Data,
+//       directory: Directory.Documents,
+//       recursive: true
+//     });
 
-    await FileOpener.open({
-      filePath: `${Directory.Documents}/${filename}`,
-      contentType: 'application/pdf'
-    });
-  } catch (error) {
-    console.error('Error opening PDF:', error);
-  }
-};
+//     await FileOpener.open({
+//       filePath: `${Directory.Documents}/${filename}`,
+//       contentType: 'application/pdf'
+//     });
+//   } catch (error) {
+//     console.error('Error opening PDF:', error);
+//   }
+// };
 
-const convertBlobToBase64 = (blob: Blob) =>
-  new Promise((resolve, reject) => {
-    const reader = new FileReader();
-    reader.onerror = reject;
-    reader.onload = () => resolve(reader.result);
-    reader.readAsDataURL(blob);
-  });
+// const convertBlobToBase64 = (blob: Blob) =>
+//   new Promise((resolve, reject) => {
+//     const reader = new FileReader();
+//     reader.onerror = reject;
+//     reader.onload = () => resolve(reader.result);
+//     reader.readAsDataURL(blob);
+//   });
 </script>
 
 <style scoped>
