@@ -9,7 +9,9 @@
       </ion-toolbar>
     </ion-header>
 
-    <ion-content>
+    <!--<ion-content> old code -->
+    <ion-content class="no-padding">
+
       <!-- Hero Image Section -->
       <div class="welcome-banner">
         <img src="/assets/img/about/welcome4.png" alt="Engage Utah 2025" />
@@ -17,8 +19,11 @@
 
 
         <!-- Welcome Message -->
-      <div class="welcome-content ion-padding">
-        <h1>Welcome</h1>
+      <!--<div class="welcome-content ion-padding"> ion-padding sets the default--> 
+      <div class="welcome-content">
+        <div class="section-header">
+          <h3>Welcome</h3>
+        </div>
         <p>
           Welcome to the 2025 Convention of the General Conference of the Church of God (Seventh Day)
           in beautiful Salt Lake City, Utah! Have you had an opportunity to savor the beauty of God’s
@@ -53,7 +58,9 @@
 
         <p><em>Your Convention Planning Committee</em></p>
 
+    <div class="section-header">
         <h2>Information You Need To Know</h2>
+    </div>
 
         <h3>Convention Registration</h3>
         <p>
@@ -198,6 +205,16 @@ import {
 </script>
 
 <style scoped>
+
+/* Remove all default Ionic content padding */
+ion-content.no-padding {
+  --padding-top: 0;
+  --padding-bottom: 0;
+  --padding-start: 0;
+  --padding-end: 0;
+}
+
+/* Hero banner section */
 .welcome-banner {
   width: 100%;
   height: auto;
@@ -215,22 +232,52 @@ import {
   display: block;
 }
 
-
-
-.about-info {
-  border-radius: 10px;
-  background: var(--ion-background-color);
-  color: var(--ion-text-color);
+/* Welcome message content */
+/* Reset default browser padding and margin */
+html, body {
+  margin: 0;
+  padding: 0;
   width: 100%;
 }
 
-.about-info h1,
-.about-info p {
-  color: var(--ion-text-color);
+/* Apply box-sizing to all elements */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* Main welcome content container */
+.welcome-content {
+  padding: 0.5rem 1rem; /* Adjust padding here */
+  margin: 0 auto;
+  max-width: 900px;
+  width: 100%;
+}
+
+/* Adjust max-width on wider screens */
+@media (min-width: 1200px) {
+  .welcome-content {
+    max-width: 1000px;
+  }
+}
+
+/* Optional: Reduce padding on small screens */
+@media (max-width: 600px) {
+  .welcome-content {
+    padding: 0.5rem;
+  }
+}
+
+
+
+
+
+.welcome-content h1,
+.welcome-content p {
   line-height: 1.5;
   font-size: 1rem;
 }
 
+/* Ion toolbar appearance */
 ion-toolbar {
   --background: var(--ion-background-color);
   --color: var(--ion-text-color);
