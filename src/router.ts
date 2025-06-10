@@ -113,7 +113,11 @@ const routes: Array<RouteRecordRaw> = [
         path: '/attractions/:attractionId',
         name: 'attraction-detail',
         component: () => import('@/views/AttractionDetail.vue')
-      },      
+      },
+      {
+        path: '/places-to-eat',
+        component: () => import('@/views/PlacesToEat.vue'),
+      },            
          
       {
         path: 'business',

@@ -3,8 +3,19 @@
     <ion-content>
       <!-- Logo at the top of the menu -->
       <div class="menu-logo-wrapper">
-        <img src="/assets/img/logo512.png" alt="Conference Logo" />
+        <img
+          class="logo-light"
+          src="/assets/img/300X100Black.png"
+          alt="Conference Logo Light"
+        />
+        <img
+          class="logo-dark"
+          src="/assets/img/320x100White.png"
+          alt="Conference Logo Dark"
+        />
       </div>
+
+
 
       <ion-list lines="none">
         <ion-list-header>
@@ -169,6 +180,8 @@ import { mailOutline } from "ionicons/icons";
 import { bugOutline } from "ionicons/icons";
 import { briefcaseOutline } from 'ionicons/icons';
 import {locationOutline} from 'ionicons/icons'
+import { restaurantOutline } from 'ionicons/icons';
+
 
 
 
@@ -305,6 +318,12 @@ export default defineComponent({
           url: '/tabs/local-attractions',
           icon: mapOutline// or choose a different Ionicon
         },
+        {
+          title: 'Places to Eat',
+          url: '/tabs/places-to-eat',
+          icon: restaurantOutline
+        },
+
         {
           title: 'Business',
           url: '/tabs/business',
