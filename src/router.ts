@@ -66,6 +66,10 @@ const routes: Array<RouteRecordRaw> = [
     component: () => import('@/views/Tabs.vue'),
     children: [
       {
+        path: '',
+        redirect: '/tabs/welcome'
+      },      
+      {
         path: 'welcome',
         name: 'welcome',
         component: () => import('@/views/Welcome.vue')
@@ -110,14 +114,15 @@ const routes: Array<RouteRecordRaw> = [
         component: () => import('@/views/Local-Attractions.vue')
       },   
       {
-        path: '/attractions/:attractionId',
-        name: 'attraction-detail',
-        component: () => import('@/views/AttractionDetail.vue')
+        path: 'places-to-eat',
+        name: 'places-to-eat',
+        component: () => import('@/views/PlacesToEat.vue')
       },
       {
-        path: '/places-to-eat',
-        component: () => import('@/views/PlacesToEat.vue'),
-      },            
+        path: 'attractions/:attractionId',
+        name: 'attraction-detail',
+        component: () => import('@/views/AttractionDetail.vue')
+      },                  
          
       {
         path: 'business',
@@ -136,7 +141,15 @@ const routes: Array<RouteRecordRaw> = [
       }      
     ]
   },
-  { path: '/', redirect: '/tabs/welcome' }
+  {
+    path: '/',
+    redirect: '/tabs/welcome'
+  },
+  {
+    path: '/:pathMatch(.*)*',
+    redirect: '/tabs/welcome'
+  }
+  
 ];
 
 const router = createRouter({

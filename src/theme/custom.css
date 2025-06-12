@@ -1,5 +1,5 @@
   
-  /* Base font for desktop and tablets */
+  /* Base font for desktop and tablets 
 html, body, ion-app, ion-content, .about-info, .about-info p {
   font-family: 'Proxima Nova Condensed', sans-serif;
   line-height: 1.5;
@@ -7,6 +7,13 @@ html, body, ion-app, ion-content, .about-info, .about-info p {
   margin-left: auto;
   
 }
+*/
+html, body, ion-app, ion-content, .about-info, .about-info p {
+  font-family: 'Proxima Nova', sans-serif;
+  font-size: 2 rem;
+  line-height: 1.5;
+}
+
 
 /* Adjust for smaller mobile devices */
 @media (max-width: 480px) {
@@ -156,5 +163,20 @@ body.dark .logo-light {
   opacity: 1;
 }
 
+@font-face {
+  font-family: 'Proxima Nova Condensed';
+  src: url('/assets/fonts/ProximaNovaCondensed-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('/assets/fonts/proximanova_regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
 

@@ -4,7 +4,11 @@
       <ion-router-outlet></ion-router-outlet>
 
       <ion-tab-bar slot="bottom">
-        
+        <ion-tab-button tab="welcome" href="/tabs/welcome">
+          <ion-icon :icon="homeOutline" />
+          <ion-label>Welcome</ion-label>
+        </ion-tab-button>
+
         <ion-tab-button tab="schedule" href="/tabs/schedule">
           <ion-icon :icon="calendar" />
           <ion-label>Schedule</ion-label>
@@ -24,13 +28,20 @@
           <ion-icon :icon="informationCircle" />
           <ion-label>About</ion-label>
         </ion-tab-button>
-        
       </ion-tab-bar>
     </ion-tabs>
   </ion-page>
 </template>
 
 <script lang="ts">
+import {
+  calendar,
+  people,
+  location,
+  informationCircle,
+  homeOutline
+} from 'ionicons/icons';
+
 import {
   IonPage,
   IonTabs,
@@ -40,12 +51,6 @@ import {
   IonLabel,
   IonIcon
 } from '@ionic/vue';
-import {
-  calendar,
-  people,
-  location,
-  informationCircle
-} from 'ionicons/icons';
 
 export default {
   components: {
@@ -63,7 +68,8 @@ export default {
       people,
       location,
       informationCircle,
+      homeOutline
     };
-  },
+  }
 };
 </script>

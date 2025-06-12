@@ -1,6 +1,6 @@
 <template>
   <ion-page>
-    <ion-header>
+    <ion-header class="ion-no-border">
       <ion-toolbar>
         <ion-buttons slot="start">
           <ion-menu-button />
@@ -9,26 +9,71 @@
       </ion-toolbar>
     </ion-header>
 
-    <ion-content class="ion-padding">
-      <h2>General Conference Business</h2>
-      <p>
-        General Conference Convention is where we conduct the business of the Church of God (Seventh Day). 
-        All members present at convention have a vote in the proceedings and decisions, including electing 
-        the board of directors. Help fulfill this responsibility.
-      </p>
+    <ion-content class="ion-padding business-page">
+      <!-- Header with Background Color and Centered Image -->
+      <div class="business-header">
+        <img src="/assets/img/favicon.png" alt="Business Image" />
+      </div>
 
-      <ion-card>
-        <ion-card-header>
-          <ion-card-title>Church Manual (English)</ion-card-title>
-        </ion-card-header>
-        <ion-card-content>
-          <ion-button expand="block" @click="openPdf('Church_Manual-Eng-R2023.pdf')">
-            View PDF
+      <!-- Main Content -->
+      <section>
+        <h2>General Conference Business</h2>
+        <p>
+          General Conference Convention is where we conduct the business of the Church of God (Seventh Day). 
+          All members present at convention have a vote in the proceedings and decisions, including electing 
+          the board of directors. Help fulfill this responsibility.
+        </p>
+
+        <p class="section-intro">
+          Watch the area below for useful information in the weeks before convention:
+        </p>
+
+        <div class="pdf-buttons">
+          <ion-button fill="outline" @click="openPdf('Church_Manual-Eng-R2023.pdf')">
+            Church Manual (English)
           </ion-button>
-        </ion-card-content>
-      </ion-card>
+          <ion-button fill="outline" @click="openPdf('Church_Manual-Spanish.pdf')">
+            Church Manual (Spanish)
+          </ion-button>
+          <ion-button fill="outline" @click="openPdf('Membership_Application-English.pdf')">
+            Membership Application (English)
+          </ion-button>
+          <ion-button fill="outline" @click="openPdf('Membership_Application-Spanish.pdf')">
+            Membership Application (Spanish)
+          </ion-button>
+          <ion-button fill="outline" @click="openPdf('Proposed_Amendments.pdf')">
+            Proposed Amendments
+          </ion-button>
+          <ion-button fill="outline" @click="openPdf('Board_Nominees.pdf')">
+            Board Nominees (More Info)
+          </ion-button>
+        </div>
+      </section>
 
-      <ion-note>More documents coming soon…</ion-note>
+      <section>
+        <h3>Board Nominees</h3>
+        <div class="nominees-grid">
+          <ul>
+            <li>Andrew Burnett</li>
+            <li>Narciso A. Betances</li>
+            <li>Robert Grabinsky</li>
+            <li>Neftali Hernandez</li>
+          </ul>
+          <ul>
+            <li>Samuel Holland</li>
+            <li>David Lozano</li>
+            <li>Oscar Mata</li>
+            <li>Dennis O'Banion</li>
+          </ul>
+          <ul>
+            <li>Richard Palmer</li>
+            <li>Ramón Ruiz</li>
+            <li>Jerad Ullrich</li>
+            <li>Eduardo Villalba Jr.</li>
+            <li>Ivan Villeda</li>
+          </ul>
+        </div>
+      </section>
     </ion-content>
   </ion-page>
 </template>
@@ -42,61 +87,57 @@ import {
   IonMenuButton,
   IonTitle,
   IonContent,
-  IonCard,
-  IonCardHeader,
-  IonCardTitle,
-  IonCardContent,
-  IonButton,
-  IonNote
+  IonButton
 } from '@ionic/vue';
 
-// import { Filesystem, Directory } from '@capacitor/filesystem';
-// import { FileOpener } from '@capacitor-community/file-opener';
-
-// const openPdf = async (filename: string) => {
-//   const path = `assets/pdf/${filename}`;
-
-//   try {
-//     const response = await fetch(path);
-//     const blob = await response.blob();
-
-//     const base64Data = await convertBlobToBase64(blob) as string;
-
-//     await Filesystem.writeFile({
-//       path: filename,
-//       data: base64Data,
-//       directory: Directory.Documents,
-//       recursive: true
-//     });
-
-//     await FileOpener.open({
-//       filePath: `${Directory.Documents}/${filename}`,
-//       contentType: 'application/pdf'
-//     });
-//   } catch (error) {
-//     console.error('Error opening PDF:', error);
-//   }
-// };
-
-// const convertBlobToBase64 = (blob: Blob) =>
-//   new Promise((resolve, reject) => {
-//     const reader = new FileReader();
-//     reader.onerror = reject;
-//     reader.onload = () => resolve(reader.result);
-//     reader.readAsDataURL(blob);
-//   });
+const openPdf = (filename: string) => {
+  window.open(`/assets/pdf/${filename}`, '_blank');
+};
 </script>
 
 <style scoped>
-h2 {
-  margin-top: 16px;
+.business-header {
+  background-color: #2f2f2f; /* Deep blue; adjust to match your theme */
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  border-radius: 0 0 10px 10px;
 }
 
-ion-note {
-  display: block;
-  margin-top: 24px;
-  text-align: center;
-  font-style: italic;
-  color: var(--ion-color-medium);
+.business-header img {
+  max-height: 100px;
+  width: auto;
+  object-fit: contain;
+}
+
+.business-page section {
+  margin-bottom: 2rem;
+}
+
+.section-intro {
+  font-weight: 500;
+  margin-top: 1rem;
+}
+
+.pdf-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.nominees-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.nominees-grid ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin: 0;
+  flex: 1 1 200px;
 }
 </style>
