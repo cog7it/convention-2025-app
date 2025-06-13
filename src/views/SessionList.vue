@@ -276,17 +276,14 @@ const page = ref<InstanceType<typeof IonPage> | null>(null);
 const presentingElement = ref<HTMLElement | null>(null);
 
 const groupedByStartTime = (sessions: Session[]): GroupedSession[] => {
-  const sortedSessions = [...sessions].sort(
-    (a, b) => {
-      const timeA = new Date(`1970-01-01 ${a.timeStart}`).getTime();
-      const timeB = new Date(`1970-01-01 ${b.timeStart}`).getTime();
-      return timeA - timeB;
-    }
-  );
+  const sortedSessions = [...sessions].sort((a, b) => {
+    const dateTimeA = new Date(a.groupTime + ', 2025 ' + a.timeStart).getTime();
+    const dateTimeB = new Date(b.groupTime + ', 2025 ' + b.timeStart).getTime();
+    return dateTimeA - dateTimeB;
+  });
 
   const groups: { [key: string]: Session[] } = {};
 
-  // Group sessions by their group time
   sortedSessions.forEach(session => {
     const groupTime = session.groupTime;
     if (!groups[groupTime]) {
@@ -295,13 +292,17 @@ const groupedByStartTime = (sessions: Session[]): GroupedSession[] => {
     groups[groupTime].push(session);
   });
 
-  // Convert groups object to array format, using the group time as the heading
-  return Object.entries(groups).map(([groupTime, sessions]) => ({
-    startTime: groupTime,
-    sessions,
-    id: groupTime
-  }));
+  return Object.entries(groups)
+    .sort(([a], [b]) => {
+      return new Date(a + ', 2025').getTime() - new Date(b + ', 2025').getTime();
+    })
+    .map(([groupTime, sessions]) => ({
+      startTime: groupTime,
+      sessions,
+      id: groupTime
+    }));
 };
+
 
 const allGrouped = computed(() => {
   if (segment.value === "all") {
