@@ -28,7 +28,7 @@
 
 :root {
   --ion-font-family: 'Proxima Nova Condensed', sans-serif;
-  --ion-color-primary: #000 ;
+  --ion-color-primary:#000 ;
   --ion-color-primary-rgb: 56, 128, 255;
   --ion-color-primary-contrast: #ffffff;
   --ion-color-primary-contrast-rgb: 255, 255, 255;

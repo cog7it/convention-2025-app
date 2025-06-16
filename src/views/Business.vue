@@ -9,10 +9,19 @@
       </ion-toolbar>
     </ion-header>
 
+    
+
     <ion-content class="ion-padding business-page">
-      <!-- Header with Background Color and Centered Image -->
+      <!-- Header with Centered Image -->
       <div class="business-header">
         <img src="/assets/img/favicon.png" alt="Business Image" />
+      </div>
+
+      <!-- Wavy Divider Under Image -->
+      <div class="wave-divider">
+        <svg viewBox="0 0 1440 100" preserveAspectRatio="none">
+          <path d="M0,0 C480,100 960,0 1440,100 L1440,100 L0,100 Z" fill="#2f2f2f" />
+        </svg>
       </div>
 
       <!-- Main Content -->
@@ -97,19 +106,36 @@ const openPdf = (filename: string) => {
 
 <style scoped>
 .business-header {
-  background-color: #2f2f2f; /* Deep blue; adjust to match your theme */
   height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 2rem;
-  border-radius: 0 0 10px 10px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 0;
+  border-radius: 0 0 0 0;
 }
 
 .business-header img {
   max-height: 100px;
   width: auto;
   object-fit: contain;
+  z-index: 2;
+  position: relative;
+}
+
+.wave-divider {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.wave-divider svg {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
 .business-page section {
