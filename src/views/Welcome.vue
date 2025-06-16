@@ -12,7 +12,19 @@
     <ion-content class="no-padding">
       <!-- Hero Image Section -->
       <div class="banner-container">
-        <img src="/assets/img/about/welcome4.png" alt="Engage Utah 2025" class="banner-image" />
+        <img
+          v-show="!isDarkMode"
+          src="/assets/img/about/white.png"
+          alt="Engage Utah 2025"
+          class="banner-image"
+        />
+        <img
+          v-show="isDarkMode"
+          src="/assets/img/about/welcome4.png"
+          alt="Engage Utah 2025 Dark"
+          class="banner-image"
+        />
+
       </div>
 
       <!-- Wavy Divider -->
@@ -122,9 +134,30 @@ import {
   IonContent,
   IonButton
 } from '@ionic/vue';
+import { ref, onMounted } from 'vue';
+
+const isDarkMode = ref(false);
+
+onMounted(() => {
+  const updateDarkMode = () => {
+    isDarkMode.value = document.body.classList.contains('dark');
+  };
+
+  // Initial check
+  updateDarkMode();
+
+  // Optional: Observe changes in body class
+  const observer = new MutationObserver(() => updateDarkMode());
+  observer.observe(document.body, { attributes: true, attributeFilter: ['class'] });
+});
 </script>
 
+
+
+
 <style scoped>
+
+
 /* Header colors for light and dark mode */
 .header-toolbar {
   --background: #ffffff;
@@ -177,7 +210,7 @@ html.dark .header-toolbar {
 .welcome-content h4,
 .welcome-content p,
 .welcome-content li {
-  color: #ffffff; /* ensure all text is white */
+  color: #ffffff; 
   font-weight: bold;
 }
 
