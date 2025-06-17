@@ -21,9 +21,9 @@
         <p v-if="attraction?.address"><strong>Address:</strong> {{ attraction.address }}</p>
 
         <div class="map-buttons" v-if="attraction?.address">
-          <ion-button fill="outline" size="small" @click="openInMaps('google')">Google Maps</ion-button>
-          <ion-button fill="outline" size="small" @click="openInMaps('apple')">Apple Maps</ion-button>
+            <ion-button fill="outline" size="small" @click="openInMaps">Open in Maps</ion-button>
         </div>
+
 
         <ion-list>
           <ion-item v-if="attraction?.hours">
@@ -92,16 +92,17 @@ export default {
       .catch(err => console.error('Error fetching attraction details:', err));
   },
   methods: {
-    openInMaps(provider) {
-      if (!this.attraction?.address) return;
-      const encoded = encodeURIComponent(this.attraction.address);
-      if (provider === 'google') {
-        window.open(`https://www.google.com/maps/search/?api=1&query=${encoded}`, '_blank');
-      } else {
-        window.open(`http://maps.apple.com/?q=${encoded}`, '_blank');
-      }
+  openInMaps(provider) {
+    if (!this.attraction?.address) return;
+    const encoded = encodeURIComponent(this.attraction.address);
+    if (provider === 'google') {
+      window.open(`https://www.google.com/maps/search/?api=1&query=${encoded}`, '_blank');
+    } else {
+      window.open(`http://maps.apple.com/?q=${encoded}`, '_blank');
     }
   }
+}
+
 };
 </script>
 

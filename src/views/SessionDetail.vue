@@ -10,7 +10,8 @@
             <ion-icon v-if="!isFavorite" slot="icon-only" :icon="starOutline"></ion-icon>
             <ion-icon v-if="isFavorite" slot="icon-only" :icon="star"></ion-icon>
           </ion-button>
-          <ion-button>
+          <!-- Added share button functionality -->
+          <ion-button @click="shareSession">
             <ion-icon slot="icon-only" :icon="share"></ion-icon>
           </ion-button>
         </ion-buttons>
@@ -260,6 +261,29 @@ END:VCALENDAR`;
 };
 
 */
+
+// Added share functionality
+const shareSession = async () => {
+  if (navigator.share && session.value) {
+    try {
+      await navigator.share({
+        title: session.value.name,
+        text: `Check out this session: ${session.value.name}`,
+        url: window.location.href
+      });
+    } catch (err) {
+      console.error('Error sharing session:', err);
+    }
+  } else {
+    const alert = await alertController.create({
+      header: 'Sharing Not Supported',
+      message: 'Your browser does not support the Web Share API.',
+      buttons: ['OK']
+    });
+    await alert.present();
+  }
+};
+
 onMounted(async () => {
   // Check if sessions are loaded, if not load them
   if (store.state.sessions.sessions.length === 0) {

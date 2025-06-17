@@ -1235,6 +1235,72 @@
       "center": true,
       "address": "100 S W Temple St, Salt Lake City, UT 84101"
       
+    },
+    {
+      "name": "FamilySearch Library",
+      "lat": 40.770438,
+      "lng": -111.894833,
+      "address": "35 N West Temple St, Salt Lake City, UT 84150"
+    },    
+    {
+      "name": "Great Salt Lake",
+      "lat": 41.129539,
+      "lng": -112.515793,
+      "address": "Antelope Island Rd, Syracuse, UT 84075"
+    },
+    {
+      "name": "Park City",
+      "lat": 40.646059,
+      "lng": -111.498630,
+      "address": "Park City, UT 84060"
+    },
+    {
+      "name": "Antelope Island State Park",
+      "lat": 41.05833,
+      "lng": -112.24889,
+      "address": "4528 W 1700 S, Syracuse, UT 84075"
+    },
+    {
+      "name": "Thanksgiving Point",
+      "lat": 40.409944,
+      "lng": -111.896247,
+      "address": "3003 N Thanksgiving Way, Lehi, UT 84043"
+    },
+    {
+      "name": "Ashton Gardens",
+      "lat": 40.410500,
+      "lng": -111.894000,
+      "address": "3900 N Garden Dr, Lehi, UT 84043"
+    },
+    {
+      "name": "Butterfly Biosphere",
+      "lat": 40.410500,
+      "lng": -111.896247,
+      "address": "3003 N Thanksgiving Way, Lehi, UT 84043"
+    },
+    {
+      "name": "Curiosity Farms",
+      "lat": 40.410800,
+      "lng": -111.896500,
+      "address": "3003 N Thanksgiving Way, Lehi, UT 84043"
+    },
+    {
+      "name": "Museum of Ancient Life",
+      "lat": 40.410300,
+      "lng": -111.897000,
+      "address": "2929 W Grand Ave, Lehi, UT 84043"
+    },
+    {
+      "name": "Museum of Natural Curiosity",
+      "lat": 40.410900,
+      "lng": -111.897300,
+      "address": "3605 Garden Dr, Lehi, UT 84043"
+    },
+    {
+      "name": "The Carousel",
+      "lat": 40.410600,
+      "lng": -111.896500,
+      "address": "3003 N Thanksgiving Way, Lehi, UT 84043"
     }
   ],
 
@@ -1246,6 +1312,8 @@
       "description": "Explore your family history at the FamilySearch Library, offering free genealogy resources and assistance.",
       "image": "/assets/img/local-attractions/matterport-resized.png",
       "address": "35 N West Temple St, Salt Lake City, UT 84150",
+      "lat": 40.770438,
+      "lng": -111.894833,
       "hours": "Mon-Sat: 9am–5pm",
       "link": "https://www.familysearch.org/en/library/",
       "specialNote": "",
