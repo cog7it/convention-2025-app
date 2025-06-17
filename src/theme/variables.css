@@ -221,6 +221,11 @@
   --ion-color-food: #3bc7c4;
   --ion-color-documentation: #b16be3;
   --ion-color-navigation: #6600cc;
+
+  --gc-color-red: #ff2f3c;
+  --gc-color-orange: #ffaf23;
+  --gc-color-green: #ccdc3a;
+  --gc-color-blue: #00c1c2;
 }
 
 /*
