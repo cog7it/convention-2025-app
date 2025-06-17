@@ -1304,6 +1304,142 @@
     }
   ],
 
+  "nominees": [
+    {
+      "id": 1,
+      "name": "Andrew Burnett",
+      "reside": "Burlington, Ontario, Canada",
+      "wife": "Juliet",
+      "children": "Cole, Caius, Callie",
+      "profilePic": "/assets/img/nominees/Andrew Burnett.jpg",
+      "churchActivities": "Assistant pastor (2024 - present), elder (2012 - 2024), pulpit team member, chair of the Nominating Committee at Access Community Church (2018 - present), member of the Executive Leadership Team (2018 - present).",
+      "education": "Honors Bachelor of Science in Human Biology and Zoology.",
+      "workLeadership": "CEO of Lorama Group (2017 - present). Twenty-plus years’ experience in the specialty additives industry.",
+      "ministryHighlights": "Served in numerous roles in the local church, including Sabbath school teacher, praise and worship leader, youth leader, and member of the outreach street ministry team. Functioned as a local church representative on the Eastern Canada District board for one term."
+    },
+    {
+      "id": 2,
+      "name": "Narciso A. Betances",
+      "reside": "Silver Spring, Maryland",
+      "wife": "Ruth",
+      "children": "Alberto, Cesi, Andrea",
+      "profilePic": "/assets/img/nominees/Betances, Narciso.jpg",
+      "churchActivities": "Has taught Sabbath school, preached, led baptism classes, performed baptisms and other services, led discipleship classes, and provided counseling sessions at the Lanham congregation.",
+      "education": "High school, apprentice school for construction and masonry. Diploma of Pastoral Ministry from LifeSpring School of Ministry.",
+      "workLeadership": "Worked in the masonry industry for over 25 years as a helper, apprentice, foreman, superintendent, and CEO of Elizabeth Masonry before accepting a full-time pastoral position at the Lanham congregation.",
+      "ministryHighlights": "Served as a volunteer pastor for 18 years and as a full-time assistant pastor for 13 years at the Lanham congregation until his recent resignation in March 2025. Known for his passion for outreach ministry, Narciso has expressed a willingness to return to pastoral service. He is committed to supporting the congregation’s transition process and fostering unity within the Church of God (Seventh Day)."
+    },
+    {
+      "id": 3,
+      "name": "Samuel Holland",
+      "reside": "Oxford, Alabama",
+      "wife": "Lisa",
+      "children": "Victoria Akene",
+      "profilePic": "/assets/img/nominees/Samuel Holland.jpg",
+      "churchActivities": "Board chairman. Men’s Ministry leader. District board parliamentarian. Church of God (Seventh Day) International Federation executive director.",
+      "education": "A.A.S. Business Management",
+      "workLeadership": "Partner Relationship Manager for a casualty insurer. Served as district superintendent for Northeast and Eastern Canada districts. Conference board of directors as vice chairman and chairman.",
+      "ministryHighlights": "Served as senior pastor for 29 years. Currently serves as chairman of local church board of directors."
+    },
+    {
+      "id": 4,
+      "name": "David Lozano",
+      "reside": "Coachella, California",
+      "wife": "Angela",
+      "children": "Dorian, Eldi, Pablo",
+      "profilePic": "/assets/img/nominees/Lozano.jpg",
+      "churchActivities": "Founder and Senior Pastor of Coachella Valley Church, Desert Hot Springs, California.",
+      "education": "Honors Bachelor of Arts in Pastoral Leadership, Bachelor of Arts in Clinical Psychology and US History, Master of Science in Clinical Counseling with a LPCC.",
+      "workLeadership": "Has served since 1997 as music director, Sabbath school teacher, preacher, deacon, executive secretary, co-pastor, and senior pastor.",
+      "ministryHighlights": "Ordained minister since 2014 and credentialed minister since 2019. Instructor and committee member at Artios Christian College."
+    },
+    {
+      "id": 5,
+      "name": "Oscar Mata",
+      "reside": "Sioux Falls, South Dakota",
+      "wife": "Nancy",
+      "children": "Eunice, Oscar, Esmeralda, Naomi",
+      "profilePic": "/assets/img/nominees/Oscar Mata.jpg",
+      "churchActivities": "Lead pastor (2010 - present). Professor at Artios Christian College (2010 - 2021). Board member. License and Credentials Committee (2010 - 2018). Board member, Central District (2022 - present).",
+      "education": "Juris Doctor. Bachelor’s in Legal and Social Sciences. Diploma of Business Administration. Theology studies. Certificate in Biblical Studies. Clinical Pastoral Education.",
+      "workLeadership": "Experienced in pastoral, legal, and administrative leadership. Leads a bilingual, multicultural church. Fluent in Spanish, English, and Portuguese.",
+      "ministryHighlights": "Church planter in South Dakota and Minnesota. Hospital chaplain. Active in online ministry and passionate about family, foster care, and adoption."
+    },
+    {
+      "id": 6,
+      "name": "Dennis O’Banion",
+      "reside": "Conroe, Texas",
+      "wife": "Kathy",
+      "children": "Three adult children, four grandchildren",
+      "profilePic": "/assets/img/nominees/O'Banion, Dennis.jpg",
+      "churchActivities": "Trustee, board member, elder, and Outreach Committee director at Conroe Church.",
+      "education": "",
+      "workLeadership": "Extensive construction experience. Currently a commercial superintendent at Davila General Contractors, Inc.",
+      "ministryHighlights": "General Conference board member (chairman and vice chairman). Assisted in organizing local and national church events and conventions."
+    },
+    {
+      "id": 7,
+      "name": "Richard Palmer",
+      "reside": "Hamilton, Ontario, Canada",
+      "wife": "Delia",
+      "children": "Nasya, Nathan",
+      "profilePic": "/assets/img/nominees/Richard Palmer.png",
+      "churchActivities": "Senior pastor (2018 - present). Assistant pastor (2009 - 2018).",
+      "education": "Certificate of Biblical Studies (LifeSpring), Associate of Christian Leadership (Artios, Class of 2026), Instrumentation technician (Mohawk College), Chartered insurance professional.",
+      "workLeadership": "18 years in insurance claims. 10 years of leadership experience.",
+      "ministryHighlights": "Served on local church board as chairman. Leads ministries including men’s, worship, and youth."
+    },
+    {
+      "id": 8,
+      "name": "Ramón Ruiz",
+      "reside": "Dallas, Texas",
+      "wife": "Rebeca",
+      "children": "Gersom, Priscila, Rebeca",
+      "profilePic": "/assets/img/nominees/Ramon Ruiz.jpeg",
+      "churchActivities": "Pastor of Monte Hermon congregation, Dallas-Ft. Worth, Texas.",
+      "education": "Bachelor’s degree in Theology.",
+      "workLeadership": "Founder of San Nicolás congregation in Mexico. Former President of the Church in Mexico. President of the International Ministerial Congress (29 years).",
+      "ministryHighlights": "49 years of continuous ministry. Serves on National Evangelism Committee of the General Conference."
+    },
+    {
+      "id": 9,
+      "name": "Jerad Ullrich",
+      "reside": "Coweta, Oklahoma",
+      "wife": "Heather",
+      "children": "Patrick, Hannah Minica, Jacob",
+      "profilePic": "/assets/img/nominees/Jerad Ullrich.jpg",
+      "churchActivities": "Elder, board member, youth leader, audio/video technician.",
+      "education": "3D Modeling, AutoCAD, Inventor, Solidworks, and other engineering software.",
+      "workLeadership": "VP of operations in utility design. Senior sales manager. Small business owner. Chairman of Oklahoma Conference.",
+      "ministryHighlights": "Served on Oklahoma Conference board for 26 years (15 as chairman)."
+    },
+    {
+      "id": 10,
+      "name": "Eduardo Villalba Jr.",
+      "reside": "El Paso, Texas",
+      "wife": "Socorro",
+      "children": "Eduardo, David",
+      "profilePic": "/assets/img/nominees/Eduardo Villalba Jr.jpeg",
+      "churchActivities": "Local board member at CoG7 Central El Paso. Former senior pastor at CoG7 Aurora, CO.",
+      "education": "Bachelor of Science in Business Management.",
+      "workLeadership": "Office manager at GC headquarters (2003 - 2021). US Army – 13 years.",
+      "ministryHighlights": "Served in multiple pastoral and district roles. Instructor at Artios. Licensed in 2006, credentialed in 2012."
+    },
+    {
+      "id": 11,
+      "name": "Ivan Villeda",
+      "reside": "Arlington, Texas",
+      "wife": "Mara",
+      "children": "Ivan Jr., Jacob, Daniella",
+      "profilePic": "/assets/img/nominees/Ivan Villeda.jpeg",
+      "churchActivities": "Co-pastor at Monte Hermon Church in Arlington. Area 1 Representative, Southwest District.",
+      "education": "South Gate High School graduate. Some college credits from Cerritos College, Woodbury University, and Artios. Finishing Certificate in Pastoral Ministry (July 2025).",
+      "workLeadership": "Licensed real estate agent. 27 years at FedEx. Church planter. Various leadership roles in California and Texas.",
+      "ministryHighlights": "Co-pastor, evangelism leader, youth pastor, and small group leader. Serving Monte Hermon Church (Spanish) and youth congregation."
+    }
+    
+  ],
+
   
   "attractions": [
     {

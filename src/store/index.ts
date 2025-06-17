@@ -4,6 +4,8 @@ import sessions, { SessionState } from './modules/sessions';
 import speakers, { SpeakerState } from './modules/speakers';
 import user, { User } from './modules/user';
 import darkMode, { DarkModeState } from './modules/darkMode';
+import nominees, { NomineeState } from './modules/nominees';
+
 
 export interface StoreState {
   locations: LocationState,
@@ -11,6 +13,8 @@ export interface StoreState {
   speakers: SpeakerState,
   user: User,
   darkMode: DarkModeState,
+  nominees: NomineeState // Created New Nominee page inside Business page
+
 }
 
 const store = createStore<StoreState>({
@@ -20,6 +24,7 @@ const store = createStore<StoreState>({
     speakers,
     user,
     darkMode,
+    nominees
   },
   strict: process.env.NODE_ENV !== 'production'
 });

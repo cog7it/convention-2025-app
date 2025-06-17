@@ -21,41 +21,40 @@
             All members present at convention have a vote in the proceedings and decisions, including electing
             the board of directors. Help fulfill this responsibility.
           </p>
-          <!--
-          <p class="section-intro">
-            Watch the area below for useful information in the weeks before convention:
-          </p>
-          -->
         </ion-card-content>
       </ion-card>
 
-      <!-- Board Nominees Card -->
+      <!-- Board Nominees Card (Dynamic) -->
       <ion-card>
         <ion-card-header>
           <ion-card-title>Board Nominees</ion-card-title>
         </ion-card-header>
         <ion-card-content>
-          <div class="nominees-grid">
-            <ul>
-              <li>Andrew Burnett</li>
-              <li>Narciso A. Betances</li>
-              <li>Robert Grabinsky</li>
-              <li>Neftali Hernandez</li>
-            </ul>
-            <ul>
-              <li>Samuel Holland</li>
-              <li>David Lozano</li>
-              <li>Oscar Mata</li>
-              <li>Dennis O'Banion</li>
-            </ul>
-            <ul>
-              <li>Richard Palmer</li>
-              <li>Ramón Ruiz</li>
-              <li>Jerad Ullrich</li>
-              <li>Eduardo Villalba Jr.</li>
-              <li>Ivan Villeda</li>
-            </ul>
-          </div>
+          <ion-grid fixed>
+            <ion-row>
+              <ion-col
+                v-for="nominee in nominees"
+                :key="nominee.id"
+                size="12"
+                size-md="6"
+              >
+                <ion-card class="nominee-card" button @click="goToNomineeDetail(nominee.id)">
+                  <ion-card-header>
+                    <ion-item lines="none">
+                      <ion-avatar slot="start">
+                        <img :src="nominee.profilePic || '/assets/img/placeholder.png'" :alt="nominee.name + ' photo'" />
+                      </ion-avatar>
+                      <ion-label>
+                        <h2>{{ nominee.name }}</h2>
+                        <p><strong>Resides:</strong> {{ nominee.reside }}</p>
+                      </ion-label>
+                      <ion-icon :icon="chevronForwardOutline" slot="end" />
+                    </ion-item>
+                  </ion-card-header>
+                </ion-card>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
         </ion-card-content>
       </ion-card>
 
@@ -68,32 +67,27 @@
           <ion-list class="pdf-list">
             <ion-item button @click="openPdf('Church_Manual-Eng-R2023.pdf')">
               <ion-label>Church Manual (English)</ion-label>
-              <ion-icon name="arrow-forward-outline" slot="end"></ion-icon>
+              <ion-icon :icon="chevronForwardOutline" slot="end"></ion-icon>
             </ion-item>
-
             <ion-item button @click="openPdf('Church_Manual-Sp-R2023.pdf')">
               <ion-label>Church Manual (Spanish)</ion-label>
-              <ion-icon name="arrow-forward-outline" slot="end"></ion-icon>
+              <ion-icon :icon="chevronForwardOutline" slot="end"></ion-icon>
             </ion-item>
-
             <ion-item button @click="openPdf('Membership Application-Eng 2021.pdf')">
               <ion-label>Membership Application (English)</ion-label>
-              <ion-icon name="arrow-forward-outline" slot="end"></ion-icon>
+              <ion-icon :icon="chevronForwardOutline" slot="end"></ion-icon>
             </ion-item>
-
             <ion-item button @click="openPdf('Membership Application-Sp 2021.pdf')">
               <ion-label>Membership Application (Spanish)</ion-label>
-              <ion-icon name="arrow-forward-outline" slot="end"></ion-icon>
+              <ion-icon :icon="chevronForwardOutline" slot="end"></ion-icon>
             </ion-item>
-
             <ion-item button @click="openPdf('Amendments-2025.pdf')">
               <ion-label>Proposed Amendments</ion-label>
-              <ion-icon name="arrow-forward-outline" slot="end"></ion-icon>
+              <ion-icon :icon="chevronForwardOutline" slot="end"></ion-icon>
             </ion-item>
-
             <ion-item button @click="openPdf('2025-Nominees.pdf')">
               <ion-label>Board Nominees (More Info)</ion-label>
-              <ion-icon name="arrow-forward-outline" slot="end"></ion-icon>
+              <ion-icon :icon="chevronForwardOutline" slot="end"></ion-icon>
             </ion-item>
           </ion-list>
         </ion-card-content>
@@ -118,9 +112,31 @@ import {
   IonList,
   IonItem,
   IonLabel,
-  IonIcon
+  IonIcon,
+  IonGrid,
+  IonRow,
+  IonCol,
+  IonAvatar
 } from '@ionic/vue';
-import { arrowForwardOutline } from 'ionicons/icons';
+import { chevronForwardOutline } from 'ionicons/icons';
+import { computed, onMounted } from 'vue';
+import { useRouter } from 'vue-router';
+import { useStore } from '@/store';
+
+const store = useStore();
+const router = useRouter();
+
+const nominees = computed(() => store.getters['allNominees']);
+
+onMounted(() => {
+  if (!store.state.nominees.nominees.length) {
+    store.dispatch('loadNomineeData');
+  }
+});
+
+const goToNomineeDetail = (id: number) => {
+  router.push({ name: 'nominee-detail', params: { nomineeId: id } });
+};
 
 const openPdf = (filename: string) => {
   window.open(`/assets/pdf/${filename}`, '_blank');
@@ -134,17 +150,15 @@ const openPdf = (filename: string) => {
   margin-bottom: 1.5rem;
 }
 
-.nominees-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
+.nominee-card {
+  margin-bottom: 16px;
+  border-radius: 10px;
+  transition: box-shadow 0.2s ease;
+  cursor: pointer;
 }
 
-.nominees-grid ul {
-  list-style-type: disc;
-  padding-left: 1.5rem;
-  margin: 0;
-  flex: 1 1 200px;
+.nominee-card:hover {
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
 }
 
 .pdf-list ion-item {
@@ -156,7 +170,6 @@ const openPdf = (filename: string) => {
 }
 
 .pdf-list ion-icon {
-  font-size: 18px;
   color: var(--ion-color-primary);
 }
 </style>
