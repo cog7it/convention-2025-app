@@ -1,88 +1,103 @@
 <template>
   <ion-page>
-    <ion-header class="ion-no-border">
+    <ion-header>
       <ion-toolbar>
         <ion-buttons slot="start">
-          <ion-menu-button />
+          <ion-back-button defaultHref="/tabs/welcome"></ion-back-button>
         </ion-buttons>
         <ion-title>Business</ion-title>
       </ion-toolbar>
     </ion-header>
 
-    
-
     <ion-content class="ion-padding business-page">
-      <!-- Header with Centered Image -->
-      <div class="business-header">
-        <img src="/assets/img/favicon.png" alt="Business Image" />
-      </div>
-
-      <!-- Wavy Divider Under Image -->
-      <div class="wave-divider">
-        <svg viewBox="0 0 1440 100" preserveAspectRatio="none">
-          <path d="M0,0 C480,100 960,0 1440,100 L1440,100 L0,100 Z" fill="#2f2f2f" />
-        </svg>
-      </div>
-
       <!-- Main Content -->
-      <section>
-        <h2>General Conference Business</h2>
-        <p>
-          General Conference Convention is where we conduct the business of the Church of God (Seventh Day). 
-          All members present at convention have a vote in the proceedings and decisions, including electing 
-          the board of directors. Help fulfill this responsibility.
-        </p>
+      <ion-card>
+        <ion-card-header>
+          <ion-card-title>General Conference Business</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          <p>
+            General Conference Convention is where we conduct the business of the Church of God (Seventh Day).
+            All members present at convention have a vote in the proceedings and decisions, including electing
+            the board of directors. Help fulfill this responsibility.
+          </p>
+          <!--
+          <p class="section-intro">
+            Watch the area below for useful information in the weeks before convention:
+          </p>
+          -->
+        </ion-card-content>
+      </ion-card>
 
-        <p class="section-intro">
-          Watch the area below for useful information in the weeks before convention:
-        </p>
+      <!-- Board Nominees Card -->
+      <ion-card>
+        <ion-card-header>
+          <ion-card-title>Board Nominees</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          <div class="nominees-grid">
+            <ul>
+              <li>Andrew Burnett</li>
+              <li>Narciso A. Betances</li>
+              <li>Robert Grabinsky</li>
+              <li>Neftali Hernandez</li>
+            </ul>
+            <ul>
+              <li>Samuel Holland</li>
+              <li>David Lozano</li>
+              <li>Oscar Mata</li>
+              <li>Dennis O'Banion</li>
+            </ul>
+            <ul>
+              <li>Richard Palmer</li>
+              <li>Ramón Ruiz</li>
+              <li>Jerad Ullrich</li>
+              <li>Eduardo Villalba Jr.</li>
+              <li>Ivan Villeda</li>
+            </ul>
+          </div>
+        </ion-card-content>
+      </ion-card>
 
-        <div class="pdf-buttons">
-          <ion-button fill="outline" @click="openPdf('Church_Manual-Eng-R2023.pdf')">
-            Church Manual (English)
-          </ion-button>
-          <ion-button fill="outline" @click="openPdf('Church_Manual-Spanish.pdf')">
-            Church Manual (Spanish)
-          </ion-button>
-          <ion-button fill="outline" @click="openPdf('Membership_Application-English.pdf')">
-            Membership Application (English)
-          </ion-button>
-          <ion-button fill="outline" @click="openPdf('Membership_Application-Spanish.pdf')">
-            Membership Application (Spanish)
-          </ion-button>
-          <ion-button fill="outline" @click="openPdf('Proposed_Amendments.pdf')">
-            Proposed Amendments
-          </ion-button>
-          <ion-button fill="outline" @click="openPdf('Board_Nominees.pdf')">
-            Board Nominees (More Info)
-          </ion-button>
-        </div>
-      </section>
+      <!-- Helpful Resources Card -->
+      <ion-card>
+        <ion-card-header>
+          <ion-card-title>Helpful Resources</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          <ion-list class="pdf-list">
+            <ion-item button @click="openPdf('Church_Manual-Eng-R2023.pdf')">
+              <ion-label>Church Manual (English)</ion-label>
+              <ion-icon name="arrow-forward-outline" slot="end"></ion-icon>
+            </ion-item>
 
-      <section>
-        <h3>Board Nominees</h3>
-        <div class="nominees-grid">
-          <ul>
-            <li>Andrew Burnett</li>
-            <li>Narciso A. Betances</li>
-            <li>Robert Grabinsky</li>
-            <li>Neftali Hernandez</li>
-          </ul>
-          <ul>
-            <li>Samuel Holland</li>
-            <li>David Lozano</li>
-            <li>Oscar Mata</li>
-            <li>Dennis O'Banion</li>
-          </ul>
-          <ul>
-            <li>Richard Palmer</li>
-            <li>Ramón Ruiz</li>
-            <li>Jerad Ullrich</li>
-            <li>Eduardo Villalba Jr.</li>
-            <li>Ivan Villeda</li>
-          </ul>
-        </div>
-      </section>
+            <ion-item button @click="openPdf('Church_Manual-Sp-R2023.pdf')">
+              <ion-label>Church Manual (Spanish)</ion-label>
+              <ion-icon name="arrow-forward-outline" slot="end"></ion-icon>
+            </ion-item>
+
+            <ion-item button @click="openPdf('Membership Application-Eng 2021.pdf')">
+              <ion-label>Membership Application (English)</ion-label>
+              <ion-icon name="arrow-forward-outline" slot="end"></ion-icon>
+            </ion-item>
+
+            <ion-item button @click="openPdf('Membership Application-Sp 2021.pdf')">
+              <ion-label>Membership Application (Spanish)</ion-label>
+              <ion-icon name="arrow-forward-outline" slot="end"></ion-icon>
+            </ion-item>
+
+            <ion-item button @click="openPdf('Amendments-2025.pdf')">
+              <ion-label>Proposed Amendments</ion-label>
+              <ion-icon name="arrow-forward-outline" slot="end"></ion-icon>
+            </ion-item>
+
+            <ion-item button @click="openPdf('2025-Nominees.pdf')">
+              <ion-label>Board Nominees (More Info)</ion-label>
+              <ion-icon name="arrow-forward-outline" slot="end"></ion-icon>
+            </ion-item>
+          </ion-list>
+        </ion-card-content>
+      </ion-card>
     </ion-content>
   </ion-page>
 </template>
@@ -93,11 +108,19 @@ import {
   IonHeader,
   IonToolbar,
   IonButtons,
-  IonMenuButton,
+  IonBackButton,
   IonTitle,
   IonContent,
-  IonButton
+  IonCard,
+  IonCardHeader,
+  IonCardTitle,
+  IonCardContent,
+  IonList,
+  IonItem,
+  IonLabel,
+  IonIcon
 } from '@ionic/vue';
+import { arrowForwardOutline } from 'ionicons/icons';
 
 const openPdf = (filename: string) => {
   window.open(`/assets/pdf/${filename}`, '_blank');
@@ -105,53 +128,10 @@ const openPdf = (filename: string) => {
 </script>
 
 <style scoped>
-.business-header {
-  height: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  overflow: hidden;
-  margin-bottom: 0;
-  border-radius: 0 0 0 0;
-}
-
-.business-header img {
-  max-height: 100px;
-  width: auto;
-  object-fit: contain;
-  z-index: 2;
-  position: relative;
-}
-
-.wave-divider {
-  position: relative;
-  width: 100%;
-  height: 100px;
-  overflow: hidden;
-  margin-bottom: 2rem;
-}
-
-.wave-divider svg {
-  display: block;
-  width: 100%;
-  height: 100%;
-}
-
-.business-page section {
-  margin-bottom: 2rem;
-}
-
 .section-intro {
   font-weight: 500;
   margin-top: 1rem;
-}
-
-.pdf-buttons {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  margin: 1rem 0;
+  margin-bottom: 1.5rem;
 }
 
 .nominees-grid {
@@ -165,5 +145,18 @@ const openPdf = (filename: string) => {
   padding-left: 1.5rem;
   margin: 0;
   flex: 1 1 200px;
+}
+
+.pdf-list ion-item {
+  --background: #f4f4f4;
+  --color: #000;
+  border-radius: 12px;
+  margin-bottom: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+}
+
+.pdf-list ion-icon {
+  font-size: 18px;
+  color: var(--ion-color-primary);
 }
 </style>
