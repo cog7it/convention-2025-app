@@ -31,7 +31,7 @@ body {
 
 
 :root {
-  --ion-font-family: 'Proxima Nova Condensed', sans-serif;
+  --ion-font-family: 'Proxima Nova', sans-serif;
   --ion-color-primary:#000 ;
   --ion-color-primary-rgb: 56, 128, 255;
   --ion-color-primary-contrast: #ffffff;

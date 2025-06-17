@@ -199,31 +199,40 @@ html.dark .header-toolbar {
 
 .welcome-content {
   background-color: #f7941d;
-  padding: 1.5rem;
   color: #ffffff;
-  font-size: 1rem;
-  line-height: 1.5;
+  padding: 1.5rem;
+  font-family: var(--ion-font-family); /* Uses Proxima Nova Condensed */
+  font-size: 16px;
+  font-weight: 400; /* Ensures normal weight */
+  line-height: 1.6;
+  width: 100%;
+  box-sizing: border-box;
 }
 
+.welcome-content > * {
+  max-width: 800px;
+  margin: 0 auto;
+}
 
 .welcome-content h2,
 .welcome-content h4 {
   color: #ffffff;
-  font-weight: bold;
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-top: 1.5rem;
 }
 
 .welcome-content p,
 .welcome-content li {
   color: #ffffff;
-  font-weight: normal;  
+  font-weight: 400; /* Matches other pages */
+  margin-bottom: 1rem;
 }
-
-
-
 
 .welcome-content ul {
   padding-left: 1.25rem;
 }
+
 
 /* Responsive */
 @media (max-width: 600px) {
