@@ -200,18 +200,22 @@ html.dark .header-toolbar {
 .welcome-content {
   background-color: #f7941d;
   padding: 1.5rem;
-  color: #ffffff; /* <-- changed from black to white */
+  color: #ffffff;
   font-size: 1rem;
-  font-family: 'Proxima Nova', sans-serif;
   line-height: 1.5;
 }
 
+
 .welcome-content h2,
-.welcome-content h4,
+.welcome-content h4 {
+  color: #ffffff;
+  font-weight: bold;
+}
+
 .welcome-content p,
 .welcome-content li {
-  color: #ffffff; 
-  font-weight: bold;
+  color: #ffffff;
+  font-weight: normal;  
 }
 
 
