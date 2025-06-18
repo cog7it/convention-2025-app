@@ -133,7 +133,11 @@ const routes: Array<RouteRecordRaw> = [
         path: '/nominee/:nomineeId',
         name: 'nominee-detail',
         component: () => import('@/views/NomineeDetail.vue')
-      },      
+      },   
+      {
+        path: '/tabs/special-thanks',
+        component: () => import('@/views/SpecialThanks.vue')
+      },         
       {
         path: 'about',
         name: 'about',

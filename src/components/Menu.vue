@@ -181,6 +181,9 @@ import { bugOutline } from "ionicons/icons";
 import { briefcaseOutline } from 'ionicons/icons';
 import {locationOutline} from 'ionicons/icons'
 import { restaurantOutline } from 'ionicons/icons';
+import { starOutline } from 'ionicons/icons';
+import {heartOutline} from 'ionicons/icons';
+
 
 
 
@@ -327,7 +330,12 @@ export default defineComponent({
         {
           title: 'Business',
           url: '/tabs/business',
-          icon: briefcaseOutline // You can change this to any icon you like
+          icon: briefcaseOutline 
+        },
+        {
+          title: 'Special Thanks',
+          url: '/tabs/special-thanks',
+          icon: heartOutline 
         }
         /*
         {
