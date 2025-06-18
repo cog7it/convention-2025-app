@@ -78,7 +78,8 @@
             <li><strong>Prayer Counselor:</strong> Tim Hinds</li>
             <li><strong>Promotions:</strong> Jamin Teran</li>
             <li><strong>Publications:</strong> Keith Michalak, Jason Overman, Sherri Langton</li>
-            <li><strong>Registrar/Registration:</strong> Amber Michalak, Vona Ogren and Dawn Wayman</li>
+            <li><strong>Registrar:</strong> Amber Michalak</li>
+            <li><strong>Registration:</strong> Vona Ogren and Dawn Wayman</li>
             <li><strong>Security Coordinator:</strong> Tom Winchell</li>
             <li><strong>Technology:</strong> Chris Idemmili, Jody McCoy, Jeffrey Keim, Rick Frye and Jazmin Novak</li>
             <li><strong>Translation:</strong> Allo Sanchez</li>
