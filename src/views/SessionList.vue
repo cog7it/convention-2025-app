@@ -198,6 +198,22 @@
     padding-left: 10px;
     border-left: 2px solid var(--ion-color-navigation);
   }
+
+  ion-item-sliding[data-track="registration"] ion-label {
+    padding-left: 10px;
+    border-left: 2px solid var(--ion-color-gcblue);
+  }
+
+  ion-item-sliding[data-track="meal"] ion-label {
+    padding-left: 10px;
+    border-left: 2px solid var(--ion-color-gcorange);
+  }
+
+  ion-item-sliding[data-track="children"], ion-item-sliding[data-track="youngadults"], ion-item-sliding[data-track="youth"], ion-label {
+    padding-left: 10px;
+    border-left: 2px solid var(--ion-color-gcgreen);
+  }
+
 </style>
 
 <script setup lang="ts">

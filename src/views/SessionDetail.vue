@@ -71,7 +71,7 @@
 <style scoped>
 
 .session-track-registration {
-  color: var(--gc-color-blue);
+  color: var(--ion-color-gcblue);
 }
 
 
