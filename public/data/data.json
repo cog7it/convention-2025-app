@@ -1564,7 +1564,85 @@
       "link": "https://www.thanksgivingpoint.org/",
       "specialNote": "Part of Thanksgiving Point",
       "distance": "30 min drive"
-    }
+    },
+    {
+      "id": 12,
+      "name": "Red Butte Garden",
+      "description": "Beautiful botanical gardens with walking paths and seasonal blooms.",
+      "image": "/assets/img/local-attractions/red-butte.jpg",
+      "address": "300 Wakara Way, Salt Lake City, UT 84108",
+      "hours": "Mon–Sun: 9am–9pm",
+      "link": "https://redbuttegarden.org/",
+      "specialNote": "Outdoor venue",
+      "distance": "15 min drive"
+    },
+    {
+      "id": 13,
+      "name": "Clark Planetarium",
+      "description": "Interactive exhibits and an IMAX theater focused on space and science.",
+      "image": "/assets/img/local-attractions/clark-planetarium.jpg",
+      "address": "110 S 400 W, Salt Lake City, UT 84101",
+      "hours": "Mon–Sun: 10am–5pm",
+      "link": "https://slco.org/clark-planetarium/",
+      "specialNote": "",
+      "distance": "5 min drive"
+    },
+    {
+      "id": 14,
+      "name": "Discovery Gateway Children’s Museum",
+      "description": "Hands-on exhibits designed to inspire children’s creativity and learning.",
+      "image": "/assets/img/local-attractions/discovery-museum.jpg",
+      "address": "444 W 100 S, Salt Lake City, UT 84101",
+      "hours": "Mon–Sat: 10am–6pm, Sun: 12pm–6pm",
+      "link": "https://www.discoverygateway.org/",
+      "specialNote": "",
+      "distance": "5 min drive"
+    },
+    {
+      "id": 15,
+      "name": "Dreamscapes",
+      "description": "An immersive art experience featuring fantastical environments and installations.",
+      "image": "/assets/img/local-attractions/dreamscapes.jpg",
+      "address": "111 S Rio Grande St, Salt Lake City, UT 84101",
+      "hours": "Wed–Sun: 12pm–8pm",
+      "link": "https://dreamscapesslc.org/",
+      "specialNote": "Tickets required",
+      "distance": "5 min drive"
+    },
+    {
+      "id": 16,
+      "name": "Natural History Museum of Utah",
+      "description": "Discover Utah’s natural wonders through fascinating exhibits and collections.",
+      "image": "/assets/img/local-attractions/natural-history.jpg",
+      "address": "301 Wakara Way, Salt Lake City, UT 84108",
+      "hours": "Mon–Sun: 10am–5pm",
+      "link": "https://nhmu.utah.edu/",
+      "specialNote": "",
+      "distance": "15 min drive"
+    },
+    {
+      "id": 17,
+      "name": "Aerial Tram at Snowbird",
+      "description": "Ride the Aerial Tram to 11,000 feet for breathtaking views of the Wasatch Mountains.",
+      "image": "/assets/img/local-attractions/snowbird-tram.jpg",
+      "address": "9385 S Snowbird Center Dr, Snowbird, UT 84092",
+      "hours": "Seasonal, check website",
+      "link": "https://www.snowbird.com/summer/aerial-tram/",
+      "specialNote": "Weather dependent",
+      "distance": "45 min drive"
+    },
+    {
+      "id": 18,
+      "name": "Utah’s Hogle Zoo",
+      "description": "Home to animals from around the world, including elephants, lions, and more.",
+      "image": "/assets/img/local-attractions/hogle-zoo.jpg",
+      "address": "2600 Sunnyside Ave S, Salt Lake City, UT 84108",
+      "hours": "Mon–Sun: 9am–6pm",
+      "link": "https://www.hoglezoo.org/",
+      "specialNote": "",
+      "distance": "15 min drive"
+    }    
+
   ],
   
   
