@@ -24,6 +24,42 @@
         </ion-card-content>
       </ion-card>
 
+      <!-- Helpful Resources Card -->
+      <ion-card>
+        <ion-card-header>
+          <ion-card-title>Helpful Resources</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          <ion-list class="pdf-list">
+            <ion-item button lines="inset" @click="openPdf('Church_Manual-Eng-R2023.pdf')">
+              <ion-label>Church Manual (English)</ion-label>
+              <ion-icon :icon="chevronForwardOutline" slot="end"></ion-icon>
+            </ion-item>
+            <ion-item button lines="inset" @click="openPdf('Church_Manual-Sp-R2023.pdf')">
+              <ion-label>Church Manual (Spanish)</ion-label>
+              <ion-icon :icon="chevronForwardOutline" slot="end"></ion-icon>
+            </ion-item>
+            <ion-item button lines="inset" @click="openPdf('Membership Application-Eng 2021.pdf')">
+              <ion-label>Membership Application (English)</ion-label>
+              <ion-icon :icon="chevronForwardOutline" slot="end"></ion-icon>
+            </ion-item>
+            <ion-item button lines="inset" @click="openPdf('Membership Application-Sp 2021.pdf')">
+              <ion-label>Membership Application (Spanish)</ion-label>
+              <ion-icon :icon="chevronForwardOutline" slot="end"></ion-icon>
+            </ion-item>
+            <ion-item button lines="inset" @click="openPdf('Amendments-2025.pdf')">
+              <ion-label>Proposed Amendments</ion-label>
+              <ion-icon :icon="chevronForwardOutline" slot="end"></ion-icon>
+            </ion-item>
+            <ion-item button lines="inset" @click="openPdf('2025-Nominees.pdf')">
+              <ion-label>Board Nominees (More Info)</ion-label>
+              <ion-icon :icon="chevronForwardOutline" slot="end"></ion-icon>
+            </ion-item>
+          </ion-list>
+        </ion-card-content>
+      </ion-card>
+
+
       <!-- Board Nominees Card (Dynamic) -->
       <ion-card>
         <ion-card-header>
@@ -55,41 +91,6 @@
               </ion-col>
             </ion-row>
           </ion-grid>
-        </ion-card-content>
-      </ion-card>
-
-      <!-- Helpful Resources Card -->
-      <ion-card>
-        <ion-card-header>
-          <ion-card-title>Helpful Resources</ion-card-title>
-        </ion-card-header>
-        <ion-card-content>
-          <ion-list class="pdf-list">
-            <ion-item button @click="openPdf('Church_Manual-Eng-R2023.pdf')">
-              <ion-label>Church Manual (English)</ion-label>
-              <ion-icon :icon="chevronForwardOutline" slot="end"></ion-icon>
-            </ion-item>
-            <ion-item button @click="openPdf('Church_Manual-Sp-R2023.pdf')">
-              <ion-label>Church Manual (Spanish)</ion-label>
-              <ion-icon :icon="chevronForwardOutline" slot="end"></ion-icon>
-            </ion-item>
-            <ion-item button @click="openPdf('Membership Application-Eng 2021.pdf')">
-              <ion-label>Membership Application (English)</ion-label>
-              <ion-icon :icon="chevronForwardOutline" slot="end"></ion-icon>
-            </ion-item>
-            <ion-item button @click="openPdf('Membership Application-Sp 2021.pdf')">
-              <ion-label>Membership Application (Spanish)</ion-label>
-              <ion-icon :icon="chevronForwardOutline" slot="end"></ion-icon>
-            </ion-item>
-            <ion-item button @click="openPdf('Amendments-2025.pdf')">
-              <ion-label>Proposed Amendments</ion-label>
-              <ion-icon :icon="chevronForwardOutline" slot="end"></ion-icon>
-            </ion-item>
-            <ion-item button @click="openPdf('2025-Nominees.pdf')">
-              <ion-label>Board Nominees (More Info)</ion-label>
-              <ion-icon :icon="chevronForwardOutline" slot="end"></ion-icon>
-            </ion-item>
-          </ion-list>
         </ion-card-content>
       </ion-card>
     </ion-content>
@@ -164,9 +165,9 @@ const openPdf = (filename: string) => {
 .pdf-list ion-item {
   --background: #f4f4f4;
   --color: #000;
-  border-radius: 12px;
-  margin-bottom: 12px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  margin-bottom: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
 }
 
 .pdf-list ion-icon {
