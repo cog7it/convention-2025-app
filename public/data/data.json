@@ -42,7 +42,7 @@
               "id": "3"
             },
             {
-              "name": "YoungAdult Registration",
+              "name": "Young Adult Registration",
               "location": "Convention Center Room 355D/E/F (3rd Floor)",
               "description": "",
               "speakerNames": [""],
@@ -92,7 +92,7 @@
               "id": "8"
             },
             {
-              "name": "Late-Night Options - YoungAdult",
+              "name": "Late-Night Options - Young Adult",
               "location": "Convention Center Room 355D/E/F (3rd floor)",
               "description": "",
               "speakerNames": [""],
@@ -199,7 +199,7 @@
               "id": "18"
             },
             {
-              "name": "YoungAdult Program",
+              "name": "Young Adult Program",
               "location": "Convention Center Room 355D/E/F (3rd floor)",
               "description": "",
               "speakerNames": [""],
@@ -349,7 +349,7 @@
               "id": "33"
             },
             {
-              "name": "Late-Night Options - YoungAdult",
+              "name": "Late-Night Options - Young Adult",
               "location": "Convention Center Room 355D/E/F (3rd floor)",
               "description": "",
               "speakerNames": [""],
@@ -455,7 +455,7 @@
               "id": "43"
             },
             {
-              "name": "YoungAdult Program",
+              "name": "Young Adult Program",
               "location": "Convention Center Room 355D/E/F(3rd floor)",
               "description": "",
               "speakerNames": [""],
@@ -605,7 +605,7 @@
               "id": "58"
             },
             {
-              "name": "Late-Night Options - YoungAdult",
+              "name": "Late-Night Options - Young Adult",
               "location": "Convention Center Room 355D/E/F (3rd floor)",
               "description": "",
               "speakerNames": [""],
@@ -720,7 +720,7 @@
               "id": "69"
             },
             {
-              "name": "YoungAdult Program",
+              "name": "Young Adult Program",
               "location": "Convention Center Room 355D/E/F (3rd floor)",
               "description": "",
               "speakerNames": [""],
@@ -880,7 +880,7 @@
               "id": "85"
             },
             {
-              "name": "Late-Night Options - YoungAdult",
+              "name": "Late-Night Options - Young Adult",
               "location": "Convention Center Room 355D/E/F (3rd floor)",
               "description": "",
               "speakerNames": [""],
@@ -976,7 +976,7 @@
               "id": "94"
             },
             {
-              "name": "Special Meal: YoungAdult Gala",
+              "name": "Special Meal: Young Adult Gala",
               "location": "Convention Center Room 254A/B (2nd Floor)",
               "description": "",
               "speakerNames": [""],
@@ -1007,7 +1007,7 @@
               "id": "97"
             },
             {
-              "name": "Late-Night Options - YoungAdult",
+              "name": "Late-Night Options - Young Adult",
               "location": "Convention Center Room 355D/E/F (3rd floor)",
               "description": "",
               "speakerNames": [""],
@@ -1113,7 +1113,7 @@
             },
             {
               "name": "Late-Night Options",
-              "location": "YoungAdult - Convention Center Room 355D/E/F (3rd floor)",
+              "location": "Young Adult - Convention Center Room 355D/E/F (3rd floor)",
               "description": "",
               "speakerNames": [""],
               "timeStart": "9:30 pm",
