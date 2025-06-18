@@ -166,6 +166,14 @@ const router = createRouter({
   routes
 });
 
+router.beforeEach((to, from, next) => {
+  if (to.path !== to.path.toLowerCase()) {
+    next({ path: to.path.toLowerCase(), replace: true })
+  } else {
+    next()
+  }
+});
+
 export function configureRouter(app: App) {
   app.use(router);
   app.use(IonicVue, {
