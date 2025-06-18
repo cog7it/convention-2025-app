@@ -95,10 +95,10 @@ export default {
   openInMaps(provider) {
     if (!this.attraction?.address) return;
     const encoded = encodeURIComponent(this.attraction.address);
-    if (provider === 'google') {
-      window.open(`https://www.google.com/maps/search/?api=1&query=${encoded}`, '_blank');
-    } else {
+    if (provider === 'apple') {
       window.open(`http://maps.apple.com/?q=${encoded}`, '_blank');
+    } else {
+      window.open(`https://www.google.com/maps/search/?api=1&query=${encoded}`, '_blank');
     }
   }
 }
