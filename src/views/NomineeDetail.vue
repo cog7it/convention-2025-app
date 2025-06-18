@@ -12,11 +12,11 @@
       <!-- Header with dark background and centered avatar -->
       <div class="nominee-background">
         <img :src="nominee?.profilePic || '/assets/img/placeholder.png'" :alt="nominee?.name" />
-        <h2>{{ nominee?.name }}</h2>
+        <h2>{{ nominee?.name || 'Loading...' }}</h2>
       </div>
 
-      <!-- Main Content -->
-      <div class="ion-padding info">
+      <!-- Main Content in a card -->
+      <ion-card class="nominee-info-card ion-padding">
         <p><strong>Resides:</strong> {{ nominee?.reside }}</p>
         <p><strong>Wife:</strong> {{ nominee?.wife }}</p>
         <p><strong>Children:</strong> {{ nominee?.children }}</p>
@@ -24,7 +24,7 @@
         <p><strong>Education:</strong> {{ nominee?.education }}</p>
         <p><strong>Work & Leadership:</strong> {{ nominee?.workLeadership }}</p>
         <p><strong>Ministry Highlights:</strong> {{ nominee?.ministryHighlights }}</p>
-      </div>
+      </ion-card>
     </ion-content>
   </ion-page>
 </template>
@@ -36,19 +36,31 @@ import {
   IonHeader,
   IonToolbar,
   IonButtons,
-  IonBackButton
+  IonBackButton,
+  IonCard
 } from '@ionic/vue';
 import { useRoute } from 'vue-router';
 import { useStore } from '@/store';
-import { onMounted, ref } from 'vue';
+import { ref, onBeforeMount, watch } from 'vue';
+import { Nominee } from '@/store/modules/nominees';
 
 const store = useStore();
 const route = useRoute();
-const nominee = ref();
+const nominee = ref<Nominee | null>(null);
 
-onMounted(() => {
+onBeforeMount(async () => {
+  if (store.state.nominees.nominees.length === 0) {
+    await store.dispatch('loadNomineeData');
+  }
+
   const id = Number(route.params.nomineeId);
   nominee.value = store.getters['getNomineeById'](id);
+});
+
+watch(() => route.params.nomineeId, (newId) => {
+  if (newId) {
+    nominee.value = store.getters['getNomineeById'](Number(newId));
+  }
 });
 </script>
 
@@ -77,11 +89,13 @@ onMounted(() => {
   color: white;
 }
 
-.info {
-  text-align: left;
+.nominee-info-card {
+  margin: 16px;
+  border-radius: 12px;
 }
 
-.info p {
+.nominee-info-card p {
   margin-bottom: 0.75rem;
+  line-height: 1.5;
 }
 </style>
