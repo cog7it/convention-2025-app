@@ -7,28 +7,54 @@
         </ion-buttons>
         <ion-title>Map</ion-title>
       </ion-toolbar>
+
+      <ion-toolbar>
+        <ion-segment :value="segment" @ionChange="updateSegment">
+          <ion-segment-button value="convention">
+            Convention Center
+          </ion-segment-button>
+          <ion-segment-button value="map">
+            Map
+          </ion-segment-button>
+        </ion-segment>
+      </ion-toolbar>
     </ion-header>
 
     <ion-content>
-      <div ref="mapCanvas" class="map-canvas"></div>
+      <!-- Convention Center Tab -->
+      <div v-if="segment === 'convention'" style="padding: 1rem;">
+        <ion-card>
+          <ion-card-content style="text-align: center;">
+            <img
+              src="/assets/img/local-attractions/venue-map.jpg"
+              alt="Convention Center Map"
+              style="width: 100%; max-width: 800px; height: auto; border-radius: 8px;"
+            />
+          </ion-card-content>
+
+          <ion-card-content style="text-align: center; padding-top: 0;">
+            <ion-button
+              color="primary"
+              size="default"
+              expand="block"
+              download
+              href="/assets/img/local-attractions/venue-map.jpg"
+              target="_blank"
+              rel="noopener noreferrer"
+              style="margin-top: 0.5rem; margin-bottom: 0.5rem;"
+            >
+              Download Image
+            </ion-button>
+          </ion-card-content>
+        </ion-card>
+      </div>
+
+
+      <!-- Map Tab -->
+      <div v-if="segment === 'map'" ref="mapCanvas" class="map-canvas"></div>
     </ion-content>
   </ion-page>
 </template>
-
-<style scoped>
-.map-canvas {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  transition: opacity 150ms ease-in;
-  background-color: transparent;
-  opacity: 0;
-}
-
-.show-map {
-  opacity: 1;
-}
-</style>
 
 <script lang="ts">
 import { defineComponent, computed, onMounted, onActivated, ref, watch } from 'vue';
@@ -41,6 +67,11 @@ import {
   IonMenuButton,
   IonTitle,
   IonContent,
+  IonSegment,
+  IonSegmentButton,
+  IonCard,
+  IonCardContent,
+  IonButton,
 } from "@ionic/vue";
 import L from 'leaflet';
 import { Location } from '@/store/modules/locations';
@@ -65,12 +96,18 @@ export default defineComponent({
     IonMenuButton,
     IonTitle,
     IonContent,
+    IonSegment,
+    IonSegmentButton,
+    IonCard,
+    IonCardContent,
+    IonButton,
   },
   setup() {
     const store = useStore();
     const mapCanvas = ref<HTMLElement | null>(null);
     const map = ref<L.Map | null>(null);
     const markers = ref<L.Marker[]>([]);
+    const segment = ref('convention'); // default tab
 
     const locations = computed(() => store.state.locations.locations);
     const mapCenter = computed(() => {
@@ -130,30 +167,62 @@ export default defineComponent({
       }, 100);
     };
 
+    const updateSegment = (e: any) => {
+      segment.value = e.detail.value;
+      if (segment.value === 'map') {
+        setTimeout(() => {
+          initializeMap();
+        }, 100);
+      }
+    };
+
     onMounted(async () => {
       if (store.state.locations.locations.length === 0) {
         await store.dispatch('locations/loadLocations');
       }
-      initializeMap();
-    });
-
-    onActivated(() => {
-      if (map.value) {
-        map.value.invalidateSize();
-      } else if (store.state.locations.locations.length > 0) {
+      if (segment.value === 'map') {
         initializeMap();
       }
     });
 
+    onActivated(() => {
+      if (segment.value === 'map') {
+        if (map.value) {
+          map.value.invalidateSize();
+        } else if (store.state.locations.locations.length > 0) {
+          initializeMap();
+        }
+      }
+    });
+
     watch(() => locations.value, () => {
-      if (map.value) {
+      if (segment.value === 'map' && map.value) {
         initializeMap();
       }
     });
 
     return {
+      segment,
+      updateSegment,
       mapCanvas
     };
   }
 });
 </script>
+
+<style scoped>
+.map-canvas {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  transition: opacity 150ms ease-in;
+  background-color: transparent;
+  opacity: 0;
+}
+
+.show-map {
+  opacity: 1;
+}
+</style>
