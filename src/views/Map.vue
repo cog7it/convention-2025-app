@@ -47,7 +47,7 @@
             </ion-button>
           </ion-card-content>
         </ion-card>
-      </div>
+      </div> 
 
 
       <!-- Map Tab -->
