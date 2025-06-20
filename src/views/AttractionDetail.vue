@@ -26,13 +26,30 @@
 
 
         <ion-list>
-          <ion-item v-if="attraction?.hours">
-            <ion-label><strong>Hours:</strong> {{ attraction.hours }}</ion-label>
-          </ion-item>
+            <ion-item v-if="attraction?.hours">
+            <ion-label>
+                <strong>Hours:</strong>
+                <div v-html="attraction.hours.replace(/\n/g, '<br>')"></div>
+            </ion-label>
+            </ion-item>
+
+
+            <ion-item v-if="attraction?.holidayHours">
+            <ion-label>
+                <strong>Holiday Hours:</strong>
+                <div v-html="attraction.holidayHours.replace(/\\n/g, '<br>')"></div>
+            </ion-label>
+            </ion-item>
+
+
+
 
           <ion-item v-if="attraction?.specialNote">
-            <ion-label><strong>Note:</strong> {{ attraction.specialNote }}</ion-label>
-          </ion-item>
+            <ion-label>
+                <strong>Note:</strong>
+                <div v-html="attraction.specialNote.replace(/\n/g, '<br>')"></div>
+            </ion-label>
+            </ion-item>
 
           <ion-item v-if="attraction?.link">
             <ion-label><strong>Website:</strong> <a :href="attraction.link" target="_blank">Visit Website</a></ion-label>

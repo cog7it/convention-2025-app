@@ -325,6 +325,8 @@
               "speakerNames": ["Kurt Lang (in English) - “Grounded in Jesus”"],
               "timeStart": "7:00 pm",
               "timeEnd": "9:00 pm",
+              "title": "Sermon Title: Grounded In Jesus.",
+              "aboutSermon": "Jesus, the Creator and King of the universe, wants to be the Lord of your heart. He invites us into a relationship, that we might be the recipients, yet also the conduits, of His Power and Presence. Are you grounded in Him?",
               "tracks": ["Services"],
               "id": "31"
             },
@@ -1450,130 +1452,142 @@
       "address": "35 N West Temple St, Salt Lake City, UT 84150",
       "lat": 40.770438,
       "lng": -111.894833,
-      "hours": "Mon-Sat: 9am–5pm",
+      "hours": "Monday: 9:00 a.m.–6:00 p.m.\nTuesday–Thursday: 9:00 a.m.–8:00 p.m.\nFriday–Saturday: 9:00 a.m.–6:00 p.m.\nSunday: Closed",
+      "holidayHours": "Friday, July 4, 2025: Closed",
       "link": "https://www.familysearch.org/en/library/",
       "specialNote": "",
-      "distance": "2 min walk"
+      "distance": "6 min walk"
     },
     {
       "id": 2,
-      "name": "Great Salt Lake",
+      "name": "Great Salt Lake State Park",
       "description": "Visit the largest saltwater lake in the Western Hemisphere, known for its unique ecosystem and scenic views.",
       "image": "/assets/img/local-attractions/Great_Salt_Lake_Beach_resized.jpg",
-      "address": "Antelope Island Rd, Syracuse, UT 84075",
-      "hours": "Open daily",
-      "link": "https://stateparks.utah.gov/parks/antelope-island/",
-      "specialNote": "Mosquitoes present in summer",
-      "distance": "50 min drive"
+      "address": "13312 West 1075 South Magna, UT 84044",
+      "hours": "Visitor Center Hours:\nWeekdays: 11:00 AM – 7:00 PM\nWeekends: 9:00 AM – 8:00 PM",
+      "holidayHours": "",
+      "link": "https://stateparks.utah.gov/parks/great-salt-lake/",
+      "specialNote": "Entrance Fees: $10 per vehicle",
+      "distance": "22 min drive"
     },
     {
       "id": 3,
-      "name": "Park City",
+      "name": "Park City Main Street",
       "description": "A charming mountain town offering shopping, dining, and outdoor activities, including the Utah Olympic Park.",
       "image": "/assets/img/local-attractions/ParkCity.png",
-      "address": "Park City, UT 84060",
+      "address": "400 Main St, Park City, UT 84060",
       "hours": "Open daily",
+      "holidayHours": "Holiday hours may differ",
       "link": "https://www.parkcity.org/",
       "specialNote": "",
-      "distance": "40 min drive"
+      "distance": "42 min drive"
     },
     {
       "id": 4,
       "name": "Antelope Island State Park",
       "description": "Home to free-ranging bison, pronghorn antelope, and other wildlife, with opportunities for hiking and photography.",
       "image": "/assets/img/local-attractions/Arches.jpg",
-      "address": "4528 W 1700 S, Syracuse, UT 84075",
-      "hours": "6am–10pm daily",
+      "address": "4528 West 1700 South Syracuse, Utah 84075",
+      "hours": "Open daily: 6AM – 10PM",
+      "holidayHours": "",
       "link": "https://stateparks.utah.gov/parks/antelope-island/",
-      "specialNote": "Entrance fee required",
-      "distance": "55 min drive"
+      "specialNote": "Entrance fee: $15 per vehicle up to 8 people.\nSenior entrance fee (65 years of age): $10 per vehicle up to 8 people",
+      "distance": "31 min drive"
     },
     {
       "id": 5,
       "name": "Thanksgiving Point",
       "description": "A multi-venue complex featuring gardens, museums, and family-friendly activities in Lehi, Utah.",
       "image": "/assets/img/local-attractions/TP.jpg",
-      "address": "3003 N Thanksgiving Way, Lehi, UT 84043",
-      "hours": "Mon–Sat: 10am–8pm",
+      "address": "Thanksgiving Point, 3003 Thanksgiving Wy, Lehi, UT 84043",
+      "hours": "Mon–Sat: 10AM - 8PM",
+      "holidayHours": "Holiday hours may differ",
       "link": "https://www.thanksgivingpoint.org/",
       "specialNote": "",
-      "distance": "30 min drive"
+      "distance": "38 min drive"
     },
     {
       "id": 6,
       "name": "Ashton Gardens",
       "description": "Fifty acres of themed gardens, including the Light of the World Garden with life-size sculptures.",
       "image": "/assets/img/local-attractions/Ashton.jpg",
-      "address": "3900 N Garden Dr, Lehi, UT 84043",
-      "hours": "Mon–Sat: 9am–8pm",
+      "address": "Ashton Gardens at Thanksgiving Point, 3900 Garden Dr, Lehi, UT 84043",
+      "hours": "Mon–Sat: 9AM – 9PM",
+      "holidayHours": "Early Closure: July 4, 5 PM",
       "link": "https://www.thanksgivingpoint.org/venues/ashton-gardens/",
       "specialNote": "Part of Thanksgiving Point",
-      "distance": "30 min drive"
+      "distance": "33 min drive"
     },
     {
       "id": 7,
       "name": "Butterfly Biosphere",
       "description": "Experience thousands of butterflies and other insects in a tropical conservatory setting.",
       "image": "/assets/img/local-attractions/butterfly.jpg",
-      "address": "3003 N Thanksgiving Way, Lehi, UT 84043",
-      "hours": "Mon–Sat: 10am–8pm",
+      "address": "Butterfly Biosphere, 3003 Thanksgiving Wy, Lehi, UT 84043",
+      "hours": "Mon–Sat: 9AM – 8PM",
+      "holidayHours": "Early Closure: July 4, 5 PM",
       "link": "https://www.thanksgivingpoint.org/venues/butterfly-biosphere/",
       "specialNote": "Part of Thanksgiving Point",
-      "distance": "30 min drive"
+      "distance": "28 min drive"
     },
     {
       "id": 8,
       "name": "Curiosity Farms",
-      "description": "An interactive farm exhibit showcasing modern agriculture and animal encounters.",
+      "description": "Explore science and tech at Curiosity Farms, a working farm showcasing modern agriculture in Silicon Slopes.",
       "image": "/assets/img/local-attractions/Curiosity.jpg",
-      "address": "3003 N Thanksgiving Way, Lehi, UT 84043",
-      "hours": "Mon–Sat: 10am–8pm",
+      "address": "Curiosity Farms, 2502 W Wildflower Ln, Lehi, UT 84043",
+      "hours": "Mon–Sat: 9AM – 8PM",
+      "holidayHours": "Early Closure: July 4, 5 PM",
       "link": "https://www.thanksgivingpoint.org/venues/curiosity-farms/",
       "specialNote": "Part of Thanksgiving Point",
-      "distance": "30 min drive"
+      "distance": "33 min drive"
     },
     {
       "id": 9,
       "name": "Museum of Ancient Life",
       "description": "One of the world’s largest dinosaur museums, featuring numerous fossil specimens and exhibits.",
       "image": "/assets/img/local-attractions/Ancient.jpg",
-      "address": "2929 W Grand Ave, Lehi, UT 84043",
-      "hours": "Mon–Sat: 10am–8pm",
+      "address": "2929 N Thanksgiving Way Lehi, UT 84048",
+      "hours": "Mon–Sat: 9AM – 8PM",
+      "holidayHours": "Early Closure: July 4, 5 PM",
       "link": "https://www.thanksgivingpoint.org/venues/museum-of-ancient-life/",
       "specialNote": "Part of Thanksgiving Point",
-      "distance": "30 min drive"
+      "distance": "27 min drive"
     },
     {
       "id": 10,
       "name": "Museum of Natural Curiosity",
       "description": "A hands-on children’s museum with interactive exhibits promoting exploration and learning.",
       "image": "/assets/img/local-attractions/MNC.jpg",
-      "address": "3605 Garden Dr, Lehi, UT 84043",
-      "hours": "Mon–Sat: 10am–8pm",
-      "link": "https://www.thanksgivingpoint.org/venues/museum-of-natural-curiosity/",
+      "address": "Museum of Natural Curiosity at Thanksgiving Point, 3605 Garden Dr, Lehi, UT 84043",
+      "hours": "Mon–Sat: 9AM – 8PM",
+      "holidayHours": "Early Closure: July 4, 5 PM",
+      "link": "https://thanksgivingpoint.org/attractions-tickets/museum-of-natural-curiosity/",
       "specialNote": "Part of Thanksgiving Point",
-      "distance": "30 min drive"
+      "distance": "29 min drive"
     },
     {
       "id": 11,
       "name": "The Carousel",
       "description": "Enjoy a nostalgic ride on a beautifully crafted, hand-painted carousel.",
       "image": "/assets/img/local-attractions/Carousel.jpg",
-      "address": "3003 N Thanksgiving Way, Lehi, UT 84043",
-      "hours": "Varies by season",
-      "link": "https://www.thanksgivingpoint.org/",
+      "address": "The Carousel at Thanksgiving Point, 3653 Garden Dr, Lehi, UT 84043",
+      "hours": "Mon–Sat: 9AM – 8PM",
+      "holidayHours": "Early Closure: July 4, 5 PM",
+      "link": "https://thanksgivingpoint.org/attractions-tickets/the-carousel-at-thanksgiving-point/",
       "specialNote": "Part of Thanksgiving Point",
-      "distance": "30 min drive"
+      "distance": "28 min drive"
     },
     {
       "id": 12,
-      "name": "Red Butte Garden",
+      "name": "Red Butte Garden and Arboretum",
       "description": "Beautiful botanical gardens with walking paths and seasonal blooms.",
       "image": "/assets/img/local-attractions/red-butte.jpg",
-      "address": "300 Wakara Way, Salt Lake City, UT 84108",
-      "hours": "Mon–Sun: 9am–9pm",
+      "address": "Red Butte Garden and Arboretum, 300 Wakara Way, Salt Lake City, UT 84108",
+      "hours": "Mon–Sun: 9AM – 9PM\nThursday hours are 7AM - 9PM, May-August",
+      "holidayHours": "Holiday hours may differ",
       "link": "https://redbuttegarden.org/",
-      "specialNote": "Outdoor venue",
+      "specialNote": "",
       "distance": "15 min drive"
     },
     {
@@ -1581,67 +1595,61 @@
       "name": "Clark Planetarium",
       "description": "Interactive exhibits and an IMAX theater focused on space and science.",
       "image": "/assets/img/local-attractions/clark-planetarium.jpg",
-      "address": "110 S 400 W, Salt Lake City, UT 84101",
-      "hours": "Mon–Sun: 10am–5pm",
+      "address": "Clark Planetarium, 110 400 W, Salt Lake City, UT 84101",
+      "hours": "Sunday - Thursday 9:30 AM to 8 PM\nFriday - Saturday 9:30 a.m. to 11 p.m.",
+      "holidayHours": "July 4 - 9:30AM - 6:00PM",
       "link": "https://slco.org/clark-planetarium/",
       "specialNote": "",
-      "distance": "5 min drive"
+      "distance": "7 minute walk or 2 minute drive"
     },
     {
       "id": 14,
       "name": "Discovery Gateway Children’s Museum",
       "description": "Hands-on exhibits designed to inspire children’s creativity and learning.",
       "image": "/assets/img/local-attractions/discovery-museum.jpg",
-      "address": "444 W 100 S, Salt Lake City, UT 84101",
-      "hours": "Mon–Sat: 10am–6pm, Sun: 12pm–6pm",
+      "address": "Discovery Gateway Children's Museum, 444 W 100 S, Salt Lake City, UT 84101",
+      "hours": "Open 6 days a week, CLOSED Tuesdays\nWednesday-Monday: 10 AM - 6 PM",
+      "holidayHours": "Holiday hours may differ",
       "link": "https://www.discoverygateway.org/",
       "specialNote": "",
-      "distance": "5 min drive"
+      "distance": "8 minute walk or 3 minute drive"
     },
     {
       "id": 15,
       "name": "Dreamscapes",
       "description": "An immersive art experience featuring fantastical environments and installations.",
       "image": "/assets/img/local-attractions/dreamscapes.jpg",
-      "address": "111 S Rio Grande St, Salt Lake City, UT 84101",
-      "hours": "Wed–Sun: 12pm–8pm",
+      "address": "Dreamscapes, 16 N Rio Grande St, Salt Lake City, UT 84101",
+      "hours": "Mon: Closed\nWed–Sun: 12PM – 9PM",
+      "holidayHours": "",
       "link": "https://dreamscapesslc.org/",
       "specialNote": "Tickets required",
-      "distance": "5 min drive"
+      "distance": "4 min drive"
     },
     {
       "id": 16,
       "name": "Natural History Museum of Utah",
       "description": "Discover Utah’s natural wonders through fascinating exhibits and collections.",
       "image": "/assets/img/local-attractions/natural-history.jpg",
-      "address": "301 Wakara Way, Salt Lake City, UT 84108",
-      "hours": "Mon–Sun: 10am–5pm",
+      "address": "Natural History Museum of Utah, 301 Wakara Way, Salt Lake City, UT 84108",
+      "hours": "Mon–Sun: 10AM – 5PM, remains open until 9 PM on Wednesdays",
+      "holidayHours": "",
       "link": "https://nhmu.utah.edu/",
-      "specialNote": "",
+      "specialNote": "Tickets required",
       "distance": "15 min drive"
     },
     {
       "id": 17,
-      "name": "Aerial Tram at Snowbird",
-      "description": "Ride the Aerial Tram to 11,000 feet for breathtaking views of the Wasatch Mountains.",
-      "image": "/assets/img/local-attractions/snowbird-tram.jpg",
-      "address": "9385 S Snowbird Center Dr, Snowbird, UT 84092",
-      "hours": "Seasonal, check website",
-      "link": "https://www.snowbird.com/summer/aerial-tram/",
-      "specialNote": "Weather dependent",
-      "distance": "45 min drive"
-    },
-    {
-      "id": 18,
       "name": "Utah’s Hogle Zoo",
       "description": "Home to animals from around the world, including elephants, lions, and more.",
       "image": "/assets/img/local-attractions/hogle-zoo.jpg",
-      "address": "2600 Sunnyside Ave S, Salt Lake City, UT 84108",
-      "hours": "Mon–Sun: 9am–6pm",
+      "address": "Utah's Hogle Zoo, 2600 Sunnyside Ave S, Salt Lake City, UT 84108",
+      "hours": "Mon–Sun: 9AM – 6PM",
+      "holidayHours": "",
       "link": "https://www.hoglezoo.org/",
-      "specialNote": "",
+      "specialNote": "Tickets required",
       "distance": "15 min drive"
-    }    
+    }  
 
   ],
   
