@@ -10,6 +10,8 @@ export interface Session {
   description: string;
   speakerIds: number[];
   speakerNames: string[]; // Adds speaker names
+  title: string[];
+  aboutSermon: string[],
   hostedBy?: string; // Adds hosted names 
   tracks: string[];
   selectedTrackFilters: string[];
@@ -116,6 +118,8 @@ const sessionStore: Module<SessionState, {}> = {
               description: session.description || '',
               speakerNames: session.speakerNames || [], // displays speaker name 
               speakerIds: (session.speakerNames || []).map((name: string) => speakerNameToId.get(name)),
+              title: session.title,
+              aboutSermon: session.aboutSermon,
               hostedBy: session.hostedBy || '', // display hosted name
               tracks: session.tracks,
               selectedTrackFilters: [],

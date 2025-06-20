@@ -21,18 +21,28 @@
     <ion-content>
       <div class="ion-padding" v-if="session">
         <h1>{{ session.name }}</h1>
+
+        <h2 v-if="session.title">{{ session.title }}</h2>
+
         <span
           v-for="track in session.tracks"
           :key="track"
           :class="'session-track-' + track.toLowerCase()"
-        >{{ track }}</span>
+        >
+          {{ track }}
+        </span>
+
+        <p v-if="session.aboutSermon">{{ session.aboutSermon }}</p>
+
         <p>{{ session.description }}</p>
+
         <ion-text color="medium">
           {{ session.timeStart }} &ndash; {{ session.timeEnd }}
           <br />
           {{ session.location }}
         </ion-text>
       </div>
+
 
       <ion-list>
         <!--
