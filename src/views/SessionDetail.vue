@@ -79,6 +79,13 @@
 </template>
 
 <style scoped>
+
+.session-track-registration {
+  color: var(--ion-color-gcblue);
+}
+
+
+
 .session-track-ionic {
   color: var(--ion-color-primary);
 }

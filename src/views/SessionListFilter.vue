@@ -105,7 +105,13 @@ import {
   construct,
   restaurant,
   documents,
-  compass
+  compass,
+  balloonOutline,
+  schoolOutline,
+  headsetOutline,
+  businessOutline,
+  pencilOutline,
+  peopleOutline
 } from 'ionicons/icons';
 import store from '@/store';
 
@@ -121,7 +127,15 @@ const iconMap: { [key: string]: string } = {
   'Workshop': construct,
   'Food': restaurant,
   'Documentation': documents,
-  'Navigation': compass
+  'Navigation': compass,
+  'Children': balloonOutline,
+  'Youth': headsetOutline,
+  'Young Adult': schoolOutline,
+  'Business': businessOutline,
+  'Registration': pencilOutline,
+  'Event': peopleOutline,
+  'Meal': restaurant,
+  
 };
 
 const props = defineProps({
