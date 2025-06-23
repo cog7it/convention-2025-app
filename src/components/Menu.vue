@@ -155,15 +155,18 @@
           </ion-item>
       </ion-list>
       <ion-list lines="none">
+        <!-- Hide Tutorial
         <ion-list-header>
           Tutorial
         </ion-list-header>
+        
         <ion-menu-toggle :auto-hide="false">
           <ion-item button :detail="false" @click="openTutorial()">
             <ion-icon slot="start" :icon="ionIcons.hammer"></ion-icon>
             <ion-label>Show Tutorial</ion-label>
           </ion-item>
         </ion-menu-toggle>
+        -->
       </ion-list>
     </ion-content>
   </ion-menu>
@@ -321,11 +324,12 @@ export default defineComponent({
           url: '/tabs/local-attractions',
           icon: mapOutline// or choose a different Ionicon
         },
+        /*
         {
           title: 'Places to Eat',
           url: '/tabs/places-to-eat',
           icon: restaurantOutline
-        },
+        },*/
 
         {
           title: 'Business',
