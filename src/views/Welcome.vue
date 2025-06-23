@@ -163,11 +163,13 @@ onMounted(() => {
 /* Welcome Page Styles */
 .welcome-page p {
   margin-bottom: 1rem;
+  font-size: inherit;  /* Inherit font size from the parent */
 }
 
 .welcome-page ul {
   list-style-type: disc;
   padding-left: 1.5rem;
+  font-size: inherit;  
 }
 
 .welcome-page li {
