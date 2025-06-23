@@ -20,30 +20,30 @@
 
     <ion-content>
       <div class="ion-padding" v-if="session">
+        <!-- Session Name -->
         <h1>{{ session.name }}</h1>
 
-        <h2 v-if="session.title">{{ session.title }}</h2>
-
-        <span
-          v-for="track in session.tracks"
-          :key="track"
-          :class="'session-track-' + track.toLowerCase()"
-        >
-          {{ track }}
-        </span>
-
-        <p v-if="session.aboutSermon">{{ session.aboutSermon }}</p>
-
-        <p>{{ session.description }}</p>
-
+        <!-- Time & Location -->
         <ion-text color="medium">
           {{ session.timeStart }} &ndash; {{ session.timeEnd }}
           <br />
           {{ session.location }}
         </ion-text>
+
+        <!-- Title -->
+        <p v-if="session.title"><strong>Sermon Title:</strong> {{ session.title }}</p>
+
+        <!-- Speaker Names -->
+        <p v-if="session.speakerNames && session.speakerNames.length">
+          <strong>Speakers:</strong> {{ session.speakerNames.join(', ') }}
+        </p>
+
+        <!-- About Sermon -->
+        <p v-if="session.aboutSermon"><strong>About Sermon:</strong> {{ session.aboutSermon }}</p>
       </div>
 
 
+    
       <ion-list>
         <!--
         <ion-item button>
