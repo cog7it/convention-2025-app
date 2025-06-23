@@ -3,7 +3,7 @@
     <ion-header>
       <ion-toolbar>
         <ion-buttons slot="start">
-          <ion-back-button defaultHref="/tabs/welcome"></ion-back-button>
+          <ion-menu-button class="menu-button"></ion-menu-button>
         </ion-buttons>
         <ion-title>Special Thanks</ion-title>
       </ion-toolbar>
@@ -113,18 +113,23 @@ import {
 </script>
 
 <style scoped>
+
 .special-thanks-page p {
   margin-bottom: 1rem;
+  font-size: inherit; /* Inherit the font size from the parent*/
 }
 
 .special-thanks-page ul {
   list-style-type: disc;
   padding-left: 1.5rem;
+  font-size: inherit; 
 }
 
 .special-thanks-page li {
   margin-bottom: 0.5rem;
 }
+
+
 
 
 </style>
