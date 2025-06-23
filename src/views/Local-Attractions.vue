@@ -2,6 +2,10 @@
   <ion-page>
     <ion-header>
       <ion-toolbar>
+        <!-- Add the ion-menu-button -->
+        <ion-buttons slot="start">
+          <ion-menu-button class="menu-button"></ion-menu-button>
+        </ion-buttons>
         <ion-title>Local Attractions</ion-title>
       </ion-toolbar>
     </ion-header>

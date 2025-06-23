@@ -3,7 +3,8 @@
     <ion-header>
       <ion-toolbar>
         <ion-buttons slot="start">
-          <ion-back-button defaultHref="/tabs/welcome"></ion-back-button>
+          <!-- Replace back button with menu button (hamburger icon) -->
+          <ion-menu-button class="menu-button"></ion-menu-button>
         </ion-buttons>
         <ion-title>Business</ion-title>
       </ion-toolbar>

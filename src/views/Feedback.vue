@@ -3,7 +3,7 @@
     <ion-header>
       <ion-toolbar>
         <ion-buttons slot="start">
-          <ion-back-button defaultHref="/tabs/welcome"></ion-back-button>
+          <ion-menu-button class="menu-button"></ion-menu-button>
         </ion-buttons>
         <ion-title>Feedback</ion-title>
       </ion-toolbar>
