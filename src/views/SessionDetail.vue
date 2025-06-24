@@ -70,9 +70,13 @@
           ></ion-icon>
         </ion-item>
         -->
-        <ion-item button>
+        <ion-item
+          button
+          :href="`mailto:conference@cog7.org?subject=Feedback on Session: ${encodeURIComponent(session?.name || '')}`"
+        >
           <ion-label color="primary">Leave Feedback</ion-label>
         </ion-item>
+
       </ion-list>
     </ion-content>
   </ion-page>
@@ -227,9 +231,11 @@ const addToCalendar = () => {
   const title = encodeURIComponent(session.value.name);
   const location = encodeURIComponent(session.value.location || '');
   const description = encodeURIComponent(session.value.description || '');
-  const start = new Date(); // You can replace this with session start time
-  const end = new Date();
-  end.setHours(end.getHours() + 1); // 1-hour event duration
+
+  const dateString = `${session.value.groupTime}, 2025 ${session.value.timeStart}`;
+  const start = new Date(dateString);
+  const end = new Date(start);
+  end.setHours(end.getHours() + 1);
 
   const startTime = start.toISOString().replace(/-|:|\.\d\d\d/g, '');
   const endTime = end.toISOString().replace(/-|:|\.\d\d\d/g, '');
@@ -238,6 +244,7 @@ const addToCalendar = () => {
 
   window.open(url, '_blank');
 };
+
 /* Possibly allows you to use all calendars. Test later
 const addToCalendar = () => {
   if (!session.value) return;

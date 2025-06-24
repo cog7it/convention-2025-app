@@ -109,7 +109,7 @@
       <ion-list-header v-show="allGroupedComputed?.length === 0">
         No Sessions Found
       </ion-list-header>
-
+<!--
       <ion-fab slot="fixed" vertical="bottom" horizontal="end" ref="fab">
         <ion-fab-button>
           <ion-icon :icon="shareSocial"></ion-icon>
@@ -129,6 +129,7 @@
           </ion-fab-button>
         </ion-fab-list>
       </ion-fab>
+-->
     </ion-content>
   </ion-page>
 </template>

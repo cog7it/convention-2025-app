@@ -1134,6 +1134,7 @@
   ],
 
   "speakers": [
+    
     {
       "name": "Kurt Lang",
       "profilePic": "/assets/img/speakers/KurtThumbnail.jpg",
@@ -1239,7 +1240,7 @@
       "lat": 40.76694,
       "lng": -111.89500,
       "center": true,
-      "address": "100 S W Temple St, Salt Lake City, UT 84101"
+      "address": "Salt Palace Convention Center, 100 S W Temple St, Salt Lake City, UT 84101"
       
     },
     {
