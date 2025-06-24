@@ -22,32 +22,21 @@
 
     <ion-content>
       <!-- Convention Center Tab -->
-      <div v-if="segment === 'convention'" style="padding: 1rem;">
-        <ion-card>
-          <ion-card-content style="text-align: center;">
-            <img
-              src="/assets/img/local-attractions/venue-map.jpg"
-              alt="Convention Center Map"
-              style="width: 100%; max-width: 800px; height: auto; border-radius: 8px;"
-            />
-          </ion-card-content>
+        <div v-if="segment === 'convention'" style="padding: 1rem; text-align: center;">
+          <img
+            src="/assets/img/local-attractions/venue-map.jpg"
+            alt="Convention Center Map"
+            style="width: 100%; max-width: 800px; height: auto; border-radius: 8px; margin-bottom: 0.5rem;"
+          />
 
-          <ion-card-content style="text-align: center; padding-top: 0;">
-            <ion-button
-              color="primary"
-              size="default"
-              expand="block"
-              download
-              href="/assets/img/local-attractions/venue-map.jpg"
-              target="_blank"
-              rel="noopener noreferrer"
-              style="margin-top: 0.5rem; margin-bottom: 0.5rem;"
-            >
-              Download Image
-            </ion-button>
-          </ion-card-content>
-        </ion-card>
-      </div>  
+          <p style="color: #666; font-size: 0.9rem;">
+            Tap and hold the image to save to your Photos.
+          </p>
+        </div>
+
+
+
+
 
 
       <!-- Map Tab -->
@@ -225,4 +214,14 @@ export default defineComponent({
 .show-map {
   opacity: 1;
 }
+
+.custom-download-button {
+  --background: #FFAF23;  /* Modern soft blue */
+  --background-hover: #303f9f;
+  --color: white;
+  --border-radius: 8px;
+  margin: 0 auto;
+  max-width: 250px;
+}
+
 </style>
