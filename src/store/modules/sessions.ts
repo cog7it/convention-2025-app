@@ -40,7 +40,7 @@ const defaultState: SessionState = {
   searchText: '',
   trackFilters: [],
   sessions: [],
-  favoriteSessions: [],
+  favoriteSessions: JSON.parse(localStorage.getItem('favoriteSessions') || '[]'),
   tracks: [],
   selectedTrackFilters: [],
   isFirstLoad: true,
@@ -76,13 +76,16 @@ const sessionStore: Module<SessionState, {}> = {
     addFavorite(state, sessionId: number) {
       if (!state.favoriteSessions.includes(sessionId)) {
         state.favoriteSessions.push(sessionId);
+        localStorage.setItem('favoriteSessions', JSON.stringify(state.favoriteSessions));
       }
     },
     removeFavorite(state, sessionId: number) {
       state.favoriteSessions = state.favoriteSessions.filter(fsId => fsId !== sessionId);
+      localStorage.setItem('favoriteSessions', JSON.stringify(state.favoriteSessions));
     },
     updateFavoriteFilter(state, sessionIds: number[]) {
       state.favoriteSessions = sessionIds;
+      localStorage.setItem('favoriteSessions', JSON.stringify(state.favoriteSessions));
     },
     setTracks(state, tracks) {
       state.tracks = tracks;
