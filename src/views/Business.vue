@@ -32,27 +32,27 @@
         </ion-card-header>
         <ion-card-content>
           <ion-list class="pdf-list">
-            <ion-item button lines="inset" @click="openPdf('Church_Manual-Eng-R2023.pdf')">
+            <ion-item button lines="inset" @click="openPdf('assets/pdf/Church_Manual-Eng-R2023.pdf')">
               <ion-label>Church Manual (English)</ion-label>
               <ion-icon :icon="chevronForwardOutline" slot="end"></ion-icon>
             </ion-item>
-            <ion-item button lines="inset" @click="openPdf('Church_Manual-Sp-R2023.pdf')">
+            <ion-item button lines="inset" @click="openPdf('assets/pdf/Church_Manual-Sp-R2023.pdf')">
               <ion-label>Church Manual (Spanish)</ion-label>
               <ion-icon :icon="chevronForwardOutline" slot="end"></ion-icon>
             </ion-item>
-            <ion-item button lines="inset" @click="openPdf('Membership Application-Eng 2021.pdf')">
+            <ion-item button lines="inset" @click="openPdf('assets/pdf/Membership Application-Eng 2021.pdf')">
               <ion-label>Membership Application (English)</ion-label>
               <ion-icon :icon="chevronForwardOutline" slot="end"></ion-icon>
             </ion-item>
-            <ion-item button lines="inset" @click="openPdf('Membership Application-Sp 2021.pdf')">
+            <ion-item button lines="inset" @click="openPdf('assets/pdf/Membership Application-Sp 2021.pdf')">
               <ion-label>Membership Application (Spanish)</ion-label>
               <ion-icon :icon="chevronForwardOutline" slot="end"></ion-icon>
             </ion-item>
-            <ion-item button lines="inset" @click="openPdf('Amendments-2025.pdf')">
+            <ion-item button lines="inset" @click="openPdf('assets/pdf/Amendments-2025.pdf')">
               <ion-label>Proposed Amendments</ion-label>
               <ion-icon :icon="chevronForwardOutline" slot="end"></ion-icon>
             </ion-item>
-            <ion-item button lines="inset" @click="openPdf('2025-Nominees.pdf')">
+            <ion-item button lines="inset" @click="openPdf('assets/pdf/2025-Nominees.pdf')">
               <ion-label>Board Nominees (More Info)</ion-label>
               <ion-icon :icon="chevronForwardOutline" slot="end"></ion-icon>
             </ion-item>
