@@ -33,10 +33,17 @@
         <!-- Title -->
         <p v-if="session.title"><strong>Sermon Title:</strong> {{ session.title }}</p>
 
+        <!-- Description -->
+        <p v-if="session.description">
+          <strong>Description:</strong> {{ session.description }}
+        </p>
+
+
         <!-- Speaker Names -->
-        <p v-if="session.speakerNames && session.speakerNames.length">
+        <p v-if="session.speakerNames?.some(name => name.trim() !== '')">
           <strong>Speakers:</strong> {{ session.speakerNames.join(', ') }}
         </p>
+
 
         <!-- About Sermon -->
         <p v-if="session.aboutSermon"><strong>About Sermon:</strong> {{ session.aboutSermon }}</p>
@@ -83,6 +90,19 @@
 </template>
 
 <style scoped>
+
+.session-detail {
+  font-size: 1.125rem;
+}
+
+.session-detail p,
+.session-detail h1,
+.session-detail ion-text,
+.session-detail strong {
+  font-size: inherit;
+  line-height: inherit;
+}
+
 
 .session-track-registration {
   color: var(--ion-color-gcblue);
