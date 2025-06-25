@@ -1687,13 +1687,54 @@
   
 
   "tracks": [
+
     {
-      "name": "Vue",
-      "icon": "logo-vue"
+      "name": "Services",
+      "icon": "cog"
     },
     {
-      "name": "Documentation",
-      "icon": "document"
+      "name": "Workshop",
+      "icon": "construct"
+    },
+    {
+      "name": "Children",
+      "icon": "balloon-outline"
+    },
+    {
+      "name": "Youth",
+      "icon": "headset-outline"
+    },
+    {
+      "name": "Young Adult",
+      "icon": "school-outline"
+    },
+    {
+      "name": "Business",
+      "icon": "business-outline"
+    },
+    {
+      "name": "Registration",
+      "icon": "pencil-outline"
+    },
+    {
+      "name": "Event",
+      "icon": "people-outline"
+    },
+    {
+      "name": "Meal",
+      "icon": "restaurant"
+    }
+
+  ],
+
+  "removed_tracks": [
+    {
+      "name": "Communication",
+      "icon": "call"
+    },
+    {
+      "name": "Navigation",
+      "icon": "compass"
     },
     {
       "name": "Food",
@@ -1708,24 +1749,17 @@
       "icon": "hammer"
     },
     {
+      "name": "Vue",
+      "icon": "logo-vue"
+    },
+    {
+      "name": "Documentation",
+      "icon": "document"
+    },
+
+    {
       "name": "Design",
       "icon": "color-palette"
-    },
-    {
-      "name": "Services",
-      "icon": "cog"
-    },
-    {
-      "name": "Workshop",
-      "icon": "construct"
-    },
-    {
-      "name": "Communication",
-      "icon": "call"
-    },
-    {
-      "name": "Navigation",
-      "icon": "compass"
     }
   ]
 }

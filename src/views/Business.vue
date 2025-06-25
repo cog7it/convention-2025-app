@@ -32,22 +32,22 @@
         </ion-card-header>
         <ion-card-content>
           <ion-list class="pdf-list">
-            <ion-item button lines="inset" @click="openPdf('assets/pdf/Church_Manual-Eng-R2023.pdf')">
+            <ion-item button lines="inset" @click="openPdf('Church_Manual-Eng-R2023.pdf')">
               <ion-label>Church Manual (English)</ion-label>
             </ion-item>
-            <ion-item button lines="inset" @click="openPdf('assets/pdf/Church_Manual-Sp-R2023.pdf')">
+            <ion-item button lines="inset" @click="openPdf('Church_Manual-Sp-R2023.pdf')">
               <ion-label>Church Manual (Spanish)</ion-label>
             </ion-item>
-            <ion-item button lines="inset" @click="openPdf('assets/pdf/Membership Application-Eng 2021.pdf')">
+            <ion-item button lines="inset" @click="openPdf('Membership Application-Eng 2021.pdf')">
               <ion-label>Membership Application (English)</ion-label>
             </ion-item>
-            <ion-item button lines="inset" @click="openPdf('assets/pdf/Membership Application-Sp 2021.pdf')">
+            <ion-item button lines="inset" @click="openPdf('Membership Application-Sp 2021.pdf')">
               <ion-label>Membership Application (Spanish)</ion-label>
             </ion-item>
-            <ion-item button lines="inset" @click="openPdf('assets/pdf/Amendments-2025.pdf')">
+            <ion-item button lines="inset" @click="openPdf('Amendments-2025.pdf')">
               <ion-label>Proposed Amendments</ion-label>
             </ion-item>
-            <ion-item button lines="inset" @click="openPdf('assets/pdf/2025-Nominees.pdf')">
+            <ion-item button lines="inset" @click="openPdf('2025-Nominees.pdf')">
               <ion-label>Board Nominees (More Info)</ion-label>
             </ion-item>
           </ion-list>
@@ -150,8 +150,11 @@ const goToNomineeDetail = (id: number) => {
 };
 
 const openPdf = (filename: string) => {
-  window.open(`/assets/pdf/${filename}`, '_blank');
+  const url = `${import.meta.env.BASE_URL}assets/pdf/${filename}`;
+  console.log(`Opening PDF: ${url}`);
+  window.open(url, '_blank');
 };
+
 </script>
 
 <style scoped>
