@@ -98,12 +98,6 @@ const routes: Array<RouteRecordRaw> = [
         beforeEnter: ensureSpeakerData
       },
       {
-        path: 'speakers/session/:sessionId',
-        name: 'speaker-session-detail',
-        component: () => import('@/views/SessionDetail.vue'),
-        beforeEnter: ensureSessionData
-      },
-      {
         path: 'map',
         name: 'map',
         component: () => import('@/views/Map.vue')
@@ -135,7 +129,8 @@ const routes: Array<RouteRecordRaw> = [
         component: () => import('@/views/NomineeDetail.vue')
       },   
       {
-        path: '/tabs/special-thanks',
+        path: 'special-thanks',
+        name: 'special-thanks',
         component: () => import('@/views/SpecialThanks.vue')
       },         
       {

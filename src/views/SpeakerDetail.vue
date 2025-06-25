@@ -124,6 +124,18 @@ ion-toolbar ion-menu-button {
 
 }
 
+.speaker-detail {
+  font-size: 1.125rem;
+}
+
+.speaker-detail p,
+.speaker-detail h2,
+.speaker-detail strong {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+
 .speaker-background img {
   width: 140px;
   height: 140px;
