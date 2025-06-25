@@ -21,7 +21,7 @@
 
         <ion-tab-button tab="map" href="/tabs/map">
           <ion-icon :icon="location" />
-          <ion-label>Map</ion-label>
+          <ion-label>City Map</ion-label>
         </ion-tab-button>
         <!--Hide About from tab menu
         <ion-tab-button tab="about" href="/tabs/about">
