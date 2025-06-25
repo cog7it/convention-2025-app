@@ -13,6 +13,12 @@
           <ion-icon :icon="calendar" />
           <ion-label>Schedule</ion-label>
         </ion-tab-button>
+        
+        <ion-tab-button tab="business" href="/tabs/business">
+          <ion-icon :icon="briefcaseOutline" />
+          <ion-label>Business</ion-label>
+        </ion-tab-button>
+
 
         <ion-tab-button tab="speakers" href="/tabs/speakers">
           <ion-icon :icon="people" />
@@ -21,7 +27,7 @@
 
         <ion-tab-button tab="map" href="/tabs/map">
           <ion-icon :icon="location" />
-          <ion-label>Map</ion-label>
+          <ion-label>City Map</ion-label>
         </ion-tab-button>
         <!--Hide About from tab menu
         <ion-tab-button tab="about" href="/tabs/about">
@@ -40,7 +46,8 @@ import {
   people,
   location,
   informationCircle,
-  homeOutline
+  homeOutline,
+  briefcaseOutline
 } from 'ionicons/icons';
 
 import {
@@ -69,7 +76,8 @@ export default {
       people,
       location,
       informationCircle,
-      homeOutline
+      homeOutline,
+      briefcaseOutline
     };
   }
 };

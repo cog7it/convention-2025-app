@@ -5,16 +5,16 @@
         <ion-buttons slot="start">
           <ion-menu-button></ion-menu-button>
         </ion-buttons>
-        <ion-title>Map</ion-title>
+        <ion-title>City Map</ion-title>
       </ion-toolbar>
 
       <ion-toolbar>
         <ion-segment :value="segment" @ionChange="updateSegment">
+          <ion-segment-button value="map">
+            City Map
+          </ion-segment-button>
           <ion-segment-button value="convention">
             Convention Center
-          </ion-segment-button>
-          <ion-segment-button value="map">
-            Map
           </ion-segment-button>
         </ion-segment>
       </ion-toolbar>
@@ -22,22 +22,16 @@
 
     <ion-content>
       <!-- Convention Center Tab -->
-        <div v-if="segment === 'convention'" style="padding: 1rem; text-align: center;">
+      <div v-if="segment === 'convention'" style="padding: 1rem; text-align: center;">
+        <a href="/assets/img/local-attractions/venue-map.jpg" target="_blank" rel="noopener noreferrer">
           <img
             src="/assets/img/local-attractions/venue-map.jpg"
             alt="Convention Center Map"
             style="width: 100%; max-width: 800px; height: auto; border-radius: 8px; margin-bottom: 0.5rem;"
           />
+        </a>
 
-          <p style="color: #666; font-size: 0.9rem;">
-            Tap and hold the image to save to your Photos.
-          </p>
-        </div>
-
-
-
-
-
+      </div>
 
       <!-- Map Tab -->
       <div v-if="segment === 'map'" ref="mapCanvas" class="map-canvas"></div>
@@ -96,7 +90,7 @@ export default defineComponent({
     const mapCanvas = ref<HTMLElement | null>(null);
     const map = ref<L.Map | null>(null);
     const markers = ref<L.Marker[]>([]);
-    const segment = ref('convention'); // default tab
+    const segment = ref('map'); // default tab
 
     const locations = computed(() => store.state.locations.locations);
     const mapCenter = computed(() => {
