@@ -34,35 +34,29 @@
           <ion-list class="pdf-list">
             <ion-item button lines="inset" @click="openPdf('assets/pdf/Church_Manual-Eng-R2023.pdf')">
               <ion-label>Church Manual (English)</ion-label>
-              <ion-icon :icon="chevronForwardOutline" slot="end"></ion-icon>
             </ion-item>
             <ion-item button lines="inset" @click="openPdf('assets/pdf/Church_Manual-Sp-R2023.pdf')">
               <ion-label>Church Manual (Spanish)</ion-label>
-              <ion-icon :icon="chevronForwardOutline" slot="end"></ion-icon>
             </ion-item>
             <ion-item button lines="inset" @click="openPdf('assets/pdf/Membership Application-Eng 2021.pdf')">
               <ion-label>Membership Application (English)</ion-label>
-              <ion-icon :icon="chevronForwardOutline" slot="end"></ion-icon>
             </ion-item>
             <ion-item button lines="inset" @click="openPdf('assets/pdf/Membership Application-Sp 2021.pdf')">
               <ion-label>Membership Application (Spanish)</ion-label>
-              <ion-icon :icon="chevronForwardOutline" slot="end"></ion-icon>
             </ion-item>
             <ion-item button lines="inset" @click="openPdf('assets/pdf/Amendments-2025.pdf')">
               <ion-label>Proposed Amendments</ion-label>
-              <ion-icon :icon="chevronForwardOutline" slot="end"></ion-icon>
             </ion-item>
             <ion-item button lines="inset" @click="openPdf('assets/pdf/2025-Nominees.pdf')">
               <ion-label>Board Nominees (More Info)</ion-label>
-              <ion-icon :icon="chevronForwardOutline" slot="end"></ion-icon>
             </ion-item>
           </ion-list>
         </ion-card-content>
       </ion-card>
 
 
-      <!-- Board Nominees Card (Dynamic) -->
-      <ion-card>
+      <!-- Board Nominees Card -->
+      <ion-card class="board-nominees-card">
         <ion-card-header>
           <ion-card-title>Board Nominees</ion-card-title>
         </ion-card-header>
@@ -73,13 +67,15 @@
                 v-for="nominee in nominees"
                 :key="nominee.id"
                 size="12"
-                size-md="6"
               >
-                <ion-card class="nominee-card" button @click="goToNomineeDetail(nominee.id)">
+                <ion-card class="speaker-card">
                   <ion-card-header>
-                    <ion-item lines="none">
+                    <ion-item lines="none" button @click="goToNomineeDetail(nominee.id)">
                       <ion-avatar slot="start">
-                        <img :src="nominee.profilePic || '/assets/img/placeholder.png'" :alt="nominee.name + ' photo'" />
+                        <img
+                          :src="nominee.profilePic || '/assets/img/placeholder.png'"
+                          :alt="nominee.name + ' photo'"
+                        />
                       </ion-avatar>
                       <ion-label>
                         <h2>{{ nominee.name }}</h2>
@@ -88,6 +84,19 @@
                       <ion-icon :icon="chevronForwardOutline" slot="end" />
                     </ion-item>
                   </ion-card-header>
+
+                  <ion-card-content>
+                    <ion-list lines="none">
+                      <ion-item
+                        :detail="false"
+                        button
+                        @click="goToNomineeDetail(nominee.id)">
+                        <ion-label>
+                          <h3>About {{ nominee.name }}</h3>
+                        </ion-label>
+                      </ion-item>
+                    </ion-list>
+                  </ion-card-content>
                 </ion-card>
               </ion-col>
             </ion-row>
@@ -151,17 +160,45 @@ const openPdf = (filename: string) => {
   margin-top: 1rem;
   margin-bottom: 1.5rem;
 }
-
-.nominee-card {
-  margin-bottom: 16px;
-  border-radius: 10px;
-  transition: box-shadow 0.2s ease;
-  cursor: pointer;
+.business-page {
+  font-size: 1.125rem; 
+  
 }
 
-.nominee-card:hover {
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+.business-page ion-card-title,
+.business-page ion-card-content p,
+.business-page ion-label,
+.business-page h2,
+.business-page h3 {
+  font-size: inherit;
+  line-height: inherit;
 }
+.business-page ion-card-title {
+  font-weight: 600;
+}
+
+.business-page strong {
+  font-weight: 600;
+}
+.business-page ::v-deep ion-card-title,
+.business-page ::v-deep ion-card-content,
+.business-page ::v-deep ion-card-content p {
+  font-size: 1.125rem;
+}
+
+.board-nominees-card ion-card-content {
+  font-size: inherit;
+  padding: 8px;
+}
+
+.board-nominees-card ion-grid {
+  margin: 0;
+}
+
+.board-nominees-card ion-col {
+  padding: 0;
+}
+
 
 .pdf-list ion-item {
   --background: #f4f4f4;
@@ -174,4 +211,14 @@ const openPdf = (filename: string) => {
 .pdf-list ion-icon {
   color: var(--ion-color-primary);
 }
+
+.section-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 24px 0 16px 8px;
+}
+ion-avatar img {
+  object-fit: cover;
+}
+
 </style>

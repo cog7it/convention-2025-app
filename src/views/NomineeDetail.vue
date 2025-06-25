@@ -16,15 +16,18 @@
       </div>
 
       <!-- Main Content in a card -->
-      <ion-card class="nominee-info-card ion-padding">
-        <p><strong>Resides:</strong> {{ nominee?.reside }}</p>
-        <p><strong>Wife:</strong> {{ nominee?.wife }}</p>
-        <p><strong>Children:</strong> {{ nominee?.children }}</p>
-        <p><strong>Church Activities:</strong> {{ nominee?.churchActivities }}</p>
-        <p><strong>Education:</strong> {{ nominee?.education }}</p>
-        <p><strong>Work & Leadership:</strong> {{ nominee?.workLeadership }}</p>
-        <p><strong>Ministry Highlights:</strong> {{ nominee?.ministryHighlights }}</p>
-      </ion-card>
+      <ion-card class="nominee-info-card">
+        <ion-card-content>
+            <p><strong>Resides:</strong> {{ nominee?.reside }}</p>
+            <p><strong>Wife:</strong> {{ nominee?.wife }}</p>
+            <p><strong>Children:</strong> {{ nominee?.children }}</p>
+            <p><strong>Church Activities:</strong> {{ nominee?.churchActivities }}</p>
+            <p><strong>Education:</strong> {{ nominee?.education }}</p>
+            <p><strong>Work & Leadership:</strong> {{ nominee?.workLeadership }}</p>
+            <p><strong>Ministry Highlights:</strong> {{ nominee?.ministryHighlights }}</p>
+        </ion-card-content>
+        </ion-card>
+
     </ion-content>
   </ion-page>
 </template>
@@ -79,9 +82,10 @@ watch(() => route.params.nomineeId, (newId) => {
 
 .nominee-background img {
   width: 130px;
-  height: 130px;
+  aspect-ratio: 1/1;
   margin-top: calc(-1 * var(--ion-safe-area-top));
   border-radius: 50%;
+  object-fit: cover;
 }
 
 .nominee-background h2 {
@@ -94,8 +98,17 @@ watch(() => route.params.nomineeId, (newId) => {
   border-radius: 12px;
 }
 
+/* Apply font size inside IonCard using deep selector */
+.nominee-detail ::v-deep ion-card-content,
+.nominee-detail ::v-deep ion-card-content p {
+  font-size: 1.125rem;
+}
+
 .nominee-info-card p {
   margin-bottom: 0.75rem;
-  line-height: 1.5;
+}
+
+.nominee-info-card p {
+  margin-bottom: 0.75rem;
 }
 </style>
