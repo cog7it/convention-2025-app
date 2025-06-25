@@ -210,6 +210,11 @@
     border-left: 2px solid var(--ion-color-gcorange);
   }
 
+  ion-item-sliding[data-track="event"] ion-label {
+    padding-left: 10px;
+    border-left: 2px solid var(--ion-color-gcorange);
+  }
+
   ion-item-sliding[data-track="children"] ion-label {
     padding-left: 10px;
     border-left: 2px solid var(--ion-color-gcgreen);
@@ -223,6 +228,11 @@
   ion-item-sliding[data-track="youth"] ion-label {
     padding-left: 10px;
     border-left: 2px solid var(--ion-color-gcgreen);
+  }
+
+  ion-item-sliding[data-track="business"] ion-label {
+    padding-left: 10px;
+    border-left: 2px solid var(--ion-color-gcblue);
   }
 
 
