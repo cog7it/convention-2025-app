@@ -9,7 +9,7 @@
       </ion-toolbar>
     </ion-header>
 
-    <ion-content>
+    <ion-content class="attraction-detail-page">
       <div class="attraction-background">
         <img :src="attraction?.image" alt="Attraction Image" class="attraction-image" />
         <h2>{{ attraction?.name }}</h2>
@@ -124,6 +124,25 @@ export default {
 </script>
 
 <style scoped>
+
+.attraction-detail-page {
+  font-size: 1.125rem; 
+  
+}
+
+.attraction-detail-page p,
+.attraction-detail-page h2,
+.attraction-detail-page ion-label,
+.attraction-detail-page a {
+  font-size: inherit;
+  
+}
+
+.attraction-detail-page strong {
+  font-weight: 600;
+}
+
+
 .attraction-background {
   display: flex;
   flex-direction: column;

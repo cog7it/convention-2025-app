@@ -9,7 +9,7 @@
       </ion-toolbar>
     </ion-header>
 
-    <ion-content :fullscreen="true">
+    <ion-content :fullscreen="true" class="speaker-page">
       <ion-header collapse="condense">
         <ion-toolbar>
           <ion-title size="large">Speakers</ion-title>
@@ -138,6 +138,19 @@ onMounted(async () => {
 </script>
 
 <style scoped>
+
+.speaker-page {
+  font-size: 1.125rem; 
+}
+
+.speaker-page h2,
+.speaker-page h3,
+.speaker-page p,
+.speaker-page ion-label {
+  font-size: inherit;
+  line-height: inherit;
+}
+
 .speaker-card {
   display: flex;
   flex-direction: column;
@@ -151,16 +164,11 @@ ion-col:not(:last-of-type) .speaker-card {
   --min-height: 85px;
 }
 
-.speaker-card .speaker-item h2 {
-  font-size: 18px;
-  font-weight: 500;
-  letter-spacing: 0.02em;
+.speaker-card .speaker-item h2,
+.speaker-card .speaker-item p {
+  font-size: inherit;
 }
 
-.speaker-card .speaker-item p {
-  font-size: 13px;
-  letter-spacing: 0.02em;
-}
 
 .speaker-card ion-card-header {
   padding: 0;

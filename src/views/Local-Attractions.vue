@@ -9,7 +9,7 @@
         <ion-title>Local Attractions</ion-title>
       </ion-toolbar>
     </ion-header>
-    <ion-content class="ion-padding">
+    <ion-content class="ion-padding attractions-page">
       <ion-grid>
         <ion-row>
           <ion-col
@@ -110,5 +110,14 @@ ion-card img {
 .clickable-card:hover {
   transform: scale(1.02);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.attractions-page {
+  font-size: 1.125rem; /* 18px */
+}
+
+.attractions-page p,
+.attractions-page ion-card-title {
+  font-size: inherit;
 }
 </style>

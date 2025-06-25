@@ -114,22 +114,22 @@ import {
 
 <style scoped>
 
-.special-thanks-page p {
-  margin-bottom: 1rem;
-  font-size: inherit; /* Inherit the font size from the parent*/
+.special-thanks-page {
+  font-size: 1.125rem; /* 18px */
+  line-height: 1.6;
 }
 
-.special-thanks-page ul {
-  list-style-type: disc;
-  padding-left: 1.5rem;
-  font-size: inherit; 
+::v-deep(.special-thanks-page ion-card-content),
+::v-deep(.special-thanks-page ion-card-content p),
+::v-deep(.special-thanks-page ion-card-content ul),
+::v-deep(.special-thanks-page ion-card-content li) {
+  font-size: 1.125rem;
+  line-height: 1.6;
 }
 
-.special-thanks-page li {
-  margin-bottom: 0.5rem;
+::v-deep(.special-thanks-page ion-card-title) {
+  font-size: 1.25rem;
 }
-
-
 
 
 </style>

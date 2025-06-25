@@ -20,7 +20,8 @@
       </ion-toolbar>
     </ion-header>
 
-    <ion-content>
+    <ion-content class="map-page">
+
       <!-- Convention Center Tab -->
       <div v-if="segment === 'convention'" style="padding: 1rem; text-align: center;">
         <a href="/assets/img/local-attractions/venue-map.jpg" target="_blank" rel="noopener noreferrer">
@@ -217,5 +218,17 @@ export default defineComponent({
   margin: 0 auto;
   max-width: 250px;
 }
+.map-page {
+  font-size: 1.125rem; 
+  
+}
+
+.map-page a,
+.map-page p,
+.map-page small {
+  font-size: inherit;
+  line-height: inherit;
+}
+
 
 </style>

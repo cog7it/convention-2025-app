@@ -163,17 +163,20 @@ onMounted(() => {
 /* Welcome Page Styles */
 .welcome-page p {
   margin-bottom: 1rem;
-  font-size: inherit;  /* Inherit font size from the parent */
+  font-size: 1.125rem;
+
 }
 
 .welcome-page ul {
   list-style-type: disc;
   padding-left: 1.5rem;
-  font-size: inherit;  
+  font-size: 1.125rem;
 }
 
 .welcome-page li {
   margin-bottom: 0.5rem;
+  font-size: 1.125rem;
+
 }
 
 /* Fix header title color in light and dark mode */
@@ -184,4 +187,5 @@ onMounted(() => {
 html.dark .welcome-page ion-card-header ion-card-title {
   color: var(--ion-color-primary-contrast, #fff);
 }
+
 </style>

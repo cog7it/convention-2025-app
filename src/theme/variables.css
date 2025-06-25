@@ -26,12 +26,20 @@
 
 body {
   font-family: 'Proxima Nova', sans-serif;
+  font-size: var(--app-font-size);
+
+  
 }
+ion-content {
+  font-size: var(--app-font-size);
+}
+
 
 
 
 :root {
   --ion-font-family: 'Proxima Nova', sans-serif;
+  --app-font-size: 1.125rem;
   --ion-color-primary:#000 ;
   --ion-color-primary-rgb: 56, 128, 255;
   --ion-color-primary-contrast: #ffffff;

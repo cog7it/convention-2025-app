@@ -135,6 +135,15 @@
 </template>
 
 <style scoped>
+
+ion-content {
+  font-size: 1.125rem; 
+}
+ion-label, ion-label p, ion-label h3 {
+  font-size: 1.125rem !important;
+}
+
+
   ion-fab-button {
     --background: var(--ion-color-step-150, #ffffff);
     --background-hover: var(--ion-color-step-200, #f2f2f2);

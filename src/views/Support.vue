@@ -11,7 +11,7 @@
 
     <ion-content class="ion-padding">
       <div class="support-logo">
-        <img src="/assets/img/appicon.svg" alt="App Logo" />
+        <img src="/assets/img/Conference Logo_Icon.png" alt="App Logo" />
       </div>
 
       <ion-button
