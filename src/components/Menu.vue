@@ -317,7 +317,7 @@ export default defineComponent({
           icon: peopleOutline
         },
         {
-          title: 'City Map',
+          title: 'Maps',
           url: '/tabs/map',
           icon: locationOutline
         },
