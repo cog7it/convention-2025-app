@@ -2,14 +2,16 @@
   <ion-menu content-id="main-content">
     <ion-content>
       <!-- Logo at the top of the menu -->
-      <div class="menu-logo-wrapper">
-        <img
-          class="logo-light"
+      <div v-if="!localDark"  class="menu-logo-wrapper">
+        <img 
+          class="logo-lightcci"
           src="/assets/img/300X100Black.png"
           alt="Conference Logo Light"
         />
-        <img
-          class="logo-dark"
+      </div>
+      <div v-else class="menu-logo-wrapper">
+        <img 
+          class="logo-darkcci"
           src="/assets/img/320x100White.png"
           alt="Conference Logo Dark"
         />
