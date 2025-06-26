@@ -8,12 +8,14 @@
           "time": "Sunday, June 29",
           "sessions": [
             {
+              "id": "1",
               "name": "Registration Desk Open",
-              "timeStart": "3:00 pm",
-              "timeEnd": "9:00 pm",
-              "location": "Convention Center Room 150A/B (1st Floor)",
+              "timeStart": "3:00 a.m.",
+              "timeEnd": "9:00 p.m",
+              "location": "Convention Center - Room 150 A/B (First Floor)",
               "tracks": ["Registration"],
-              "id": "1"
+              "speakerNames": [""],
+              "description": ""
             }
           ]
         },
@@ -22,84 +24,94 @@
           "time": "Monday, June 30",
           "sessions": [
             {
+              "id": "3",
+              "name": "Breakfast",
+              "timeStart": "7:30 a.m.",
+              "timeEnd": "8:30 a.m",
+              "location": "",
+              "tracks": ["Meal"],
+              "speakerNames": [""],
+              "description": ""
+            },
+            {
+              "id": "4",
               "name": "Registration Desk Open",
-              "location": "Convention Center Room 150A/B (1st Floor)",
-              "description": "",
-              "speakerNames": [""],
-              "timeStart": "8:00 am",
-              "timeEnd": "5:00 pm",
+              "timeStart": "8:00 a.m.",
+              "timeEnd": "5:00 p.m",
+              "location": "Convention Center - Room 150 A/B (First Floor)",
               "tracks": ["Registration"],
-              "id": "2"
+              "speakerNames": [""],
+              "description": ""
             },
             {
+              "id": "5",
               "name": "Children's Registration",
-              "location": "Convention Center - Outside of Room 151G (1st Floor)",
-              "description": "",
-              "speakerNames": [""],
-              "timeStart": "12:00 pm",
-              "timeEnd": "5:00 pm",
+              "timeStart": "12:00 p.m.",
+              "timeEnd": "5:00 p.m",
+              "location": "Convention Center - Outside Room 151 G (First Floor)",
               "tracks": ["Registration"],
-              "id": "3"
+              "speakerNames": [""],
+              "description": ""
             },
             {
+              "id": "6",
               "name": "Young Adult Registration",
-              "location": "Convention Center Room 355D/E/F (3rd Floor)",
-              "description": "",
-              "speakerNames": [""],
-              "timeStart": "1:00 pm",
-              "timeEnd": "5:00 pm",
+              "timeStart": "1:00 p.m.",
+              "timeEnd": "5:00 p.m",
+              "location": "Convention Center - Room 355 D/E/F (Third Floor)",
               "tracks": ["Registration"],
-              "id": "4"
+              "speakerNames": [""],
+              "description": ""
             },
             {
+              "id": "7",
               "name": "Youth Registration",
-              "location": "Convention Center Room 355A/B/C (3rd floor)",
-              "description": "",
-              "speakerNames": [""],
-              "timeStart": "1:00 pm",
-              "timeEnd": "5:00 pm",
+              "timeStart": "1:00 p.m.",
+              "timeEnd": "5:00 p.m",
+              "location": "Convention Center - Room 355 A/B/C (Third Floor)",
               "tracks": ["Registration"],
-              "id": "5"
+              "speakerNames": [""],
+              "description": ""
             },
             {
+              "id": "8",
               "name": "Welcome Reception",
-              "location": "Convention Center Ballroom A/B/C/D (1st Floor)",
-              "description": "Come join us for popcorn and lemonade while you visit with friends. Stay to enjoy the movie, “The Forge”.",
-              "speakerNames": [""],
-              "timeStart": "7:00 pm ",
-              "timeEnd": "8:00 pm",
+              "timeStart": "7:00 p.m.",
+              "timeEnd": "8:30 p.m",
+              "location": "Convention Center - Ballroom A/B/C/D (First Floor)",
               "tracks": ["Event"],
-              "id": "6"
-            },
-            {
-              "name": "Movie: “The Forge”",
-              "location": "Convention Center Ballroom E/F/G/H/I/J (1st Floor)",
-              "description": "The Forge” movie shows us the impact that engaging in mentorship can have on others.",
               "speakerNames": [""],
-              "timeStart": "8:00 pm",
-              "timeEnd": "10:15 pm",
-              "tracks": ["Activity"],
-              "id": "7"
+              "description": "Come join us for popcorn and lemonade while you visit with friends. Stay to enjoy the movie The Forge."
             },
             {
+              "id": "9",
+              "name": "Movie: The Forge",
+              "timeStart": "8:00 p.m.",
+              "timeEnd": "10:15 p.m",
+              "location": "Convention Center - Ballroom E/F/G/H/I/J (First Floor)",
+              "tracks": ["Event"],
+              "speakerNames": [""],
+              "description": "This movie shows us the impact that engaging in mentorship can have on others."
+            },
+            {
+              "id": "10",
               "name": "Late-Night Options - Youth",
-              "location": "Convention Center Room 355A/B/C (3rd floor)",
-              "description": "",
-              "speakerNames": [""],
-              "timeStart": "8:30 pm",
-              "timeEnd": "9:30 pm",
+              "timeStart": "8:30 p.m.",
+              "timeEnd": "9:30 p.m",
+              "location": "Convention Center - Room 355 A/B/C (Third Floor)",
               "tracks": ["Youth"],
-              "id": "8"
+              "speakerNames": [""],
+              "description": ""
             },
             {
+              "id": "11",
               "name": "Late-Night Options - Young Adult",
-              "location": "Convention Center Room 355D/E/F (3rd floor)",
-              "description": "",
-              "speakerNames": [""],
-              "timeStart": "1:00 pm",
-              "timeEnd": "5:00 pm",
+              "timeStart": "8:30 p.m.",
+              "timeEnd": "10:00 p.m",
+              "location": "Convention Center - Room 355 D/E/F (Third Floor)",
               "tracks": ["YoungAdult"],
-              "id": "9"
+              "speakerNames": [""],
+              "description": ""
             }
 
           ]
@@ -109,256 +121,264 @@
           "time": "Tuesday, July 1",
           "sessions": [
             {
-              "name": "Registration Desk Open",
-              "location": "Convention Center Room 150A/B (1st Floor)",
-              "description": "",
-              "speakerNames": [""],
-              "timeStart": "8:00 am",
-              "timeEnd": "9:00 am",
-              "tracks": ["Registration"],
-              "id": "10"
-            },
-            {
-              "name": "Sign in for Children’s Program",
-              "location": "Convention Center - Outside of Room 151G (1st Floor)",
-              "description": "",
-              "speakerNames": [""],
-              "timeStart": "8:30 am",
-              "timeEnd": "9:00 am",
-              "tracks": ["Children"],
-              "id": "11"
-            },
-            {
-              "name": "Business Session",
-              "location": "Convention Center Ballroom E/F/G/H/I/J (1st Floor)",
-              "description": "• Call to Order\n• Morning Devotion\n• Appointments\n• Report of the Registration Committee\n• Adoption of the Orders of the Day\n• Reports\n• State of the Conference Address\n• Report of the Auditor and Financial Report\n• Election of Board of Directors\n• Election of Nominating Committee\n• Committee Reports",
-              "speakerNames": [""],
-              "timeStart": "9:00 am",
-              "timeEnd": "12:00 pm",
-              "tracks": ["Business"],
-              "id": "12"
-            },
-            {
-              "name": "Children’s Program",
-              "location": "Convention Center Room 151G (1st Floor)",
-              "description": "",
-              "speakerNames": [""],
-              "timeStart": "9:00 am",
-              "timeEnd": "12:00 pm",
-              "tracks": ["Children"],
-              "id": "13"
-            },
-            {
-              "name": "Youth Program",
-              "location": "Convention Center Room 355A/B/C (3rd floor)",
-              "description": "",
-              "speakerNames": [""],
-              "timeStart": "9:00 am",
-              "timeEnd": "12:00 pm",
-              "tracks": ["Youth"],
-              "id": "14"
-            },
-            {
-              "name": "Lunch",
+              "id": "12",
+              "name": "Breakfast",
+              "timeStart": "7:30 a.m.",
+              "timeEnd": "8:30 a.m",
               "location": "",
-              "description": "",
-              "speakerNames": [""],
-              "timeStart": "12:00 pm",
-              "timeEnd": "1:30 pm",
               "tracks": ["Meal"],
-              "id": "15"
+              "speakerNames": [""],
+              "description": ""
             },
             {
+              "id": "13",
               "name": "Registration Desk Open",
-              "location": "Convention Center Room 150A/B (1st Floor)",
-              "description": "",
-              "speakerNames": [""],
-              "timeStart": "2:00 pm",
-              "timeEnd": "5:00 pm",
+              "timeStart": "8:00 a.m.",
+              "timeEnd": "9:00 a.m",
+              "location": "Convention Center - Room 150 A/B (First Floor)",
               "tracks": ["Registration"],
-              "id": "16"
+              "speakerNames": [""],
+              "description": ""
             },
             {
-              "name": "Children’s Program",
-              "location": "Convention Center Room 151G (1st Floor)",
-              "description": "",
-              "speakerNames": [""],
-              "timeStart": "2:00 pm",
-              "timeEnd": "4:45 pm",
+              "id": "14",
+              "name": "Sign in for Children’s Program",
+              "timeStart": "8:30 a.m.",
+              "timeEnd": "9:00 a.m",
+              "location": "Convention Center - Outside Room 151 G (First Floor)",
               "tracks": ["Children"],
-              "id": "17"
+              "speakerNames": [""],
+              "description": ""
             },
             {
+              "id": "15",
+              "name": "Business Session",
+              "timeStart": "9:00 a.m.",
+              "timeEnd": "12:00 p.m",
+              "location": "Convention Center - Ballroom E/F/G/H/I/J (First Floor)",
+              "tracks": ["Business"],
+              "speakerNames": [""],
+              "description": "• Call to Order\n• Morning Devotion\n• Report of the Registration Committee\n• Reading and Approval of Minutes\n• Report of the Amendments Committee\n• Committee Reports"
+            },
+            {
+              "id": "16",
+              "name": "Children’s Program",
+              "timeStart": "9:00 a.m.",
+              "timeEnd": "12:00 p.m",
+              "location": "Convention Center - Room 151 G (First Floor)",
+              "tracks": ["Children"],
+              "speakerNames": [""],
+              "description": ""
+            },
+            {
+              "id": "17",
               "name": "Youth Program",
-              "location": "Convention Center Hall C (1st floor)",
-              "description": "",
-              "speakerNames": [""],
-              "timeStart": "2:00 pm",
-              "timeEnd": "4:45 pm",
+              "timeStart": "9:00 a.m.",
+              "timeEnd": "12:00 p.m",
+              "location": "Convention Center - Room 355 A/B/C (Third Floor)",
               "tracks": ["Youth"],
-              "id": "18"
-            },
-            {
-              "name": "Young Adult Program",
-              "location": "Convention Center Room 355D/E/F (3rd floor)",
-              "description": "",
               "speakerNames": [""],
-              "timeStart": "2:00 pm",
-              "timeEnd": "4:45 pm",
+              "description": ""
+            },
+            {
+              "id": "18",
+              "name": "Lunch",
+              "timeStart": "12:00 p.m.",
+              "timeEnd": "1:30 p.m",
+              "location": "",
+              "tracks": ["Meal"],
+              "speakerNames": [""],
+              "description": ""
+            },
+            {
+              "id": "19",
+              "name": "Registration Desk Open",
+              "timeStart": "2:00 p.m.",
+              "timeEnd": "5:00 p.m",
+              "location": "Convention Center - Room 150 A/B (First Floor)",
+              "tracks": ["Registration"],
+              "speakerNames": [""],
+              "description": ""
+            },
+            {
+              "id": "20",
+              "name": "Children’s Program",
+              "timeStart": "2:00 p.m.",
+              "timeEnd": "4:45 p.m",
+              "location": "Convention Center - Room 151 G (First Floor)",
+              "tracks": ["Children"],
+              "speakerNames": [""],
+              "description": ""
+            },
+            {
+              "id": "21",
+              "name": "Youth Program",
+              "timeStart": "2:00 p.m.",
+              "timeEnd": "4:45 p.m",
+              "location": "Convention Center - Hall C (First Floor)",
+              "tracks": ["Youth"],
+              "speakerNames": [""],
+              "description": ""
+            },
+            {
+              "id": "22",
+              "name": "Young Adult Program",
+              "timeStart": "2:00 p.m.",
+              "timeEnd": "4:45 p.m",
+              "location": "Convention Center - Room 355 D/E/F (Third Floor)",
               "tracks": ["YoungAdult"],
-              "id": "19"
+              "speakerNames": [""],
+              "description": ""
             },
             {
+              "id": "23",
               "name": "Workshop Session 1: Experience the SHINE (Serving Him in Nations Everywhere) Ministry!",
-              "location": "Convention Center Room 250A (2nd Floor)",
-              "description": "Discover in this inspiring and interactive workshop how you can live a little bit of SHINE at home—bringing the heart of missions into your everyday life. Hear powerful testimonies from those who have served, explore the exciting history of SHINE, and be inspired by the impact seen in lives and communities around the world. With engaging stories, eye-opening statistics, and a fun, interactive atmosphere, this workshop will leave you energized and ready to be a light—wherever you are! Don’t miss this opportunity to connect, be challenged, and step into your role in God’s mission. Come and SHINE with us!",
-              "speakerNames": ["Ronald Rousseau - English/Bilingual"],
-              "timeStart": "2:00 pm",
-              "timeEnd": "3:15 pm",
-              "tracks": ["Workshop"],
-              "id": "20"
+              "location": "Convention Center - Room 250 A (Second Floor)",
+              "description": "In this inspiring and interactive workshop, discover how you can live a little bit of SHINE at home, bringing the heart of missions into your everyday life. Hear powerful testimonies from those who have served, explore the exciting history of SHINE, and be inspired by the impact seen in lives and communities around the world. With engaging stories, eye-opening statistics, and a fun, interactive atmosphere, this workshop will leave you energized and ready to be a light — wherever you are! Don’t miss this opportunity to connect, be challenged, and step into your role in God’s mission. Come and SHINE with us!",
+              "speakerNames": ["Ronald Rousseau - English/Spanish"],
+              "timeStart": "2:00 p.m.",
+              "timeEnd": "3:15 p.m",
+              "tracks": ["Workshop"]
             },
             {
+              "id": "24",
               "name": "Workshop Session 1: Engaged Family",
-              "location": "Convention Center Room 250B (2nd Floor)",
-              "description": "When we are faithful to the God-given responsibilities of family it will springboard us to fruitful ministries and blessings lasting through generations. Prepare to be greatly inspired and encouraged by simple concepts from scriptures regarding the importance of senior citizens, of honoring our parents, and of serving seniors within our communities.",
-              "speakerNames": ["Jenny Stephens & Wayne Hrenyk - English (with translation equipment)"],
-              "timeStart": "2:00 pm",
-              "timeEnd": "3:15 pm",
-              "tracks": ["Workshop"],
-              "id": "21"
+              "location": "Convention Center - Room 250 B (Second Floor)",
+              "description": "When we are faithful to the God-given responsibilities of family, our obedience will springboard us to fruitful ministries and blessings lasting for generations. Prepare to be greatly inspired and encouraged by simple concepts from scriptures regarding the importance of senior citizens, honoring our parents, and serving seniors within our communities",
+              "speakerNames": ["Jenny Stephens and Wayne Hrenyk - English (with translation equipment)"],
+              "timeStart": "2:00 p.m.",
+              "timeEnd": "3:15 p.m",
+              "tracks": ["Workshop"] 
             },
             {
+              "id": "25",
               "name": "Workshop Session 1: Spiritual Warfare (Conflict)",
-              "location": "Convention Center Room 250C (2nd Floor)",
-              "description": "We will explore How to find freedom in Christ Jesus. We will review the Kingdom of God, the Kingdom of Satan, and the struggles Christians face on a regular basis (Ephesians 6:12). We will explore how to overcome negative thoughts, irrational feelings, and habitual sins. We will review God’s armor and how we may allow an opening for one of those missiles to penetrate us. We will explore the warnings of habitual sins which can lead to a stronghold in our lives and repentance is the only way to take, to free us into God’s peace again. Lastly, we will explore dreams and biblical dream interpretation and visions.",
+              "location": "Convention Center - Room 250 C (Second Floor)",
+              "description": "We will explore how to find freedom in Christ Jesus; review the kingdom of God, the kingdom of Satan, and the struggles Christians face regularly (Ephesians 6:12); explore how to overcome negative thoughts, irrational feelings, and habitual sins; review God’s armor and how we may allow an opening for one of those missiles to penetrate us. We will also explore the warnings of habitual sins that can lead to a stronghold in our lives. And we will learn that repentance is the only way to free us, gaining God’s peace again. Lastly, we will explore dreams and biblical dream interpretation and visions.",
               "speakerNames": ["Abel Zaragoza - English (with translation equipment)"],
-              "timeStart": "2:00 pm",
-              "timeEnd": "3:15 pm",
-              "tracks": ["Workshop"],
-              "id": "22"
+              "timeStart": "2:00 p.m.",
+              "timeEnd": "3:15 p.m",
+              "tracks": ["Workshop"]
             },
             {
+              "id": "26",
               "name": "Workshop Session 1: Get A Grip On the Grind - A Little Organization Goes A Long Way In Achieving Success",
-              "location": "Convention Center Room 250D (2nd Floor)",
-              "description": "Church ministry is much more than the Sabbath worship services, potlucks and Bible Studies. It is also the ongoing challenge of finding people willing to serve, business meetings, and committees. This workshop will present some practical methods and examples for getting a grip on the grind of recruiting and training ministry leaders, making meetings more productive, and retaining volunteers. A little organization can go a long way towards ministry success!",
+              "location": "Convention Center - Room 250 D (Second Floor)",
+              "description": "Church ministry is much more than Sabbath worship services, potlucks, and Bible studies. It is also the ongoing challenge of finding people willing to serve, conducting business meetings, and creating committees. This workshop will present some practical methods and examples for getting a grip on the grind of recruiting and training ministry leaders, making meetings more productive, and retaining volunteers. A little organization can go a long way toward ministry success!",
               "speakerNames": ["Loren Gjesdal - English"],
-              "timeStart": "2:00 pm",
-              "timeEnd": "3:15 pm",
-              "tracks": ["Workshop"],
-              "id": "23"
+              "timeStart": "2:00 p.m.",
+              "timeEnd": "3:15 p.m",
+              "tracks": ["Workshop"]
             },
             {
+              "id": "27",
               "name": "Workshop Session 1: Don’t Cross the Line",
-              "location": "Convention Center Room 250E/F (2nd Floor)",
-              "description": "This workshop will teach you how to draw the line between your public and private communication.  Learn the importance of what you express in your social media venues that could dismiss the engagement of your church and community.  Understand the importance of internal and external agendas in live streaming services as well as live events and become a more effective communicator to impact and engage your church and community.",
+              "location": "Convention Center - Room 250 E/F (Second Floor)",
+              "description": "This workshop will teach you how to draw the line between your public and private communication. Learn the importance of how your social media posts affect your church and community. Understand the importance of internal and external agendas in live-streaming services and in live events, and become a more effective communicator to impact and engage your church and community.",
               "speakerNames": ["Jamin Teran - Spanish"],
-              "timeStart": "2:00 pm",
-              "timeEnd": "3:15 pm",
-              "tracks": ["Workshop"],
-              "id": "24"
+              "timeStart": "2:00 p.m.",
+              "timeEnd": "3:15 p.m",
+              "tracks": ["Workshop"]
             },
             {
+              "id": "28",
               "name": "Workshop Session 2: Joyful Leap: Awakening the Church to Defend Life",
-              "location": "Convention Center Room 250A (2nd Floor)",
-              "description": "Abortion is one of the greatest injustices of our time—and it’s closer to the Church than we may even realize. In this workshop, we’ll look honestly at the reality of what abortion is, and how it impacts women, men, families & even those sitting in our pews. We will dive into what God’s Word says about it. You’ll hear real statistics, biblical truth, and practical ways you and your church can stand for life and support both mothers and babies with compassion and conviction. My prayer is that you leave not just informed, but deeply moved and ready to make a difference right where you are by caring for the least of these.",
-              "speakerNames": ["Jenavi Castillo - English/Bilingual"],
-              "timeStart": "3:30 pm",
-              "timeEnd": "4:45 pm",
-              "tracks": ["Workshop"],
-              "id": "25"
+              "location": "Convention Center - Room 250 A (Second Floor)",
+              "description": "Abortion is one of the greatest injustices of our time — and it’s closer to the church than we may realize. In this workshop, we’ll look honestly at what abortion is and how it impacts women, men, families, and even those sitting in our pews. We will dive into what God’s Word says about it. You’ll hear real statistics, biblical truth, and practical ways you and your church can stand for life and support both mothers and babies with compassion and conviction. My prayer is that you leave not just informed but deeply moved and ready to make a difference right where you are by caring for the least of these.",
+              "speakerNames": ["Jenavi Castillo - English/Spanish"],
+              "timeStart": "3:30 p.m.",
+              "timeEnd": "4:45 p.m",
+              "tracks": ["Workshop"]
             },
             {
+              "id": "29",
               "name": "Workshop Session 2: Engaging in the Community",
-              "location": "Convention Center Room 250B (2nd Floor)",
-              "description": "Each member is gifted to fit within the body of believers and also called to be a light in our communities. Hear how two groups of people engage in their communities in somewhat different ways. Have you thought of being a volunteer fireman or a volunteer sports coach within your community? Hear the motivation and impact of these choices. Then join us and share your story in an open forum. Do you volunteer in a hospital, create quilts to support children impacted by tragedy, volunteer in a school or non-profit, mentor students, volunteer in a senior residence, serve in a food bank, visit jails or prisons… The list of opportunities is long. Come share your story!",
-              "speakerNames": ["Tony Ling, Kurt & Kristi Lang, Carla McKibben - English (with translation equipment)"],
-              "timeStart": "3:30 pm",
-              "timeEnd": "4:45 pm",
-              "tracks": ["Workshop"],
-              "id": "26"
+              "location": "Convention Center - Room 250 B (Second Floor)",
+              "description": "Each member is gifted to fit within the body of believers and called to be a light in our communities. Hear how two groups of people engage in their communities in somewhat different ways. Have you thought of being a volunteer fireman or a volunteer sports coach in your community? Hear the motivation and impact of these choices, then join us and share your story in an open forum. Do you volunteer in a hospital, create quilts to support children impacted by tragedy, help in a school or non-profit, mentor students, serve in a senior residence, assist in a food bank, visit jails or prisons . . . ? The list of opportunities is long. Come share your story!",
+              "speakerNames": ["Tony Ling, Kurt and Kristi Lang, Carla McKibben - English (with translation equipment)"],
+              "timeStart": "3:30 p.m.",
+              "timeEnd": "4:45 p.m",
+              "tracks": ["Workshop"]
             },
             {
+              "id": "30",
               "name": "Workshop Session 2: Making Sabbath School Engaging",
-              "location": "Convention Center Room 250C (2nd Floor)",
+              "location": "Convention Center - Room 250 C (Second Floor)",
               "description": "In this workshop, BA Editor Jason Overman will explore ways to make the most of the BAP Adult Sabbath school quarterlies. Whether you’re a Sabbath school teacher or student, this seminar gives fresh perspectives on an age-old and beloved tradition of our church: studying the Bible together.",
               "speakerNames": ["Jason Overman - English (with translation equipment)"],
               "timeStart": "3:30 pm",
               "timeEnd": "4:45 pm",
-              "tracks": ["Workshop"],
-              "id": "27"
+              "tracks": ["Workshop"]
             },
             {
+              "id": "31",
               "name": "Workshop Session 2: Don’t Cross the Line",
-              "location": "CConvention Center Room 250D (2nd Floor)",
-              "description": "This workshop will teach you how to draw the line between your public and private communication.  Learn the importance of what you express in your social media venues that could dismiss the engagement of your church and community.  Understand the importance of internal and external agendas in live streaming services as well as live events and become a more effective communicator to impact and engage your church and community.",
+              "location": "Convention Center - Room 250 D (Second Floor)",
+              "description": "This workshop will teach you how to draw the line between your public and private communication. Learn the importance of how your social media posts affect your church and community. Understand the importance of internal and external agendas in live-streaming services and in live events, and become a more effective communicator to impact and engage your church and community.",
               "speakerNames": ["Jamin Teran - English"],
-              "timeStart": "3:30 pm",
-              "timeEnd": "4:45 pm",
-              "tracks": ["Workshop"],
-              "id": "28"
+              "timeStart": "3:30 p.m.",
+              "timeEnd": "4:45 p.m",
+              "tracks": ["Workshop"]
             },
             {
+              "id": "32",
               "name": "Workshop Session 2: Get A Grip On the Grind - A Little Organization Goes A Long Way In Achieving Success",
-              "location": "Convention Center Room 250E/F (2nd Floor)",
+              "location": "Convention Center - Room 250 E/F (Second Floor)",
               "description": "Church ministry is much more than the Sabbath worship services, potlucks and Bible Studies. It is also the ongoing challenge of finding people willing to serve, business meetings, and committees. This workshop will present some practical methods and examples for getting a grip on the grind of recruiting and training ministry leaders, making meetings more productive, and retaining volunteers. A little organization can go a long way towards ministry success!",
               "speakerNames": ["Ramon Ruiz - Spanish"],
               "timeStart": "3:30 pm",
               "timeEnd": "4:45 pm",
-              "tracks": ["Workshop"],
-              "id": "29"
+              "tracks": ["Workshop"]
             },
             {
+              "id": "33",
               "name": "Dinner",
+              "timeStart": "5:00 p.m.",
+              "timeEnd": "6:30 p.m",
               "location": "",
-              "description": "",
-              "speakerNames": [""],
-              "timeStart": "5:00 pm",
-              "timeEnd": "6:30 pm",
               "tracks": ["Meal"],
-              "id": "30"
+              "speakerNames": [""],
+              "description": ""
             },
             {
+              "id": "34",
               "name": "Evening Worship Service",
-              "location": "Convention Center Ballroom E/F/G/H/I/J (1st Floor)",
-              "description": "Jesus, the Creator and King of the universe, wants to be the Lord of your heart. He invites us into a relationship, that we might be the recipients, yet also the conduits, of His Power and Presence. Are you grounded in Him?",
-              "speakerNames": ["Kurt Lang (in English) - “Grounded in Jesus”"],
-              "timeStart": "7:00 pm",
-              "timeEnd": "9:00 pm",
-              "title": "Grounded In Jesus.",
-              "aboutSermon": "Jesus, the Creator and King of the universe, wants to be the Lord of your heart. He invites us into a relationship, that we might be the recipients, yet also the conduits, of His Power and Presence. Are you grounded in Him?",
+              "timeStart": "7:00 p.m.",
+              "timeEnd": "9:00 p.m",
+              "location": "Convention Center - Ballroom E/F/G/H/I/J (First Floor)",
               "tracks": ["Services"],
-              "id": "31"
+              "speakerNames": ["Kurt Lang (in English)"],
+              "description": "“Grounded in Jesus” — Jesus, the Creator and King of the universe, wants to be the Lord of your heart. He invites us into a relationship so that we might be the recipients, yet also the conduits, of His power and presence. Are you grounded in Him?"
             },
             {
+              "id": "35",
               "name": "Registration Desk Open",
-              "location": "Convention Center Room 150A/B (1st Floor)",
-              "description": "",
-              "speakerNames": [""],
-              "timeStart": "9:00 pm",
-              "timeEnd": "9:30 am",
+              "timeStart": "9:00 p.m.",
+              "timeEnd": "9:30 p.m",
+              "location": "Convention Center - Room 150 A/B (First Floor)",
               "tracks": ["Registration"],
-              "id": "32"
+              "speakerNames": [""],
+              "description": ""
             },
             {
+              "id": "36",
               "name": "Late-Night Options - Youth",
-              "location": "Convention Center Room 355A/B/C (3rd floor) or Hall C (1st floor)",
-              "description": "",
-              "speakerNames": [""],
-              "timeStart": "10:45 am",
-              "timeEnd": "11:00 am",
+              "timeStart": "9:30 p.m.",
+              "timeEnd": "11:00 p.m",
+              "location": "Convention Center - Room 355 A/B/C (Third Floor) or Hall C (First Floor)",
               "tracks": ["Youth"],
-              "id": "33"
+              "speakerNames": [""],
+              "description": ""
             },
             {
+              "id": "37",
               "name": "Late-Night Options - Young Adult",
-              "location": "Convention Center Room 355D/E/F (3rd floor)",
-              "description": "",
-              "speakerNames": [""],
-              "timeStart": "10:45 am",
-              "timeEnd": "11:00 am",
+              "timeStart": "9:30 p.m.",
+              "timeEnd": "11:00 p.m",
+              "location": "Convention Center - Room 355 D/E/F (Third Floor)",
               "tracks": ["YoungAdult"],
-              "id": "34"
+              "speakerNames": [""],
+              "description": ""
             }
           ]
         },
@@ -366,534 +386,545 @@
           "time": "Wednesday, July 2",
           "sessions": [
             {
+              "id": "38",
               "name": "Registration Desk Open",
-              "location": "Convention Center Room 150A/B (1st Floor)",
-              "description": "",
-              "speakerNames": [""],
-              "timeStart": "8:00 am",
-              "timeEnd": "9:00 am",
+              "timeStart": "8:00 a.m.",
+              "timeEnd": "9:00 a.m",
+              "location": "Convention Center - Room 150 A/B (First Floor)",
               "tracks": ["Registration"],
-              "id": "35"
+              "speakerNames": [""],
+              "description": ""
             },
             {
+              "id": "39",
               "name": "Sign in for Children’s Program",
-              "location": "Convention Center Room 151G (1st Floor)",
-              "description": "",
-              "speakerNames": [""],
-              "timeStart": "8:45 am",
-              "timeEnd": "9:00 am",
+              "timeStart": "8:45 a.m.",
+              "timeEnd": "9:00 a.m",
+              "location": "Convention Center - Room 151 G (First Floor)",
               "tracks": ["Children"],
-              "id": "36"
+              "speakerNames": [""],
+              "description": ""
             },
             {
+              "id": "40",
               "name": "Business Session",
-              "location": "Convention Center Ballroom E/F/G/H/I/J (1st Floor)",
-              "description": "• Call to Order\n• Morning Devotion\n• Report of the Registration Committee\n• Reading and Approval of Minutes\n• State of the Council Address\n• Report of the Amendments Committee\n• Committee Reports",
-              "speakerNames": [""],
-              "timeStart": "9:00 am",
-              "timeEnd": "12:00 pm",
+              "timeStart": "9:00 a.m.",
+              "timeEnd": "12:00 p.m",
+              "location": "Convention Center - Ballroom E/F/G/H/I/J (First Floor)",
               "tracks": ["Business"],
-              "id": "37"
+              "speakerNames": [""],
+              "description": "• Call to Order\n• Morning Devotion\n• Report of the Registration Committee\n• Reading and Approval of Minutes\n• Report of the Amendments Committee\n• Committee Reports"
             },
             {
+              "id": "41",
               "name": "Children’s Program",
-              "location": "Convention Center Room 151G (1st Floor)",
-              "description": "",
-              "speakerNames": [""],
-              "timeStart": "9:00 am",
-              "timeEnd": "12:00 pm",
+              "timeStart": "9:00 a.m.",
+              "timeEnd": "12:00 p.m",
+              "location": "Convention Center - Room 151 G (First Floor)",
               "tracks": ["Children"],
-              "id": "38"
-            },
-            {
-              "name": "Youth Program",
-              "location": "Convention Center Room 355A/B/C (3rd floor)",
-              "description": "",
               "speakerNames": [""],
-              "timeStart": "9:00 am",
-              "timeEnd": "12:00 pm",
-              "tracks": ["Youth"],
-              "id": "39"
+              "description": ""
             },
             {
+              "id": "42",
+              "name": "Youth Program",
+              "timeStart": "9:00 a.m.",
+              "timeEnd": "12:00 p.m",
+              "location": "Convention Center - Room 355 A/B/C (Third Floor)",
+              "tracks": ["Youth"],
+              "speakerNames": [""],
+              "description": ""
+            },
+            {
+              "id": "43",
               "name": "Special Meal: Women’s Lunch",
-              "location": "Convention Center Room 254A/B (2nd Floor)",
-              "description": "",
+              "timeStart": "12:00 p.m.",
+              "timeEnd": "1:30 p.m",
+              "location": "Convention Center - Room 254 A/B (Second Floor)",
+              "tracks": ["Meal"],
               "hostedBy": "Maria Rousseau",
-              "speakerNames": [""],
-              "timeStart": "12:00 pm",
-              "timeEnd": "1:30 pm",
-              "tracks": ["Meal"],
-              "id": "40"
+              "description": ""
             },
             {
+              "id": "44",
               "name": "Registration Desk Open",
-              "location": "Convention Center Room 150A/B (1st Floor)",
-              "description": "",
-              "speakerNames": [""],
-              "timeStart": "2:00 pm",
-              "timeEnd": "5:00 pm",
+              "timeStart": "2:00 p.m.",
+              "timeEnd": "5:00 p.m",
+              "location": "Convention Center - Room 150 A/B (First Floor)",
               "tracks": ["Registration"],
-              "id": "41"
+              "speakerNames": [""],
+              "description": ""
             },
             {
+              "id": "45",
               "name": "Children’s Program",
-              "location": "Convention Center Room 151G (1st Floor)",
-              "description": "",
-              "speakerNames": [""],
-              "timeStart": "2:00 pm",
-              "timeEnd": "4:45 pm",
+              "timeStart": "2:00 p.m.",
+              "timeEnd": "4:45 p.m",
+              "location": "Convention Center - Room 151 G (First Floor)",
               "tracks": ["Children"],
-              "id": "42"
+              "speakerNames": [""],
+              "description": ""
             },
             {
+              "id": "46",
               "name": "Youth Program",
-              "location": "Convention Center Hall C (1st floor)",
-              "description": "",
-              "speakerNames": [""],
-              "timeStart": "2:00 pm",
-              "timeEnd": "4:45 pm",
+              "timeStart": "2:00 p.m.",
+              "timeEnd": "4:45 p.m",
+              "location": "Convention Center - Hall C (First Floor)",
               "tracks": ["Youth"],
-              "id": "43"
+              "speakerNames": [""],
+              "description": ""
             },
             {
+              "id": "47",
               "name": "Young Adult Program",
-              "location": "Convention Center Room 355D/E/F(3rd floor)",
-              "description": "",
-              "speakerNames": [""],
-              "timeStart": "2:00 pm",
-              "timeEnd": "4:45 pm",
+              "timeStart": "2:00 p.m.",
+              "timeEnd": "4:45 p.m",
+              "location": "Convention Center - Room 355 D/E/F (Third Floor)",
               "tracks": ["YoungAdult"],
-              "id": "44"
+              "speakerNames": [""],
+              "description": ""
             },
             {
+              "id": "48",
               "name": "Workshop Session 1: Unlock the Power of Great Church Sound! Part 1",
-              "location": "Convention Center Room 250A (2nd Floor)",
-              "description": "Join us for an interactive, hands-on Sound Training Session designed for those who run sound in church services. This is your chance to step behind the mixing board, listen, adjust, and learn in real-time! In this session, you will: Mix live sound and experience the impact of small adjustments; Participate in A/B testing to hear the difference between good and bad mixes; Get expert tips on common sound issues and how to fix them; and Engage in a Q&A session to troubleshoot your toughest audio challenges. Whether you’re new to church sound or have years of experience, this session will equip you with practical skills to enhance worship through excellent audio. Come ready to listen, learn, and level up your sound mixing skills! Stick around for Part 2.",
-              "speakerNames": ["Ronald Rousseau & Robert Stephens - English/Bilingual"],
-              "timeStart": "2:00 pm",
-              "timeEnd": "3:15 pm",
-              "tracks": ["Workshop"],
-              "id": "45"
+              "location": "Convention Center - Room 250 A (Second Floor)",
+              "description": "Join us for an interactive, hands-on sound training session designed for those who run sound in church services. This is your chance to step behind the mixing board, listen, adjust, and learn in real-time! In this session, you will mix live sound and experience the impact of small adjustments; participate in A/B testing to hear the difference between good and bad mixes; get expert tips on common sound issues and how to fix them; and engage in a Q&A session to troubleshoot your toughest audio challenges. Whether you’re new to church sound or have years of experience, this session will equip you with practical skills to enhance worship through excellent audio. Come ready to listen, learn, and level up your sound mixing skills! Stick around for Part 2.",
+              "speakerNames": ["Ronald Rousseau and Robert Stephens - English/Spanish"],
+              "timeStart": "2:00 p.m.",
+              "timeEnd": "3:15 p.m",
+              "tracks": ["Workshop"]
             },
             {
-              "name": "Workshop Session 1: Balloon, Bubbles, Crafts, Food, Music, Recreation, Worship, Message. Now what? What does it take to be a youth camp director?",
-              "location": "Convention Center Room 250B (2nd Floor)",
-              "description": "This workshop is designed to help you understand what it takes to design, implement, and succeed in directing a successful God-centered youth camp. We will go through the steps of picking out a theme, choosing staff, speakers, worship leaders, cooks, budgeting, cell phones, medical staff, insurance, programming, and marketing your camp before and after. Join two seasoned directors as we share our successes and failures in working with our next generation of church leadership.",
-              "speakerNames": ["Greg Haffner & Harold Ogren - English (with translation equipment)"],
-              "timeStart": "2:00 pm",
-              "timeEnd": "3:15 pm",
-              "tracks": ["Workshop"],
-              "id": "46"
+              "id": "49",
+              "name": "Workshop Session 1: Balloon, Bubbles, Crafts, Food, Music, Recreation, Worship, Message. Now What? What Does it Take to be a Youth Camp Director?",
+              "location": "Convention Center - Room 250 B (Second Floor)",
+              "description": "This workshop is designed to help you understand what it takes to design, implement, and succeed in directing a successful God-centered youth camp. We will go through the steps of picking a theme; choosing staff, speakers, worship leaders, cooks; budgeting, cell phones, medical staff, insurance, programming, and marketing your camp before and after. Join two seasoned directors as we share our successes and failures in working with our next generation of church leadership.",
+              "speakerNames": ["Greg Haffner and Harold Ogren - English (with translation equipment)"],
+              "timeStart": "2:00 p.m.",
+              "timeEnd": "3:15 p.m",
+              "tracks": ["Workshop"]
             },
             {
+              "id": "50",
               "name": "Workshop Session 1: Introducing the International Federation",
-              "location": "Convention Center Room 250C (2nd Floor)",
-              "description": "This workshop will delve into the transition of the International Ministerial Congress to the Church of God (Seventh Day) International Federation. You’ll have the chance to ask questions and receive updates on the organization that links us to a global network of churches worldwide.",
+              "location": "Convention Center - Room 250 C (Second Floor)",
+              "description": "This workshop will delve into the transition of the International Ministerial Congress to the Church of God (Seventh Day) International Federation. You’ll have the chance to ask questions and receive updates on the organization that links us to a network of churches worldwide.",
               "speakerNames": ["Samuel Holland - English (with translation equipment)"],
-              "timeStart": "2:00 pm",
-              "timeEnd": "3:15 pm",
-              "tracks": ["Workshop"],
-              "id": "47"
+              "timeStart": "2:00 p.m.",
+              "timeEnd": "3:15 p.m",
+              "tracks": ["Workshop"]
             },
             {
+              "id": "51",
               "name": "Workshop Session 1: Put Me In, Coach: Experience the Fulfillment of Your Role on God’s Team",
-              "location": "Convention Center Room 250D (2nd Floor)",
-              "description": "The goal of this workshop is to help members catch the vision to fulfill their places in the work of God’s Vibrant 21st Century Church of God (Seventh Day). We will consider: Who is God calling to His team? The effects of serving and not serving on God’s team. Finding your gifts and place on God’s team. A plan for equipping the players. Attendees should leave this workshop with a joyful and expectant heart regarding their roles in their local congregation, district, and the General Conference.",
+              "location": "Convention Center - Room 250 D (Second Floor)",
+              "description": "The goal of this workshop is to help members catch the vision to fulfill their places in the work of God’s vibrant twenty-first century Church of God (Seventh Day). We will consider the following: who God is calling to His team; the effects of serving and not serving on God’s team; finding your gifts and place on God’s team; a plan for equipping the players. Attendees should leave this workshop with a joyful and expectant heart regarding their roles in their local congregations, districts, and the General Conference.",
               "speakerNames": ["Andrew Fernandez - English"],
-              "timeStart": "2:00 pm",
-              "timeEnd": "3:15 pm",
-              "tracks": ["Workshop"],
-              "id": "48"
+              "timeStart": "2:00 p.m.",
+              "timeEnd": "3:15 p.m",
+              "tracks": ["Workshop"]
             },
             {
+              "id": "52",
               "name": "Workshop Session 1: Is Church Integration A Problem?",
-              "location": "Convention Center Room 250E/F (2nd Floor)",
-              "description": "This workshop will go over the importance of church integration not enhancing one’s culture, or structure, but rather in providing a model where everyone will be edified. Problems such as cultural identity, segregation, lack of church identity, will be discussed and provide effective solutions. At the same time, we will touch on ways to connect with our church and community today.",
+              "location": "Convention Center - Room 250 E/F (Second Floor)",
+              "description": "This workshop will go over the importance of church integration — not to enhance one’s culture, or structure, but to provide a model where everyone will be edified. Problems such as cultural identity, segregation, and lack of church identity will be discussed, and effective solutions will be provided. We will also touch on ways to connect with our church and community today.",
               "speakerNames": ["Jamin and Merari Teran - Spanish"],
-              "timeStart": "2:00 pm",
-              "timeEnd": "3:15 pm",
-              "tracks": ["Workshop"],
-              "id": "49"
+              "timeStart": "2:00 p.m.",
+              "timeEnd": "3:15 p.m",
+              "tracks": ["Workshop"]
             },
             {
+              "id": "53",
               "name": "Workshop Session 2: Unlock the Power of Great Church Sound! Part 2",
-              "location": "Convention Center Room 250A (2nd Floor)",
-              "description": "Join us for an interactive, hands-on Sound Training Session designed for those who run sound in church services. This is your chance to step behind the mixing board, listen, adjust, and learn in real-time! In this session, you will: Mix live sound and experience the impact of small adjustments; Participate in A/B testing to hear the difference between good and bad mixes; Get expert tips on common sound issues and how to fix them; and Engage in a Q&A session to troubleshoot your toughest audio challenges. Whether you’re new to church sound or have years of experience, this session will equip you with practical skills to enhance worship through excellent audio. Come ready to listen, learn, and level up your sound mixing skills! This is a continuation of Part 1.",
-              "speakerNames": ["Ronald Rousseau & Robert Stephens - English/Bilingual"],
-              "timeStart": "3:30 pm",
-              "timeEnd": "4:45 pm",
-              "tracks": ["Workshop"],
-              "id": "50"
+              "location": "Convention Center - Room 250 A (Second Floor)",
+              "description": "Join us for an interactive, hands-on sound training session designed for those who run sound in church services. This is your chance to step behind the mixing board, listen, adjust, and learn in real-time! In this session, you will mix live sound and experience the impact of small adjustments; participate in A/B testing to hear the difference between good and bad mixes; get expert tips on common sound issues and how to fix them; and engage in a Q&A session to troubleshoot your toughest audio challenges. Whether you’re new to church sound or have years of experience, this session will equip you with practical skills to enhance worship through excellent audio. Come ready to listen, learn, and level up your sound mixing skills! This is a continuation of Part 1.",
+              "speakerNames": ["Ronald Rousseau and Robert Stephens - English/Bilingual"],
+              "timeStart": "3:30 p.m,",
+              "timeEnd": "4:45 p.m",
+              "tracks": ["Workshop"]
             },
             {
-              "name": "Workshop Session 2: Strengthening Biblical Foundations Through Pre-Teen Youth Camps",
-              "location": "Convention Center Room 250B (2nd Floor)",
-              "description": "Did you know that most believers come to the Lord before age 13? Pre-teen youth ministry is an often under-appreciated but crucial work in the body of Christ. The call to follow Christ begins with the planting, watering, and tending of gospel seeds in the hearts of our young people, long before we see the harvest. Pre-teen youth camps are an amazing opportunity to engage in this work! In this workshop, a vision is cast for how pre-teen youth camp ministry can come alongside parents, Sabbath School teachers, pastors, and the Church to plant gospel seeds in young hearts.",
-              "speakerNames": ["Matthew Stucker & Kelsey Gjesdal - English (with translation equipment)"],
-              "timeStart": "3:30 pm",
-              "timeEnd": "4:45 pm",
-              "tracks": ["Workshop"],
-              "id": "51"
+              "id": "54",
+              "name": "Workshop Session 2: Strengthening Biblical Foundations Through Preteen Youth Camps",
+              "location": "Convention Center - Room 250 B (Second Floor)",
+              "description": "Did you know that most believers come to the Lord before age 13? Preteen youth ministry is an often under-appreciated but crucial work in the body of Christ. The call to follow Christ begins with planting, watering, and tending gospel seeds in the hearts of our young people, long before we see the harvest. Preteen youth camps are an amazing opportunity to engage in this work! In this workshop, a vision is cast for how preteen youth camp ministry can come alongside parents, Sabbath school teachers, pastors, and the Church to plant gospel seeds in young hearts",
+              "speakerNames": ["Matthew Stucker and Kelsey Gjesdal - English (with translation equipment)"],
+              "timeStart": "3:30 p.m.",
+              "timeEnd": "4:45 p.m",
+              "tracks": ["Workshop"]
             },
             {
+              "id": "55",
               "name": "Workshop Session 2: Next Step: Following the Call to Pastoral Ministry in CoG7",
-              "location": "Convention Center Room 250C (2nd Floor)",
-              "description": "Artios Christian College and the License and Credentials Committee (L&CC) invite all interested students, current ministerial workers, and those considering a calling to pastoral work or ministerial advancement (from LPC to License or License to Credentials). We will assist you and answer your questions about Ministerial Licensing and serving in the Pastoral Ministry in the Church of God (Seventh Day). Our goal is to support future pastors in their education but also in their calling and spiritual development and readiness to serve. Together, we will explore how God is preparing leaders for His church and how we can walk faithfully in that calling.",
+              "location": "Convention Center Room - 250 C (Second Floor)",
+              "description": "Artios Christian College and the License and Credentials Committee (L&CC) invite all interested students, current ministerial workers, and those considering a calling to pastoral work or ministerial advancement (from LPC to license or license to credentials). We will assist you and answer your questions about ministerial licensing and serving in the pastoral ministry in the Church of God (Seventh Day). Our goal is to support future pastors in their education but also in their calling, spiritual development, and readiness to serve. Together we will explore how God is preparing leaders for His church and how we can walk faithfully in that calling.",
               "speakerNames": ["Steve Kyner, Brian Franks, Makayla Ross - English (with translation equipment)"],
-              "timeStart": "3:30 pm",
-              "timeEnd": "4:45 pm",
-              "tracks": ["Workshop"],
-              "id": "52"
+              "timeStart": "3:30 p.m.",
+              "timeEnd": "4:45 p.m",
+              "tracks": ["Workshop"]
             },
             {
+              "id": "56",
               "name": "Workshop Session 2: How to Lead Someone to Christ",
-              "location": "Convention Center Room 250D (2nd Floor)",
-              "description": "This workshop will encompass biblical strategies on how the church can lead non-believers and believers who have gone astray to Christ.",
+              "location": "Convention Center - Room 250 D (Second Floor)",
+              "description": "This workshop will encompass biblical strategies on how the church can lead non-believers, and believers who have gone astray to Christ.",
               "speakerNames": ["Narciso Betances - English"],
-              "timeStart": "3:30 pm",
-              "timeEnd": "4:45 pm",
-              "tracks": ["Workshop"],
-              "id": "53"
+              "timeStart": "3:30 p.m.",
+              "timeEnd": "4:45 p.m",
+              "tracks": ["Workshop"]
             },
             {
-              "name": "Workshop Session 2: A Seat at the Table: Cultivating Christ-like Hospitality",
-              "location": "Convention Center Room 250E/F (2nd Floor)",
-              "description": "This workshop will explore the critical role that hospitality plays within the Church, focusing on how we welcome both regular members and newcomers. We will compare the experience of being a guest at church to dining at different types of restaurants. Each type of dining experience represents different levels of service and hospitality, ranging from minimal to exceptional. This session will challenge participants to reflect on the current state of hospitality in their churches and encourage them to foster a culture of genuine love and care.",
-              "speakerNames": ["Moises & Pete Capetillo - Spanish"],
-              "timeStart": "3:30 pm",
-              "timeEnd": "4:45 pm",
-              "tracks": ["Workshop"],
-              "id": "54"
+              "id": "57",
+              "name": "Workshop Session 2: A Seat at the Table: Cultivating Christlike Hospitality",
+              "location": "Convention Center - Room 250 E/F (Second Floor)",
+              "description": "This workshop will explore the critical role that hospitality plays within the church, focusing on how we welcome both regular attenders and newcomers. We will compare the experience of being a guest at church to dining at different types of restaurants. Each type of dining experience represents various levels of service and hospitality, ranging from minimal to exceptional. This session will challenge participants to reflect on the current state of hospitality in their churches and encourage them to foster a culture of genuine love and care.",
+              "speakerNames": ["Moises and Pete Capetillo - Spanish"],
+              "timeStart": "3:30 p.m.",
+              "timeEnd": "4:45 p.m",
+              "tracks": ["Workshop"]
             },
             {
+              "id": "58",
               "name": "Dinner",
+              "timeStart": "5:00 p.m.",
+              "timeEnd": "6:30 p.m",
               "location": "",
-              "description": "",
-              "speakerNames": [""],
-              "timeStart": "5:00 pm",
-              "timeEnd": "6:30 pm",
               "tracks": ["Meal"],
-              "id": "55"
+              "speakerNames": [""],
+              "description": ""
             },
             {
+              "id": "59",
               "name": "Evening Worship Service",
-              "location": "Convention Center Ballroom E/F/G/H/I/J (1st Floor)",
+              "location": "Convention Center Ballroom E/F/G/H/I/J (First Floor)",
               "description": "We are a church on mission. Our passion: the call to service, fellowship, and worship. Our power: Jesus Christ, the foundation of the church and the authority that guarantees victory. Our purpose: to build God’s kingdom. Our promise: Success! The gates of hell shall not prevail against Christ’s church.",
-              "speakerNames": ["Speaker: Nigel Lewis"],
-              "timeStart": "7:00 pm",
-              "timeEnd": "9:00 pm",
+              "speakerNames": ["Nigel Lewis (in English)"],
+              "timeStart": "7:00 p.m.",
+              "timeEnd": "9:00 p.m",
               "title": "“Engaging our Generation for Christ”",
-              "aboutSermon": "We are a church on mission. Our passion: the call to service, fellowship, and worship. Our power: Jesus Christ, the foundation of the church and the authority that guarantees victory. Our purpose: to build God’s kingdom. Our promise: Success! The gates of hell shall not prevail against Christ’s church.",
-              "tracks": ["Services"],
-              "id": "56"
+              "aboutSermon": "We are a church on mission. Our passion: the call to service, fellowship, and worship. Our power: Jesus Christ, the foundation of the church and the authority who guarantees victory. Our purpose: to build God’s kingdom. Our promise: success! The gates of hell shall not prevail against Christ’s church.",
+              "tracks": ["Services"]
             },
             {
+              "id": "60",
               "name": "Registration Desk Open",
-              "location": "Convention Center Room 150A/B (1st Floor)",
-              "description": "",
-              "speakerNames": [""],
-              "timeStart": "9:00 pm",
-              "timeEnd": "9:30 pm",
+              "timeStart": "9:00 p.m.",
+              "timeEnd": "9:30 p.m",
+              "location": "Convention Center - Room 150 A/B (First Floor)",
               "tracks": ["Registration"],
-              "id": "57"
+              "speakerNames": [""],
+              "description": ""
             },
             {
+              "id": "61",
               "name": "Late-Night Options - Youth",
-              "location": "Convention Center Room 355A/B/C (3rd floor) or Hall C (1st floor)",
-              "description": "",
-              "speakerNames": [""],
-              "timeStart": "9:30 pm",
-              "timeEnd": "11:00 pm",
+              "timeStart": "9:30 p.m.",
+              "timeEnd": "11:00 p.m",
+              "location": "Convention Center - Room 355 A/B/C (Third Floor) or Hall C (First Floor)",
               "tracks": ["Youth"],
-              "id": "58"
+              "speakerNames": [""],
+              "description": ""
             },
             {
+              "id": "62",
               "name": "Late-Night Options - Young Adult",
-              "location": "Convention Center Room 355D/E/F (3rd floor)",
-              "description": "",
-              "speakerNames": [""],
-              "timeStart": "9:30 pm",
-              "timeEnd": "11:00 pm",
+              "timeStart": "9:30 p.m.",
+              "timeEnd": "11:00 p.m",
+              "location": "Convention Center - Room 355 D/E/F (Third Floor)",
               "tracks": ["YoungAdult"],
-              "id": "59"
-            }
+              "speakerNames": [""],
+              "description": ""
+            }  
+            
           ]
         },
         {
           "time": "Thursday, July 3",
           "sessions": [
             {
-              "name": "Registration Desk Open",
-              "location": "Convention Center Room 150A/B (1st Floor)",
-              "description": "",
-              "timeStart": "8:00 am",
-              "timeEnd": "9:00 am",
-              "tracks": ["Registration"],
-              "id": "60"
-            },
-            {
-              "name": "Sign in for Children’s Program",
-              "location": "Convention Center Room 151G (1st Floor)",
-              "description": "",
-              "speakerNames": [""],
-              "timeStart": "8:45 am",
-              "timeEnd": "9:00 am",
-              "tracks": ["Children"],
-              "id": "61"
-            },
-            {
-              "name": "Business Session",
-              "location": "Convention Center Ballroom E/F/G/H/I/J (1st Floor)",
-              "description": "• Call to Order\n• Morning Devotion\n• Report of the Registration Committee\n• Reading and Approval of Minutes\n• Report of the Amendments Committee\n• Committee Reports",
-              "speakerNames": [""],
-              "timeStart": "9:00 am",
-              "timeEnd": "12:00 pm",
-              "tracks": ["Business"],
-              "id": "62"
-            },
-            {
-              "name": "Children’s Program",
-              "location": "Convention Center Room 151G (1st Floor)",
-              "description": "",
-              "speakerNames": [""],
-              "timeStart": "9:00 am",
-              "timeEnd": "12:00 pm",
-              "tracks": ["Children"],
-              "id": "63"
-            },
-            {
-              "name": "Youth Program",
-              "location": "Convention Center Room 355A/B/C (3rd floor)",
-              "description": "",
-              "speakerNames": [""],
-              "timeStart": "9:00 am",
-              "timeEnd": "12:00 pm",
-              "tracks": ["Youth"],
-              "id": "64"
-            },
-            {
-              "name": "Resolutions Due to Resolutions Committee",
+              "id": "63",
+              "name": "Breakfast",
+              "timeStart": "7:30 a.m.",
+              "timeEnd": "8:30 a.m",
               "location": "",
-              "description": "",
-              "speakerNames": [""],
-              "timeStart": "12:00 pm",
-              "timeEnd": "",
-              "tracks": ["Business"],
-              "id": "65"
-            },
-            {
-              "name": "Special Meal: Spring Vale Reunion Lunch",
-              "location": "Convention Center Room 254A/B (2nd Floor)",
-              "description": "",
-              "hostedBy": "John Camero", 
-              "speakerNames": [""],
-              "timeStart": "12:00 pm",
-              "timeEnd": "1:30 pm",
               "tracks": ["Meal"],
-              "id": "66"
+              "speakerNames": [""],
+              "description": ""
             },
             {
+              "id": "64",
               "name": "Registration Desk Open",
-              "location": "Convention Center Room 150A/B (1st Floor)",
-              "description": "",
-              "speakerNames": [""],
-              "timeStart": "2:00 pm",
-              "timeEnd": "5:00 pm",
+              "timeStart": "8:00 a.m.",
+              "timeEnd": "9:00 a.m",
+              "location": "Convention Center - Room 150 A/B (First Floor)",
               "tracks": ["Registration"],
-              "id": "67"
+              "speakerNames": [""],
+              "description": ""
             },
             {
-              "name": "Children’s Program",
-              "location": "Convention Center Room 151G (1st Floor)",
-              "description": "",
-              "speakerNames": [""],
-              "timeStart": "2:00 pm",
-              "timeEnd": "4:45 pm",
+              "id": "65",
+              "name": "Sign in for Children’s Program",
+              "timeStart": "8:45 a.m.",
+              "timeEnd": "9:00 a.m",
+              "location": "Convention Center - Room 151 G (First Floor)",
               "tracks": ["Children"],
-              "id": "68"
+              "speakerNames": [""],
+              "description": ""
             },
             {
+              "id": "66",
+              "name": "Business Session",
+              "timeStart": "9:00 a.m.",
+              "timeEnd": "12:00 p.m",
+              "location": "Convention Center - Ballroom E/F/G/H/I/J (First Floor)",
+              "tracks": ["Business"],
+              "speakerNames": [""],
+              "description": "• Call to Order\n• Morning Devotion\n• Report of the Registration Committee\n• Reading and Approval of Minutes\n• Report of the Amendments Committee\n• Committee Reports"
+            },
+            {
+              "id": "67",
+              "name": "Children’s Program",
+              "timeStart": "9:00 a.m.",
+              "timeEnd": "12:00 p.m",
+              "location": "Convention Center - Room 151 G (First Floor)",
+              "tracks": ["Children"],
+              "speakerNames": [""],
+              "description": ""
+            },
+            {
+              "id": "68",
               "name": "Youth Program",
-              "location": "Convention Center Hall C (1st floor)",
-              "description": "",
-              "speakerNames": [""],
-              "timeStart": "2:00 pm",
-              "timeEnd": "4:45 pm",
+              "timeStart": "9:00 a.m.",
+              "timeEnd": "12:00 p.m",
+              "location": "Convention Center - Room 355 A/B/C (Third Floor)",
               "tracks": ["Youth"],
-              "id": "69"
-            },
-            {
-              "name": "Young Adult Program",
-              "location": "Convention Center Room 355D/E/F (3rd floor)",
-              "description": "",
               "speakerNames": [""],
-              "timeStart": "2:00 pm",
-              "timeEnd": "4:45 pm",
-              "tracks": ["YoungAdult"],
-              "id": "70"
+              "description": ""
             },
             {
-              "name": "Workshop Session 1: Engage: So you’ve joined a worship band…",
-              "location": "Convention Center Room 250A (2nd Floor)",
-              "description": "Music holds a significant place in modern worship services. Regardless of style, the power of music in worship lies in its ability to transcend words, touch the heart, and enhance our communal praise. Join us as we talk shop and explore some practical tips and tricks for enhancing your music for worship and becoming a better musician, team member, or  team leader. A variety of topics are discussed including band dynamics and working together as a worship team. Giving space to each other and serving the song as well as discussions of how to identify and eliminate distractions to make it easier for congregations to stay focused.",
-              "speakerNames": ["Ruben Jr. & Jenny Davila - English/Bilingual"],
-              "timeStart": "2:00 pm",
-              "timeEnd": "3:15 pm",
-              "tracks": ["Workshop"],
-              "id": "71"
-            },
-            {
-              "name": "Workshop Session 1: Getting Engaged with Ministry",
-              "location": "Convention Center Room 250B (2nd Floor)",
-              "description": "Half personal testimony, half practical workshop, join BA Editor Jason Overman as he shares his story of engaging with ministry and what he has learned along the way. In addition, you’ll learn more about the GC Publications ministry and how you might plug into it.",
-              "speakerNames": ["Jason Overman - English (with translation equipment)"],
-              "timeStart": "2:00 pm",
-              "timeEnd": "3:15 pm",
-              "tracks": ["Workshop"],
-              "id": "72"
-            },
-            {
-              "name": "Workshop Session 1: Getting Church Eldership Right",
-              "location": "Convention Center Room 250C (2nd Floor)",
-              "description": "This workshop will provide a biblical framework for the role of elders in the local church, drawing upon the New Testament vision of vibrant churches led by a plurality of spiritual leaders, called to and gifted for a life-long commitment to shepherding Christ’s flock.",
-              "speakerNames": ["Whaid Rose - English (with translation equipment)"],
-              "timeStart": "2:00 pm",
-              "timeEnd": "3:15 pm",
-              "tracks": ["Workshop"],
-              "id": "73"
-            },
-            {
-              "name": "Workshop Session 1: A Seat at the Table: Cultivating Christ-like Hospitality",
-              "location": "Convention Center Room 250D (2nd Floor)",
-              "description": "This workshop will explore the critical role that hospitality plays within the Church, focusing on how we welcome both regular members and newcomers. We will compare the experience of being a guest at church to dining at different types of restaurants. Each type of dining experience represents different levels of service and hospitality, ranging from minimal to exceptional. This session will challenge participants to reflect on the current state of hospitality in their churches and encourage them to foster a culture of genuine love and care.",
-              "speakerNames": ["Moises & Pete Capetillo - English"],
-              "timeStart": "2:00 pm",
-              "timeEnd": "3:15 pm",
-              "tracks": ["Workshop"],
-              "id": "74"
-            },
-            {
-              "name": "Workshop Session 1: How to Lead Someone to Christ",
-              "location": "Convention Center Room 250E/F (2nd Floor)",
-              "description": "This workshop will encompass biblical strategies on how the church can lead non-believers and believers who have gone astray to Christ.",
-              "speakerNames": ["Narciso Betances - Spanish"],
-              "timeStart": "2:00 pm",
-              "timeEnd": "3:15 pm",
-              "tracks": ["Workshop"],
-              "id": "75"
-            },
-            {
-              "name": "Workshop Session 2: Homeschooling with Purpose: Tools, Tips, and Testimonies",
-              "location": "Convention Center Room 250A (2nd Floor)",
-              "description": "Are you considering homeschooling or looking for ways to strengthen your homeschooling journey? I’ll share insights from my personal experience as a homeschooling parent—what’s worked, what hasn’t, and how we’ve seen God’s hand throughout the process. We’ll explore practical tools, helpful resources, and support systems that can make homeschooling both effective and sustainable for your family. Whether you’re just starting out or already on the path, come be encouraged, ask questions, and leave equipped with ideas and assets to help your family thrive in home education.",
-              "speakerNames": ["Anita Davila - English/Bilingual"],
-              "timeStart": "3:30 pm",
-              "timeEnd": "4:45 pm",
-              "tracks": ["Workshop"],
-              "id": "76"
-            },
-            {
-              "name": "Workshop Session 2: Restructuring GC Missions",
-              "location": "Convention Center Room 250B (2nd Floor)",
-              "description": "Jody McCoy and Loren Stacy explain how the General Conference Missions Ministry is being restructured and the reasons why this restructuring was deemed necessary by the GC Board of Directors. If you have questions about which GC Missions Ministry efforts are continuing, which are being discontinued, and what to expect going forward, this seminar is for you.",
-              "speakerNames": ["Jody McCoy & Loren Stacy - English (with translation equipment)"],
-              "timeStart": "3:30 pm",
-              "timeEnd": "4:45 pm",
-              "tracks": ["Workshop"],
-              "id": "77"
-            },
-            {
-              "name": "Workshop Session 2: Self-Care: Care for Yourself to Care for Others",
-              "location": "Convention Center Room 250C (2nd Floor)",
-              "description": "Self-care is “an active and continuous process of maintaining physical, emotional, relational, and spiritual well-being to sustain both personal and professional effectiveness.” Too often, we who serve others, whether in ministry, healthcare, or leadership, neglect our own well-being leading to exhaustion, diminished joy, and even burnout. This session provides practical strategies to integrate self-care into daily life while remaining rooted in our calling.",
-              "speakerNames": ["Delia Palmer - English (with translation equipment)"],
-              "timeStart": "3:30 pm",
-              "timeEnd": "4:45 pm",
-              "tracks": ["Workshop"],
-              "id": "78"
-            },
-            {
-              "name": "Workshop Session 2: Is Church Integration A Problem?",
-              "location": "Convention Center Room 250D (2nd Floor)",
-              "description": "This workshop will go over the importance of church integration not enhancing one’s culture, or structure, but rather in providing a model where everyone will be edified. Problems such as cultural identity, segregation, lack of church identity, will be discussed and provide effective solutions. At the same time, we will touch on ways to connect with our church and community today.",
-              "speakerNames": ["Jamin and Merari Teran - English"],
-              "timeStart": "3:30 pm",
-              "timeEnd": "4:45 pm",
-              "tracks": ["Workshop"],
-              "id": "79"
-            },
-            {
-              "name": "Workshop Session 2: Put Me In, Coach: Experience the Fulfillment of Your Role on God’s Team",
-              "location": "Convention Center Room 250E/F (2nd Floor)",
-              "description": "The goal of this workshop is to help members catch the vision to fulfill their places in the work of God’s Vibrant 21st Century Church of God (Seventh Day). We will consider: Who is God calling to His team? The effects of serving and not serving on God’s team. Finding your gifts and place on God’s team. A plan for equipping the players. Attendees should leave this workshop with a joyful and expectant heart regarding their roles in their local congregation, district, and the General Conference.",
-              "speakerNames": ["Zuri Gutierrez - Spanish"],
-              "timeStart": "3:30 pm",
-              "timeEnd": "4:45 pm",
-              "tracks": ["Workshop"],
-              "id": "80"
-            },
-            {
-              "name": "Reception",
-              "location": "Convention Center Ballroom A/B/C/D (1st Floor)",
-              "description": "Join us for a reception to honor the impact that our outgoing President, Loren Stacy, and Executive Director, Jody McCoy, have had on our denomination. Hors d'oeuvres will be served.",
+              "id": "69",
+              "name": "Resolutions Due to Resolutions Committee",
+              "timeStart": "12:00 p.m",
+              "timeEnd": "",
+              "location": "",
+              "tracks": ["Business"],
               "speakerNames": [""],
-              "timeStart": "5:00 pm",
-              "timeEnd": "6:30 pm",
-              "tracks": ["Event"],
-              "id": "81"
+              "description": ""
+            },
+
+            {
+              "id": "70",
+              "name": "Special Meal: Spring Vale Reunion Lunch",
+              "timeStart": "12:00 p.m.",
+              "timeEnd": "1:30 p.m",
+              "location": "Convention Center - Room 254 A/B (Second Floor)",
+              "tracks": ["Meal"],
+              "speakerNames": [""],
+              "hostedBy": "John Camero",
+              "description": ""
             },
             {
-              "name": "Evening Worship Service",
-              "location": "Convention Center Ballroom E/F/G/H/I/J (1st Floor)",
-              "description": "In 2 Timothy 1:6, the Apostle Paul reminds young Timothy not to ignore the gift(s) the Holy Spirit had apportioned to him. Every Christian is given a gift in order to demonstrate God's love in an evil world. None of us has any excuse to sit on the sidelines.",
-              "speakerNames": ["Speaker: Samuel Holland"],
-              "aboutSermon": "In 2 Timothy 1:6, the Apostle Paul reminds young Timothy not to ignore the gift(s) the Holy Spirit had apportioned to him. Every Christian is given a gift in order to demonstrate God's love in an evil world. None of us has any excuse to sit on the sidelines.",
-              "title": "“Do Something: Engage Your Gift”",
-              "timeStart": "7:00 pm",
-              "timeEnd": "9:00 pm",
-              "tracks": ["Services"],
-              "id": "82"
-            },
-            {
+              "id": "71",
               "name": "Registration Desk Open",
-              "location": "Convention Center Room 150A/B (1st Floor)",
-              "description": "",
-              "speakerNames": [""],
-              "timeStart": "9:00 pm",
-              "timeEnd": "9:30 pm",
+              "timeStart": "2:00 p.m.",
+              "timeEnd": "5:00 p.m",
+              "location": "Convention Center - Room 150 A/B (First Floor)",
               "tracks": ["Registration"],
-              "id": "83"
+              "speakerNames": [""],
+              "description": ""
             },
             {
-              "name": "Artios Meet & Greet",
-              "location": "Convention Center Room 254 (2nd Floor)",
-              "description": "",
+              "id": "72",
+              "name": "Children’s Program",
+              "timeStart": "2:00 p.m.",
+              "timeEnd": "4:45 p.m",
+              "location": "Convention Center - Room 151 G (First Floor)",
+              "tracks": ["Children"],
               "speakerNames": [""],
-              "timeStart": "9:30 pm",
-              "timeEnd": "11:00 pm",
-              "tracks": ["Event"],
-              "id": "84"
+              "description": ""
             },
             {
-              "name": "Late-Night Options - Youth",
-              "location": "Convention Center Room 355A/B/C (3rd floor) or Hall C (1st floor)",
-              "description": "",
-              "speakerNames": [""],
-              "timeStart": "9:30 pm",
-              "timeEnd": "11:00 pm",
+              "id": "73",
+              "name": "Youth Program",
+              "timeStart": "2:00 p.m.",
+              "timeEnd": "4:45 p.m",
+              "location": "Convention Center - Hall C (First Floor)",
               "tracks": ["Youth"],
-              "id": "85"
+              "speakerNames": [""],
+              "description": ""
             },
             {
-              "name": "Late-Night Options - Young Adult",
-              "location": "Convention Center Room 355D/E/F (3rd floor)",
-              "description": "",
-              "speakerNames": [""],
-              "timeStart": "9:30 pm",
-              "timeEnd": "11:00 pm",
+              "id": "74",
+              "name": "Young Adult Program",
+              "timeStart": "2:00 p.m.",
+              "timeEnd": "4:45 p.m",
+              "location": "Convention Center - Room 355 D/E/F (Third Floor)",
               "tracks": ["YoungAdult"],
-              "id": "86"
+              "speakerNames": [""],
+              "description": ""
+            },
+            {
+              "id": "75",
+              "name": "Workshop Session 1: Engage: So you’ve joined a worship band…",
+              "location": "Convention Center - Room 250 A (Second Floor)",
+              "description": "Music holds a significant place in modern worship services. Regardless of style, the power of music in worship lies in its ability to transcend words, touch the heart, and enhance our communal praise. Join us as we talk shop and explore some practical tips and tricks for enhancing your music for worship and becoming a better musician, team member, or team leader. A variety of topics are discussed, including band dynamics and working together as a worship team. We also discuss giving space to each other, serving the song, and how to identify and eliminate distractions to make it easier for congregations to stay focused.",
+              "speakerNames": ["Ruben Jr. and Jenny Davila - English/Spanish"],
+              "timeStart": "2:00 p.m.",
+              "timeEnd": "3:15 p.m",
+              "tracks": ["Workshop"]
+            },
+            {
+              "id": "76",
+              "name": "Workshop Session 1: Getting Engaged with Ministry",
+              "location": "Convention Center - Room 250 B (Second Floor)",
+              "description": "In this half personal testimony, half practical workshop, join BA Editor Jason Overman as he shares his story of engaging with ministry and what he has learned along the way. In addition, you’ll learn more about the GC Publications Ministry and how you might plug into it.",
+              "speakerNames": ["Jason Overman - English (with translation equipment)"],
+              "timeStart": "2:00 p.m.",
+              "timeEnd": "3:15 p.m",
+              "tracks": ["Workshop"]
+            },
+            {
+              "id": "77",
+              "name": "Workshop Session 1: Getting Church Eldership Right",
+              "location": "Convention Center - Room 250 C (Second Floor)",
+              "description": "This workshop will provide a biblical framework for the role of elders in the local church. It will draw upon the New Testament vision of vibrant churches led by a plurality of spiritual leaders, called to and gifted for a lifelong commitment to shepherding Christ’s flock.",
+              "speakerNames": ["Whaid Rose - English (with translation equipment)"],
+              "timeStart": "2:00 p.m.",
+              "timeEnd": "3:15 p.m",
+              "tracks": ["Workshop"]
+            },
+            {
+              "id": "78",
+              "name": "Workshop Session 1: A Seat at the Table: Cultivating Christlike Hospitality",
+              "location": "Convention Center - Room 250 D (Second Floor)",
+              "description": "This workshop will explore the critical role that hospitality plays within the church, focusing on how we welcome both regular attenders and newcomers. We will compare the experience of being a guest at church to dining at different types of restaurants. Each type of dining experience represents different levels of service and hospitality, ranging from minimal to exceptional. This session will challenge participants to reflect on the current state of hospitality in their churches and encourage them to foster a culture of genuine love and care.",
+              "speakerNames": ["Moises and Pete Capetillo - English"],
+              "timeStart": "2:00 p.m.",
+              "timeEnd": "3:15 p.m",
+              "tracks": ["Workshop"]
+            },
+            {
+              "id": "79",
+              "name": "Workshop Session 1: How to Lead Someone to Christ",
+              "location": "Convention Center - Room 250 E/F (Second Floor)",
+              "description": "This workshop will encompass biblical strategies on how the church can lead non-believers, and believers who have gone astray to Christ.",
+              "speakerNames": ["Narciso Betances - Spanish"],
+              "timeStart": "2:00 p.m.",
+              "timeEnd": "3:15 p.m",
+              "tracks": ["Workshop"]
+            },
+            {
+              "id": "80",
+              "name": "Workshop Session 2: Homeschooling with Purpose: Tools, Tips, and Testimonies",
+              "location": "Convention Center - Room 250 A (Second Floor)",
+              "description": "Are you considering homeschooling or looking for ways to strengthen your homeschooling journey? I’ll share insights from my personal experience as a homeschooling parent — what’s worked, what hasn’t, and how we’ve seen God’s hand throughout the process. We’ll explore practical tools, helpful resources, and support systems that can make homeschooling both effective and sustainable for your family. Whether you’re just starting out or already on the path, come be encouraged, ask questions, and leave equipped with ideas and assets to help your family thrive in home education.",
+              "speakerNames": ["Anita Davila - English/Spanish"],
+              "timeStart": "3:30 p.m.",
+              "timeEnd": "4:45 p.m",
+              "tracks": ["Workshop"]
+            },
+            {
+              "id": "81",
+              "name": "Workshop Session 2: Restructuring GC Missions",
+              "location": "Convention Center - Room 250 B (Second Floor)",
+              "description": "Jody McCoy and Loren Stacy explain how the General Conference Missions Ministry is being restructured and the reasons that this restructuring was deemed necessary by the GC board of directors. If you have questions about which Missions Ministry efforts are continuing, which are being discontinued, and what to expect going forward, this seminar is for you.",
+              "speakerNames": ["Jody McCoy & Loren Stacy - English (with translation equipment)"],
+              "timeStart": "3:30 p.m.",
+              "timeEnd": "4:45 p.m",
+              "tracks": ["Workshop"]
+            },
+            {
+              "id": "82",
+              "name": "Workshop Session 2: Self-Care: Care for Yourself to Care for Others",
+              "location": "Convention Center - Room 250 C (Second Floor)",
+              "description": "Self-care is “an active and continuous process of maintaining physical, emotional, relational, and spiritual well-being to sustain both personal and professional effectiveness.” Too often, we who serve others, whether in ministry, healthcare, or leadership, neglect our own well-being, leading to exhaustion, diminished joy, and even burnout. This session provides practical strategies to integrate self-care into daily life while remaining rooted in our calling.",
+              "speakerNames": ["Delia Palmer - English (with translation equipment)"],
+              "timeStart": "3:30 p.m.",
+              "timeEnd": "4:45 p.m",
+              "tracks": ["Workshop"]
+            },
+            {
+              "id": "83",
+              "name": "Workshop Session 2: Is Church Integration A Problem?",
+              "location": "Convention Center - Room 250 D (Second Floor)",
+              "description": "This workshop will go over the importance of church integration not to enhance one’s culture, or structure, but rather to provide a model where everyone will be edified. Problems such as cultural identity, segregation, and lack of church identity will be discussed, and effective solutions will be provided. We will also touch on ways to connect with our church and community today.",
+              "speakerNames": ["Jamin and Merari Teran - English"],
+              "timeStart": "3:30 p.m.",
+              "timeEnd": "4:45 p.m",
+              "tracks": ["Workshop"]
+            },
+            {
+              "id": "84",
+              "name": "Workshop Session 2: Put Me In, Coach: Experience the Fulfillment of Your Role on God’s Team",
+              "location": "Convention Center - Room 250 E/F (Second Floor)",
+              "description": "The goal of this workshop is to help members catch the vision to fulfill their places in the work of God’s vibrant twenty-first century Church of God (Seventh Day). We will consider the following: who God is calling to His team; the effects of serving and not serving on God’s team; finding your gifts and place on God’s team; and a plan for equipping the players. Attendees should leave this workshop with a joyful and expectant heart regarding their roles in their local congregations, districts, and the General Conference.",
+              "speakerNames": ["Zuri Gutierrez - Spanish"],
+              "timeStart": "3:30 p.m.",
+              "timeEnd": "4:45 p.m",
+              "tracks": ["Workshop"]
+            },
+            {
+              "id": "85",
+              "name": "Reception",
+              "timeStart": "5:00 p.m.",
+              "timeEnd": "6:30 p.m",
+              "location": "Convention Center - Ballroom A/B/C/D (First Floor)",
+              "tracks": ["Meal"],
+              "speakerNames": [""],
+              "description": "Join us for a reception to honor the impact that our outgoing president, Loren Stacy, and executive director, Jody McCoy, have had on our denomination. Hors d’oeuvres will be served."
+            },
+            {
+              "id": "86",
+              "name": "Evening Worship Service",
+              "timeStart": "7:00 p.m.",
+              "timeEnd": "9:00 p.m",
+              "location": "Convention Center - Ballroom E/F/G/H/I/J (First Floor)",
+              "tracks": ["Services"],
+              "speakerNames": ["Samuel Holland (in English)"],
+              "title": "Do Something: Engage Your Gift",
+              "aboutSermon": "In 2 Timothy 1:6, the apostle Paul reminds young Timothy to not ignore the gift(s) that the Holy Spirit had apportioned to him. Every Christian is given a gift to demonstrate God’s love in an evil world. None of us has any excuse to sit on the sidelines."
+            },
+            {
+              "id": "87",
+              "name": "Registration Desk Open",
+              "timeStart": "9:00 p.m.",
+              "timeEnd": "9:30 p.m",
+              "location": "Convention Center - Room 150 A/B (First Floor)",
+              "tracks": ["Registration"],
+              "speakerNames": [""],
+              "description": ""
+            },
+            {
+              "id": "88",
+              "name": "Artios Meet & Greet",
+              "timeStart": "9:30 p.m.",
+              "timeEnd": "11:00 p.m",
+              "location": "Convention Center - Room 254 (Second Floor)",
+              "tracks": ["Event"],
+              "speakerNames": [""],
+              "description": ""
+            },
+            {
+              "id": "89",
+              "name": "Late-Night Options (Youth)",
+              "timeStart": "9:30 p.m.",
+              "timeEnd": "11:00 p.m",
+              "location": "Convention Center - Room 355 A/B/C (Third Floor) or Hall C (First Floor)",
+              "tracks": ["Youth"],
+              "speakerNames": [""],
+              "description": ""
+            },
+            {
+              "id": "90",
+              "name": "Late-Night Options (Young Adult)",
+              "timeStart": "9:30 p.m.",
+              "timeEnd": "11:00 p.m",
+              "location": "Convention Center - Room 355 D/E/F (Third Floor)",
+              "tracks": ["YoungAdult"],
+              "speakerNames": [""],
+              "description": ""
             }
 
           ]
@@ -902,125 +933,136 @@
           "time": "Friday, July 4",
           "sessions": [
             {
-              "name": "Registration Desk Open",
-              "location": "Convention Center Room 150A/B (1st Floor)",
-              "description": "",
-              "speakerNames": [""],
-              "timeStart": "8:00 am",
-              "timeEnd": "9:00 am",
-              "tracks": ["Registration"],
-              "id": "87"
-            },
-            {
-              "name": "Sign in for Children’s Program",
-              "location": "Convention Center Room 151G (1st Floor)",
-              "description": "",
-              "speakerNames": [""],
-              "timeStart": "8:45 am",
-              "timeEnd": "9:00 am",
-              "tracks": ["Children"],
-              "id": "88"
-            },
-            {
-              "name": "Business Session",
-              "location": "Convention Center Ballroom E/F/G/H/I/J (1st Floor)",
-              "description": "• Call to Order\n• Morning Devotion\n• Report of the Registration Committee\n• Reading and Approval of Minutes\n• Report of the Resolutions Committee\n• Committee Reports\n• Adjourn Sine Die",
-              "speakerNames": [""],
-              "timeStart": "9:00 am",
-              "timeEnd": "12:00 pm",
-              "tracks": ["Business"],
-              "id": "89"
-            },
-            {
-              "name": "Children’s Program",
-              "location": "Convention Center Room 151G (1st Floor)",
-              "description": "",
-              "speakerNames": [""],
-              "timeStart": "9:00 am",
-              "timeEnd": "12:00 pm",
-              "tracks": ["Children"],
-              "id": "90"
-            },
-            {
-              "name": "Youth Program",
-              "location": "Convention Center Room 355A/B/C (3rd floor)",
-              "description": "",
-              "speakerNames": [""],
-              "timeStart": "9:00 am",
-              "timeEnd": "12:00 pm",
-              "tracks": ["Youth"],
-              "id": "91"
-            },
-            {
-              "name": "Lunch",
+              "id": "91",
+              "name": "Breakfast",
+              "timeStart": "7:30 a.m.",
+              "timeEnd": "8:30 a.m",
               "location": "",
-              "description": "",
-              "speakerNames": [""],
-              "timeStart": "12:00 pm",
-              "timeEnd": "1:30 pm",
               "tracks": ["Meal"],
-              "id": "92"
-            },
-            {
-              "name": "Free Afternoon",
-              "location": "",
-              "description": "",
               "speakerNames": [""],
-              "timeStart": "2:00 pm",
-              "timeEnd": "5:00 pm",
-              "tracks": ["Event"],
-              "id": "93"
+              "description": ""
             },
             {
+              "id": "92",
               "name": "Registration Desk Open",
-              "location": "Convention Center Room 150A/B (1st Floor)",
-              "description": "",
-              "speakerNames": [""],
-              "timeStart": "4:00 pm",
-              "timeEnd": "5:00 pm",
+              "timeStart": "8:00 a.m.",
+              "timeEnd": "9:00 a.m",
+              "location": "Convention Center - Room 150 A/B (First Floor)",
               "tracks": ["Registration"],
-              "id": "94"
+              "speakerNames": [""],
+              "description": ""
             },
             {
+              "id": "93",
+              "name": "Sign in for Children’s Program",
+              "timeStart": "8:45 a.m.",
+              "timeEnd": "9:00 a.m.",
+              "location": "Convention Center - Room 151 G (First Floor)",
+              "tracks": ["Children"],
+              "speakerNames": [""],
+              "description": ""
+            },
+            {
+              "id": "94",
+              "name": "Business Session",
+              "timeStart": "9:00 a.m.",
+              "timeEnd": "12:00 p.m",
+              "location": "Convention Center - Ballroom E/F/G/H/I/J (First Floor)",
+              "tracks": ["Business"],
+              "speakerNames": [""],
+              "description": "Call to Order • Morning Devotion • Report of the Registration Committee • Reading and Approval of Minutes • Report of the Resolutions Committee • Committee Reports • Adjourn Sine Die"
+            },
+            {
+              "id": "95",
+              "name": "Children’s Program",
+              "timeStart": "9:00 a.m.",
+              "timeEnd": "12:00 p.m",
+              "location": "Convention Center - Room 151 G (First Floor)",
+              "tracks": ["Children"],
+              "speakerNames": [""],
+              "description": ""
+            },
+            {
+              "id": "96",
+              "name": "Youth Program",
+              "timeStart": "9:00 a.m.",
+              "timeEnd": "12:00 p.m",
+              "location": "Convention Center - Room 355 A/B/C (Third Floor)",
+              "tracks": ["Youth"],
+              "speakerNames": [""],
+              "description": ""
+            },
+            {
+              "id": "97",
+              "name": "Lunch",
+              "timeStart": "12:00 p.m.",
+              "timeEnd": "1:30 p.m",
+              "location": "",
+              "tracks": ["Meal"],
+              "speakerNames": [""],
+              "description": ""
+            },
+            {
+              "id": "98",
+              "name": "Free Afternoon",
+              "timeStart": "2:00 p.m.",
+              "timeEnd": "5:00 p.m",
+              "location": "",
+              "tracks": ["Event"],
+              "speakerNames": [""],
+              "description": ""
+            },
+            {
+              "id": "99",
+              "name": "Registration Desk Open",
+              "timeStart": "4:00 p.m.",
+              "timeEnd": "5:00 p.m",
+              "location": "Convention Center - Room 150 A/B (First Floor)",
+              "tracks": ["Registration"],
+              "speakerNames": [""],
+              "description": ""
+            },
+            {
+              "id": "100",
               "name": "Special Meal: Young Adult Gala",
-              "location": "Convention Center Room 254A/B (2nd Floor)",
-              "description": "",
+              "timeStart": "5:00 p.m.",
+              "timeEnd": "6:30 p.m",
+              "location": "Convention Center - Room 254 A/B (Second Floor)",
+              "tracks": ["Meal"],
               "speakerNames": [""],
               "hostedBy": "Chris and Yared Banda",
-              "timeStart": "5:00 pm",
-              "timeEnd": "6:30 pm",
-              "tracks": ["YoungAdult"],
-              "id": "95"
+              "description": ""
             },
             {
+              "id": "101",
               "name": "Evening Worship Service",
-              "location": "Convention Center Ballroom E/F/G/H/I/J (1st Floor)",
-              "description": "What is it to be engaged in the service of the Lord? It is a process of connecting with the Bible to have meaningful encounters with Jesus Christ by the anointing of the Holy Spirit.",
-              "speakerNames": ["Speaker: Ronald Rousseau (in Spanish with on-stage interpretation) - “Anointed: Engaged in the Service of the Lord”"],
-              "timeStart": "7:00 pm",
-              "timeEnd": "9:00 pm",
+              "title": "“Anointed: Engaged in the Service of the Lord”",
+              "timeStart": "7:00 p.m.",
+              "timeEnd": "9:00 p.m",
+              "location": "Convention Center - Ballroom E/F/G/H/I/J (First Floor)",
               "tracks": ["Services"],
-              "id": "96"
+              "speakerNames": ["Ronald Rousseau  (in Spanish with on-stage interpretation)"],
+              "description": "What is it to be engaged in the service of the Lord? It is a process of connecting with the Bible in order to have meaningful encounters with Jesus Christ by the anointing of the Holy Spirit."
             },
             {
+              "id": "102",
               "name": "Late-Night Options - Youth",
-              "location": "Convention Center Room 355A/B/C (3rd floor) or Hall C (1st floor)",
-              "description": "",
-              "speakerNames": [""],
-              "timeStart": "9:30 pm",
-              "timeEnd": "11:00 pm",
+              "timeStart": "9:30 p.m.",
+              "timeEnd": "11:00 p.m",
+              "location": "Convention Center - Room 355 A/B/C (Third Floor) or Hall C (First Floor)",
               "tracks": ["Youth"],
-              "id": "97"
+              "speakerNames": [""],
+              "description": ""
             },
             {
+              "id": "103",
               "name": "Late-Night Options - Young Adult",
-              "location": "Convention Center Room 355D/E/F (3rd floor)",
-              "description": "",
-              "speakerNames": [""],
-              "timeStart": "9:30 pm",
-              "timeEnd": "11:00 pm",
+              "timeStart": "9:30 p.m.",
+              "timeEnd": "11:00 p.m",
+              "location": "Convention Center - Room 355 D/E/F (Third Floor)",
               "tracks": ["YoungAdult"],
-              "id": "98"
+              "speakerNames": [""],
+              "description": ""
             }
           ]
         },
@@ -1028,104 +1070,106 @@
           "time": "Sabbath, July 5",
           "sessions": [
             {
+              "id": "104",
               "name": "Ticketed Breakfast",
-              "location": "Convention Center Room 250 (2nd Floor)",
-              "description": "",
-              "speakerNames": [""],
-              "timeStart": "7:30 pm",
-              "timeEnd": "8:30 pm",
+              "timeStart": "7:30 a.m.",
+              "timeEnd": "8:30 a.m",
+              "location": "Convention Center - Room 250 (Second Floor)",
               "tracks": ["Meal"],
-              "id": "99"
+              "speakerNames": [""],
+              "description": ""
             },
             {
+              "id": "105",
               "name": "Children meet for Children’s Program",
-              "location": "",
-              "description": "Parents, please bring your children to the designated area to line up with children’s staff for their performance. Please be on time. Children will be dismissed back to this area after their performance and must be picked up promptly.",
-              "speakerNames": [""],
-              "timeStart": "9:15 am",
+              "timeStart": "9:15 a.m.",
               "timeEnd": "",
+              "location": "Convention Center",
               "tracks": ["Children"],
-              "id": "100"
+              "speakerNames": [""],
+              "description": "Parents, please bring your children to the designated area to line up with children’s staff for their performance. Please be on time. Children will be dismissed back to this area after their performance and must be picked up promptly."
             },
             {
+              "id": "106",
               "name": "Children’s Program and Worship Service",
-              "location": "Convention Center Ballroom E/F/G/H/I/J (1st Floor)",
-              "description": "The Bible is the Word of God. All of it. God’s Word is valuable for learning and teaching, for reproving and correcting, and for training us in the ways that are pleasing to God. When we engage God’s Word, we engage God, Himself. Do you want to hear from God? Engage His Word.",
-              "speakerNames": ["Speaker: Loren Stacy (in English) - “Engage the Word of God” "],
-              "timeStart": "9:30 am",
-              "timeEnd": "12:00 pm",
-              "tracks": ["Services"],
-              "id": "101"
+              "timeStart": "9:30 a.m.",
+              "timeEnd": "12:00 p.m",
+              "location": "Convention Center - Ballroom E/F/G/H/I/J (First Floor)",
+              "tracks": ["Children", "Services"],
+              "speakerNames": ["Loren Stacy"],
+              "title": "Engage the Word of God",
+              "description": "The Bible is the Word of God. All of it. God’s Word is valuable for learning and teaching, for reproving and correcting, and for training us in the ways that are pleasing to God. When we engage God’s Word, we engage God himself. Do you want to hear from God? Engage His Word."
             },
             {
+              "id": "107",
               "name": "Ticketed Lunch",
-              "location": "Convention Center Room 250 (2nd Floor)",
-              "description": "",
-              "speakerNames": [""],
-              "timeStart": "12:00 pm",
-              "timeEnd": "1:30 pm",
+              "timeStart": "12:00 p.m.",
+              "timeEnd": "1:30 p.m",
+              "location": "Convention Center - Room 250 (Second Floor)",
               "tracks": ["Meal"],
-              "id": "102"
+              "speakerNames": [""],
+              "description": ""
             },
             {
+              "id": "108",
               "name": "Artios Christian College Graduation",
-              "location": "Convention Center Ballroom E/F/G/H/I/J (1st Floor)",
-              "description": "",
-              "speakerNames": [""],
-              "timeStart": "2:30 pm",
-              "timeEnd": "4:00 pm",
+              "timeStart": "2:30 p.m.",
+              "timeEnd": "4:00 p.m",
+              "location": "Convention Center - Ballroom E/F/G/H/I/J (First Floor)",
               "tracks": ["Event"],
-              "id": "103"
+              "speakerNames": [""],
+              "description": ""
             },
             {
+              "id": "109",
               "name": "Ticketed Dinner",
-              "location": "Convention Center Room 250 (2nd Floor)",
-              "description": "",
-              "speakerNames": [""],
-              "timeStart": "5:00 pm",
-              "timeEnd": "6:30 pm",
+              "timeStart": "5:00 p.m.",
+              "timeEnd": "6:30 p.m",
+              "location": "Convention Center - Room 250 (Second Floor)",
               "tracks": ["Meal"],
-              "id": "104"
+              "speakerNames": [""],
+              "description": ""
             },
             {
+              "id": "110",
               "name": "Evening Worship Service",
-              "location": "Convention Center Ballroom E/F/G/H/I/J (1st Floor)",
-              "description": "Despite the chaos of our age, within every believer abides the living and potent reality of the Kingdom of God. This present reality is an intimate relationship with a loving God through the indwelling of the Holy Spirit, a relationship that forms the foundation and power for every Christian discipline and ministry. Begin daily to engage the kingdom of God within.",
-              "speakerNames": ["Speaker: Greg Lincoln (in English) - “Engaging the Kingdom of God Within”"],
-              "timeStart": "7:00 pm",
-              "timeEnd": "9:00 pm",
+              "timeStart": "7:00 p.m.",
+              "timeEnd": "9:00 p.m",
+              "location": "Convention Center - Ballroom E/F/G/H/I/J (First Floor)",
               "tracks": ["Services"],
-              "id": "105"
+              "speakerNames": ["Greg Lincoln (in English)"],
+              "title": "Engaging the Kingdom of God Within",
+              "description": "Despite the chaos of our age, within every believer abides the living and potent reality of the kingdom of God. This present reality is an intimate relationship with a loving God through the indwelling of the Holy Spirit — a relationship that forms the foundation and power for every Christian discipline and ministry. Begin to daily engage the kingdom of God within."
             },
             {
+              "id": "111",
               "name": "Pack Up Equipment",
-              "location": "Convention Center Ballroom E/F/G/H/I/J (1st Floor)",
-              "description": "Your assistance is appreciated to help pack up equipment so we are out of the building before midnight.",
-              "speakerNames": [""],
-              "timeStart": "9:00 pm",
-              "timeEnd": "11:30 pm",
+              "timeStart": "9:00 p.m.",
+              "timeEnd": "11:30 p.m",
+              "location": "Convention Center - Ballroom E/F/G/H/I/J (First Floor)",
               "tracks": ["Event"],
-              "id": "106"
+              "speakerNames": [""],
+              "description": "Your assistance is appreciated to help pack up equipment so we are out of the building before midnight."
             },
             {
-              "name": "Late-Night Options",
-              "location": "Youth - Convention Center Hall C (1st floor)",
-              "description": "",
-              "speakerNames": [""],
-              "timeStart": "9:30 pm",
-              "timeEnd": "11:00 pm",
+              "id": "112",
+              "name": "Late-Night Options - Youth",
+              "timeStart": "9:30 p.m.",
+              "timeEnd": "11:00 p.m",
+              "location": "Convention Center - Hall C (First Floor)",
               "tracks": ["Youth"],
-              "id": "107"
+              "speakerNames": [""],
+              "description": ""
             },
             {
-              "name": "Late-Night Options",
-              "location": "Young Adult - Convention Center Room 355D/E/F (3rd floor)",
-              "description": "",
-              "speakerNames": [""],
-              "timeStart": "9:30 pm",
-              "timeEnd": "11:30 pm",
+              "id": "113",
+              "name": "Late-Night Options - Young Adult",
+              "timeStart": "9:30 p.m.",
+              "timeEnd": "11:30 p.m",
+              "location": "Convention Center - Room 355 D/E/F (Third Floor)",
               "tracks": ["YoungAdult"],
-              "id": "108"
+              "speakerNames": [""],
+              "description": ""
             }
           ]
         }
