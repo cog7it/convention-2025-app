@@ -51,6 +51,7 @@
               "location": "Convention Center - Outside Room 151 G (First Floor)",
               "tracks": ["Registration"],
               "speakerNames": [""],
+              "speakerIds": [], 
               "description": ""
             },
             {
