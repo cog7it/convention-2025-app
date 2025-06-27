@@ -12,39 +12,48 @@
     <ion-content class="ion-padding special-thanks-page">
 
       <!-- Special Thanks Card -->
-      <ion-card>
-        <ion-card-header>
-          <ion-card-title>Special Thanks</ion-card-title>
-        </ion-card-header>
-        <ion-card-content>
-          <p>
-            Our special thanks to the following:
-          </p>
-          <p>
-            The hundreds of volunteers who donate their time and talents to make this event memorable.
-            Without you, GC Convention 2025 would not have been possible. Thank you, volunteers, for your faithful service.
-          </p>
-          <p>
-            The General Conference Staff who work tirelessly for months completing the many tasks required for Convention
-            while continuing their daily tasks. Starting in the fall prior to the Convention, IT staff begin the process of
-            creating the information website and registration process. The Convention printed program process begins in mid-May
-            as they edit, translate, design, and print the program. GC Staff organizes registration packets, answers telephone
-            calls and emails with questions about convention, and supports the Convention Committee. All of these activities are
-            accomplished in a professional, gracious manner. We are grateful. Please help us thank those staff members.
-          </p>
-          <p>
-            Our Salt Lake City hosts, who have assisted with details of this Convention:
-          </p>
-          <ul>
-            <li>Visit Salt Lake City</li>
-            <li>Calvin L. Rampton Salt Palace Convention Center</li>
-            <li>Marriott Downtown City Creek</li>
-            <li>Holiday Inn Express</li>
-            <li>Encore AV</li>
-            <li>Sodexo Catering</li>
-          </ul>
-        </ion-card-content>
-      </ion-card>
+      
+    <ion-card>
+    <ion-card-header>
+        <ion-card-title>Special Thanks</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+        <p>Our special thanks to the following:</p>
+
+        <p>• The hundreds of volunteers who donate their time and talents to
+        make this event memorable. Without you, GC Convention 2025 would
+        not have been possible. Thank you, volunteers, for your faithful
+        service.</p>
+
+        <p>• The General Conference staff who work tirelessly for months com-
+        pleting the many tasks required for convention while continuing their
+
+        daily duties. In the fall prior to the convention, IT staff begins creat-
+        ing the information website and registration process. The convention
+
+        printed program process begins in mid‑May when they edit, translate,
+        design, and print the program. GC staff organizes registration packets,
+        answers telephone calls and emails with questions about convention,
+
+        and supports the Convention Committee. All of these activities are ac-
+        complished in a professional, gracious manner. We are grateful. Please
+
+        help us thank those staff members.</p>
+
+        <p>Our Salt Lake City hosts that have assisted with details of this
+        convention:</p>
+
+        <ul>
+        <li>Visit Salt Lake City</li>
+        <li>Calvin L. Rampton Salt Palace Convention Center</li>
+        <li>Marriott Downtown City Creek</li>
+        <li>Holiday Inn Express</li>
+        <li>Encore AV</li>
+        <li>Sodexo Catering</li>
+        </ul>
+    </ion-card-content>
+    </ion-card>
+
 
       <!-- Those Who Serve You Card -->
       <ion-card>
@@ -77,7 +86,7 @@
             <li><strong>Nursery Coordinator:</strong> Jenny Stephens</li>
             <li><strong>Prayer Counselor:</strong> Tim Hinds</li>
             <li><strong>Promotions:</strong> Jamin Teran</li>
-            <li><strong>Publications:</strong> Keith Michalak, Jason Overman, Sherri Langton</li>
+            <li><strong>Publications:</strong> Keith Michalak, Jason Overman and Sherri Langton</li>
             <li><strong>Registrar:</strong> Amber Michalak</li>
             <li><strong>Registration:</strong> Vona Ogren and Dawn Wayman</li>
             <li><strong>Security Coordinator:</strong> Tom Winchell</li>
@@ -85,7 +94,7 @@
             <li><strong>Translation:</strong> Allo Sanchez</li>
             <li><strong>Voter Registration:</strong> Rex Miller</li>
             <li><strong>Workshops:</strong> Loren Stacy and Kurt Lang</li>
-            <li><strong>Worship Team:</strong> Ruben Josue Davila</li>
+            <li><strong>Worship Team:</strong> Ruben Davila</li>
             <li><strong>Young Adult Program:</strong> Chris and Yared Banda</li>
             <li><strong>Youth Program:</strong> John Camero</li>
           </ul>
