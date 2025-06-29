@@ -15,7 +15,7 @@
       <ion-button
         expand="block"
         color="primary"
-        href="mailto:conference@cog7.org?subject=Conference Feedback"
+        href="mailto:conventioninfo@cog7.org?subject=Convention Feedback"
       >
         Send Feedback via Email
       </ion-button>

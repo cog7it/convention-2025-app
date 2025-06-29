@@ -79,7 +79,7 @@
         -->
         <ion-item
           button
-          :href="`mailto:conference@cog7.org?subject=Feedback on Session: ${encodeURIComponent(session?.name || '')}`"
+          :href="`mailto:conventioninfo@cog7.org?subject=Feedback on Session: ${encodeURIComponent(session?.name || '')}`"
         >
           <ion-label color="primary">Leave Feedback</ion-label>
         </ion-item>
