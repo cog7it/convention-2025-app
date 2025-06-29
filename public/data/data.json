@@ -10,7 +10,7 @@
             {
               "id": "1",
               "name": "Registration Desk Open",
-              "timeStart": "3:00 a.m.",
+              "timeStart": "3:00 p.m.",
               "timeEnd": "9:00 p.m",
               "location": "Convention Center - Room 150 A/B (First Floor)",
               "tracks": ["Registration"],
