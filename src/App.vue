@@ -7,8 +7,18 @@
     <ion-router-outlet v-else />
     <div v-if="showInstallPrompt" class="install-banner">
       <p>Install this app for the best experience!</p>
-      <button @click="triggerInstall">Install App</button>
+      <div>
+        <button @click="triggerInstall">Install App</button>
+        <button class="maybe-later" @click="dismissPrompt">Maybe Later</button>
+      </div>
     </div>
+
+<button 
+  v-if="showInstallButton && !showInstallPrompt" 
+  class="install-fab" 
+  @click="triggerInstall">
+  Install App
+</button>
   </ion-app>
 </template>
 
@@ -20,25 +30,49 @@
   right: 0;
   background: #317EFB;
   color: white;
-  padding: 2em;
-  font-size: 1.2em;
+  padding: 1em;
   display: flex;
   justify-content: space-between;
   align-items: center;
   z-index: 1000;
-  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
 }
 
 .install-banner button {
+  margin-left: 1em;
   background: white;
   color: #317EFB;
   border: none;
-  padding: 0.75em 1.5em;
-  font-size: 1em;
-  cursor: pointer;
+  padding: 0.5em 1em;
   font-weight: bold;
-  border-radius: 4px;
-}</style>
+  cursor: pointer;
+}
+
+.install-fab {
+  position: fixed;
+  bottom: 1.5em;
+  right: 1.5em;
+  background: #317EFB;
+  color: white;
+  border: none;
+  padding: 1em;
+  border-radius: 50%;
+  font-size: 1.5em;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  z-index: 1000;
+}
+
+  .install-banner .maybe-later {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 0.5em 1em;
+  font-weight: normal;
+  margin-left: 0.5em;
+}
+
+
+</style>
 
 <script lang="ts">
 import { IonApp, IonSplitPane, IonRouterOutlet } from '@ionic/vue';
@@ -60,6 +94,9 @@ export default defineComponent({
     let dark: Ref<boolean> = ref(false);
     const route = useRoute();
     const store = useStore();
+    const dismissPrompt = () => {
+      showInstallPrompt.value = false;
+    };
 
     const isTutorialPage = computed(() => {
       return route.name === 'tutorial';
@@ -78,6 +115,7 @@ export default defineComponent({
 
     const deferredPrompt: Ref<Event | null> = ref(null);
     const showInstallPrompt: Ref<boolean> = ref(false);
+    const showInstallButton: Ref<boolean> = ref(false);
 
     const triggerInstall = () => {
     if (deferredPrompt.value) {
@@ -90,6 +128,7 @@ export default defineComponent({
         }
         deferredPrompt.value = null;
         showInstallPrompt.value = false;
+        showInstallButton.value = false;
       });
     }
   };
@@ -104,6 +143,7 @@ export default defineComponent({
         e.preventDefault();
         deferredPrompt.value = e;
         showInstallPrompt.value = true;
+        showInstallButton.value = true;
       });
     });
 
@@ -113,6 +153,7 @@ export default defineComponent({
       isTutorialPage,
       showInstallPrompt,
       triggerInstall,
+      dismissPrompt,
     };
   },
 });
