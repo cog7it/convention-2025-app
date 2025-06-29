@@ -17,9 +17,9 @@ export default defineConfig({
           '**/*.{js,css,html,ico,png,svg,webmanifest,pdf}'
         ],
       },
-      devOptions: {
-        enabled: true,
-      },
+      // devOptions: {
+      //   enabled: true,
+      // },
       includeAssets: ['favicon.png', 'robots.txt', 'apple-touch-icon.png'],
       manifest: {
         name: 'GC Convention 2025 App',
