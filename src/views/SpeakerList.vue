@@ -117,10 +117,13 @@ const speakers = computed(() =>
 );
 
 const sessionsBySpeaker = (speakerId: number) => {
-  return store.state.sessions.sessions.filter((session: Session) =>
-    session.speakerIds.includes(speakerId)
-  );
+  return store.state.sessions.sessions.filter((session: Session) => {
+    const isLoren = speakerId === 5;
+    const isExcludedSession = String(session.id) === "106";
+    return session.speakerIds.includes(speakerId) && !(isLoren && isExcludedSession);
+  });
 };
+
 
 const navigateToSpeaker = (id: number, mode: 'sermon' | 'bio' = 'sermon') => {
   router.push(`/tabs/speakers/speaker/${id}?mode=${mode}`);
