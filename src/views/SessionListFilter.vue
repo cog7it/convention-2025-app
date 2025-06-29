@@ -130,7 +130,7 @@ const iconMap: { [key: string]: string } = {
   'Navigation': compass,
   'Children': balloonOutline,
   'Youth': headsetOutline,
-  'Young Adult': schoolOutline,
+  'YoungAdult': schoolOutline,
   'Business': businessOutline,
   'Registration': pencilOutline,
   'Event': peopleOutline,
